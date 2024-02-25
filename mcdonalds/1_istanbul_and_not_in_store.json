@@ -1,0 +1,632 @@
+[
+    {
+        "STORE_NAME": "Bakırköy Çarşı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.97826396",
+        "LONGITUDE": "28.87404984",
+        "STORE_ADDRESS": "Ebu Ziya Cd. No:2 Bakırköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Acıbadem",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.00315697",
+        "LONGITUDE": "29.04408612",
+        "STORE_ADDRESS": "Acıbadem Cad. No:128 Kadıköy/İstanbul 81010",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Florya",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.98624",
+        "LONGITUDE": "28.790036",
+        "STORE_ADDRESS": "Şenlik Mah. Florya Çiftliği Sok. No:49 Florya/İstanbul 34153",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Merter",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.00433804",
+        "LONGITUDE": "28.89159912",
+        "STORE_ADDRESS": "Abdurrahman Nafiz Gürman Mah. Eski Londra Asfaltı Güngören/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Süreyyapaşa",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.92645303",
+        "LONGITUDE": "29.12400612",
+        "STORE_ADDRESS": "Yalı Mah. Turgut Özal Bul. Yaylada AVM Maltepe/İstanbul 34893",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Ataşehir",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.99280796",
+        "LONGITUDE": "29.127924",
+        "STORE_ADDRESS": "Turgut Özal Bulvarı 42 Ada C Blok Gardenya Çarşısı No:7 Ataşehir/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Beşiktaş",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.042867",
+        "LONGITUDE": "29.006245",
+        "STORE_ADDRESS": "Sinanpaşa Mah. Has Fırın Cad. No:3/I Beşiktaş/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Üsküdar",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.02597128684238",
+        "LONGITUDE": "29.016351855859707",
+        "STORE_ADDRESS": "Selman-i Pak Cad. No:33 Üsküdar/İstanbul 81200",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Cevizli",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.898094",
+        "LONGITUDE": "29.16485",
+        "STORE_ADDRESS": "Kordonboyu Mah.Turgut Özal Bulvarı No:33/3 Kartal/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Güneşli",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.02707501",
+        "LONGITUDE": "28.81274904",
+        "STORE_ADDRESS": "Evren Mah. Koçman Cad. No:56 Güneşli/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Beyoğlu",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.034923",
+        "LONGITUDE": "28.980961",
+        "STORE_ADDRESS": "İstiklal Cad. No:93 Beyoğlu/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Pendik",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.87689597",
+        "LONGITUDE": "29.23623612",
+        "STORE_ADDRESS": "Doğu Mah. Erol Kaya Cad. No:138/B Pendik/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Şişli Meydan",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "41.060659",
+        "LONGITUDE": "28.987875",
+        "STORE_ADDRESS": "Halaskargazi Cad. Terminus Palas No:366 Şişli/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Sultanahmet",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.008107",
+        "LONGITUDE": "28.974072",
+        "STORE_ADDRESS": "1001 Direk Mah. Divanyolu Cad. No:15 Sultanahmet/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Tüyap",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.02391502",
+        "LONGITUDE": "28.62475812",
+        "STORE_ADDRESS": "Gürpınar Kavşağı  Beylikdüzü/B.Çekmece/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Gaziosmanpaşa",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "41.057586",
+        "LONGITUDE": "28.914364",
+        "STORE_ADDRESS": "Gaziosmanpaşa Merkez Mah. Cumhuriyet Meydanı 20-12 Gazisomanpaşa/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Bahçeşehir",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.06293",
+        "LONGITUDE": "28.685874",
+        "STORE_ADDRESS": "Süzer Bulvarı Şehr-i Bazar AVM G-Blok No:9 Bahçeşehir 3. Cadde/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Beykent",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.016864",
+        "LONGITUDE": "28.627036",
+        "STORE_ADDRESS": "Cumhuriyet Mah. Avrupa Cad. Keleş Plaza No:2 Bölüm 12-13  Beylikdüzü/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Altıntepe",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.95209",
+        "LONGITUDE": "29.101223",
+        "STORE_ADDRESS": "Altıntepe Mah. Bağdat Cad.No:52/1  Maltepe/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Libadiye",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.015953",
+        "LONGITUDE": "29.075643",
+        "STORE_ADDRESS": "Bulgurlu Mah. Libadiye Cad. Ünlü Sok. No:7 Ümraniye/İstanbul 34760",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Beylikdüzü DT",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.010588",
+        "LONGITUDE": "28.643724",
+        "STORE_ADDRESS": "Cumhuriyet Mah. Sokullu Mehmet Paşa Sok. No:1/1 Blok Beylikdüzü/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Mühürdar",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.988758",
+        "LONGITUDE": "29.023041",
+        "STORE_ADDRESS": "Caferağa Mah. Mühürdar Cad. No:29-31 Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kavacık",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "41.09499",
+        "LONGITUDE": "29.097466",
+        "STORE_ADDRESS": "Kavacık Rüzgarlıbahçe Mah. Hasoğlu Plaza No:39 Zemin Kat Beykoz/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "İstanbul Çapa",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.015285",
+        "LONGITUDE": "28.932691",
+        "STORE_ADDRESS": "Deniz Abdal Mah. Millet Cad. No:131/1  Fatih/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Sabiha Gökçen Kara",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "40.90521",
+        "LONGITUDE": "29.319506",
+        "STORE_ADDRESS": "İstanbul Sabiha Gökçen Havaalanı İç Hatlar Terminali Yolcu Gidiş Bölümü Pendik/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Sabiha Gökçen Hava",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "40.898398",
+        "LONGITUDE": "29.301825",
+        "STORE_ADDRESS": "İstanbul Sabiha Gökçen Havaalanı Dış Hatlar Terminali Yolcu Gidiş Bölümü Pendik/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Şerifali",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.997444",
+        "LONGITUDE": "29.140189",
+        "STORE_ADDRESS": "Şerifali Mah. Hüsrev Sok. No:5 Ümraniye/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Mimaroba",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.007289",
+        "LONGITUDE": "28.539079",
+        "STORE_ADDRESS": "Mimarsinan Mah. Mustafa Kemal Bulvarı No:16 Büyükçekmece/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "BTA Bostancı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 23,
+        "LATITUDE": "40.9524997",
+        "LONGITUDE": "29.0909804",
+        "STORE_ADDRESS": "Çetin Emeç Cad. Bostancı İdo İskelesi Yanı  Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Taksim Meydan",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.038218",
+        "LONGITUDE": "28.985804",
+        "STORE_ADDRESS": "Gümüşsuyu Mah. Osmanlı Sokak No:2 Bodrum Kat Beyoğlu/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Başakşehir",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.104844",
+        "LONGITUDE": "28.804373",
+        "STORE_ADDRESS": "Başakşehir 5.Etap Yeşil Vadi Cad. Ahşap Çarşı No:2/2  Başakşehir/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Okmeydanı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.064571",
+        "LONGITUDE": "28.97139",
+        "STORE_ADDRESS": "Kaptanpaşa Mah. H.Ziya Türkkan Sok. No:10-12   A-Blok Dükkan No:1 Okmeydanı/Şişli/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "BTA Yenikapı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 8,
+        "STORE_CLOSE_AT": 22,
+        "LATITUDE": "41.00282703617721",
+        "LONGITUDE": "28.95701763493267",
+        "STORE_ADDRESS": "Kennedy Cad. Yenikapı Hızlı Feribot İskelesi 34480 Fatih/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Maltepe E-5",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "40.939831",
+        "LONGITUDE": "29.133022",
+        "STORE_ADDRESS": "Altayçeşme Mah. Çam Sk. No:29 Maltepe/İstanbul 34843",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "İstanbul Bağcılar",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.033478",
+        "LONGITUDE": "28.855726",
+        "STORE_ADDRESS": "Hoca Ahmet Yesevi Cad. Köyiçi Mevkii No:3 Bağımsız Bölüm No:14-15 34200 Bağcılar/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "4.Levent Emniyet Evler",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.086830802538245",
+        "LONGITUDE": "29.00624543403242",
+        "STORE_ADDRESS": "Emniyetevler Mah. Lala Paşa Cad. No:7/1 Kağıthane/İstanbul 34416",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Tuzla",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 23,
+        "LATITUDE": "40.81587",
+        "LONGITUDE": "29.302811",
+        "STORE_ADDRESS": "Postahane Mah. Cumhuriyet Cad. No:22  Köyiçi Tuzla/İstanbul\n P.K.34940",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "İstanbul Taşdelen",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.024666",
+        "LONGITUDE": "29.225172",
+        "STORE_ADDRESS": "Cumhuriyet Mahallesi A.Menderes Cad.No:18/A Zemin Kat Çekmeköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kozyatağı Yanyol",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.975819",
+        "LONGITUDE": "29.098044",
+        "STORE_ADDRESS": "Kozyatağı Mah. Saniye Ermutlu Sok. Çolakoğlu İş Merkezi B Blok No:121/1 Kozyatağı/Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kayışdağı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.976274",
+        "LONGITUDE": "29.1517",
+        "STORE_ADDRESS": "Kayışdağı Mah. Kayışdağı Cad. No:215 Ataşehir/İstanbul P.K.34755 ",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kartal Soğanlık",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 23,
+        "LATITUDE": "40.914874",
+        "LONGITUDE": "29.202201",
+        "STORE_ADDRESS": "Soğanlık Mah. Atatürk Cad. Tiryaki Hasan Paşa Sok. No:2/2 Kartal/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "İstanbul Kızıltoprak",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.9831189820496",
+        "LONGITUDE": "29.0404811944525",
+        "STORE_ADDRESS": "Feneryolu Mah. Bağdat Cad. Karel İşhanı No:43 Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Esenyurt Cumhuriyet",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.018591",
+        "LONGITUDE": "28.646315",
+        "STORE_ADDRESS": "Barbaros Hayrettin Paşa Mah. 1988 Sok. No:2G-9 Esenyurt/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Zeytinburnu 58. Bulvar",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.991614",
+        "LONGITUDE": "28.903787",
+        "STORE_ADDRESS": "Gökalp Mah. 58.Bulvar Cad. No:54 P.K.34020   Zeytinburnu/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kartal Çarşı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 23,
+        "LATITUDE": "40.888498",
+        "LONGITUDE": "29.18761",
+        "STORE_ADDRESS": "Kordonboyu Mah. Ankara Cad. No:48 Kartal/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Eyüp Yeşilpınar",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.079606",
+        "LONGITUDE": "28.930702",
+        "STORE_ADDRESS": "Karadolap Mah. Mustafa Kemal Bulvarı No:15  Eyüp/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Şişli Abide-i Hürriyet",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.065033",
+        "LONGITUDE": "28.987189",
+        "STORE_ADDRESS": "Merkez Mah. Abide-İ Hürriyet Cad. No:211 Blockout   Şişli/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Maslak Hub",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 11,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.11334347960475",
+        "LONGITUDE": "29.022131630354703",
+        "STORE_ADDRESS": "Maslak Mah. Ahi Evran Cad. Nazmi Akbacı Tic. Merk. A-B Bloklar  No:3/212 Maslak/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Aksaray 2",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "41.00797271604877",
+        "LONGITUDE": "28.953124780941266",
+        "STORE_ADDRESS": "Aksaray Mah. Gazi Mustafa Kemalpaşa Cad. No:29/B Fatih/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Göztepe Minibüs Caddesi",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.980749",
+        "LONGITUDE": "29.071533",
+        "STORE_ADDRESS": "Göztepe Mah. Fahrettin Kerim Gökay Cad. Sedat Bey Apt. No:242/32 Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Sabiha Gökçen Gelen Katı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.11334347960475",
+        "LONGITUDE": "29.022131630354703",
+        "STORE_ADDRESS": "Sabiha Gökçen Havalimanı İç Hatlar Gelen Yolcu Katı No:AL-400/AL-400A  Pendik/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Caddebostan",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.96393052475922",
+        "LONGITUDE": "29.06558401163116",
+        "STORE_ADDRESS": "Caddebostan Mah. İskele Sok. No:25A Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "İstanbul Kozyatağı E5",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.9839474",
+        "LONGITUDE": "29.0877613",
+        "STORE_ADDRESS": "Sahrayıcedit Mah. Halk Sok. No:39/A  Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Sabiha Gökçen Dış Hatlar 2",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "40.898398",
+        "LONGITUDE": "29.301825",
+        "STORE_ADDRESS": "Sabiha Gökçen Havalimanı Dış Hatlar Giden Yolcu Tarafı Mahal No:ML508-ML508A  Pendik/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Pangaltı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "41.051222",
+        "LONGITUDE": "28.9874006",
+        "STORE_ADDRESS": "Ergenekon Mah. Halaskargazi Cad. No:63/C Şişli/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kazasker Ayşekadın",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.9658919",
+        "LONGITUDE": "29.0875981",
+        "STORE_ADDRESS": "Kozyatağı Mah. Şemsettin Günaltay Cad.. No:108/A  Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Esenyurt Merkez",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.02407575683421",
+        "LONGITUDE": "28.685477708368534",
+        "STORE_ADDRESS": "Zafer Mah. Doğan Araslı Bulvarı No:93/148  Esenyurt/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Beyoğlu Fitaş",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.021005",
+        "LONGITUDE": "28.585774",
+        "STORE_ADDRESS": "Şehit Muhtar Mah. İstiklal Cad. Fitaş Pasajı No:12/1 Beyoğlu/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kartal DT",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.911787838830705",
+        "LONGITUDE": "29.195906497884053",
+        "STORE_ADDRESS": "Soğanlık Yeni Mah. Pegagaz Sokak No:2 Kartal / İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "İstanbul Airport B Terminal",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 22,
+        "LATITUDE": "41.263925807557314",
+        "LONGITUDE": "28.743414989250134",
+        "STORE_ADDRESS": "Tayakadin Mah. Terminal Cad. Havalimani Terminal Binası No 1 Mahal No E27 Arnavutköy / İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Ümraniye DT",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "41.02308473677343",
+        "LONGITUDE": "29.113586991322123",
+        "STORE_ADDRESS": "Yamanevler Mah. Almdağ Cad. Canpark AVM Yanı Ümraniye / İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Adnan Kahveci",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "40.997472482279385",
+        "LONGITUDE": "28.626427659850627",
+        "STORE_ADDRESS": "Adnan Kahveci Mah. Çamlıktepe Cad. No:1/A Beylikdüzü /İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Mimaroba E-5",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.012739724959715",
+        "LONGITUDE": "28.53763265659221",
+        "STORE_ADDRESS": "Murat Çeşme Mah. E5 Londra Asfaltı Cad. Oba Expres AVM No:104 G Büyükçekmece/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    }
+]

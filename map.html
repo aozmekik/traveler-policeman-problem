@@ -1,0 +1,3420 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f28716cbcb3a52e4d457694320822333 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f28716cbcb3a52e4d457694320822333" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f28716cbcb3a52e4d457694320822333 = L.map(
+                "map_f28716cbcb3a52e4d457694320822333",
+                {
+                    center: [41.0082, 28.9784],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6a2ef6ced90a9a5ddf7f3323852cb1f5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6a2ef6ced90a9a5ddf7f3323852cb1f5.addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var marker_58a3bc730e62616dcdfef0f72b4364d0 = L.marker(
+                [41.00824, 28.97379],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_03fbc9fa20b7b2408ea95044c3d21f27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_58a3bc730e62616dcdfef0f72b4364d0.setIcon(icon_03fbc9fa20b7b2408ea95044c3d21f27);
+        
+    
+        var popup_c56129aa6996023b924f118ecca378c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_149c16360d8f9a6584376bf997c81631 = $(`<div id="html_149c16360d8f9a6584376bf997c81631" style="width: 100.0%; height: 100.0%;">Address: Alemdar Mah. Divanyolu Cad. No:76/A Istanbul 34 TR 34110, <a href="https://www.google.com/maps/dir/41.00824,28.97379/" target="_blank">Link</a>, Cluster: 6, Store Type: Starbucks</div>`)[0];
+                popup_c56129aa6996023b924f118ecca378c5.setContent(html_149c16360d8f9a6584376bf997c81631);
+            
+        
+
+        marker_58a3bc730e62616dcdfef0f72b4364d0.bindPopup(popup_c56129aa6996023b924f118ecca378c5)
+        ;
+
+        
+    
+    
+            var marker_7261cbb607741ab2bc1f9b05af53e9a1 = L.marker(
+                [41.00869, 28.96963],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_516d5ba8182bad7870197ff285448a39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7261cbb607741ab2bc1f9b05af53e9a1.setIcon(icon_516d5ba8182bad7870197ff285448a39);
+        
+    
+        var popup_4b368d4dc70c93305b036f7f09ed13ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8d91fff0db8549b659bbdd09305a17b = $(`<div id="html_f8d91fff0db8549b659bbdd09305a17b" style="width: 100.0%; height: 100.0%;">Address: Yeniceriler Caddesi Mimar Hayrettin Mahallesi Istanbul 34 TR 34126, <a href="https://www.google.com/maps/dir/41.00869,28.96963/" target="_blank">Link</a>, Cluster: 6, Store Type: Starbucks</div>`)[0];
+                popup_4b368d4dc70c93305b036f7f09ed13ba.setContent(html_f8d91fff0db8549b659bbdd09305a17b);
+            
+        
+
+        marker_7261cbb607741ab2bc1f9b05af53e9a1.bindPopup(popup_4b368d4dc70c93305b036f7f09ed13ba)
+        ;
+
+        
+    
+    
+            var marker_d6c5b044ef40de19a90518b5afafec14 = L.marker(
+                [41.02447, 28.98042],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_00662c6241e6b23f015dd8c535c42ccf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d6c5b044ef40de19a90518b5afafec14.setIcon(icon_00662c6241e6b23f015dd8c535c42ccf);
+        
+    
+        var popup_9abf01d9b58dce99289b6851a475fc1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_490fbe156087e2f915b2b0904b97f2aa = $(`<div id="html_490fbe156087e2f915b2b0904b97f2aa" style="width: 100.0%; height: 100.0%;">Address: Kilicali Pasa Mahallesi Kemankes Sokak No 40 A Galataport Beyoglu Istanbul Istanbul 34 TR 34425, <a href="https://www.google.com/maps/dir/41.02447,28.98042/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_9abf01d9b58dce99289b6851a475fc1b.setContent(html_490fbe156087e2f915b2b0904b97f2aa);
+            
+        
+
+        marker_d6c5b044ef40de19a90518b5afafec14.bindPopup(popup_9abf01d9b58dce99289b6851a475fc1b)
+        ;
+
+        
+    
+    
+            var marker_7306492bb230f5fa6efbdfe86ffd54f8 = L.marker(
+                [41.02586, 28.98042],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_19d2ff49bf142545783fdd77578c9111 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7306492bb230f5fa6efbdfe86ffd54f8.setIcon(icon_19d2ff49bf142545783fdd77578c9111);
+        
+    
+        var popup_bc2b3c4f982e0a1bb5d39169f77c82e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b8aa1cf90b15be8a5f49c5f834a354e = $(`<div id="html_9b8aa1cf90b15be8a5f49c5f834a354e" style="width: 100.0%; height: 100.0%;">Address: Mumhane Cad. Beyoglu Istanbul 33 TR 34425, <a href="https://www.google.com/maps/dir/41.02586,28.98042/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_bc2b3c4f982e0a1bb5d39169f77c82e0.setContent(html_9b8aa1cf90b15be8a5f49c5f834a354e);
+            
+        
+
+        marker_7306492bb230f5fa6efbdfe86ffd54f8.bindPopup(popup_bc2b3c4f982e0a1bb5d39169f77c82e0)
+        ;
+
+        
+    
+    
+            var marker_77c9dc0d63e873faafe110289172c966 = L.marker(
+                [41.02747, 28.98427],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_d017e0452e8db5d6d4246937585bb813 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_77c9dc0d63e873faafe110289172c966.setIcon(icon_d017e0452e8db5d6d4246937585bb813);
+        
+    
+        var popup_f1df08e14e51fdd1a8fe43b375a63644 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdf737d6d0890576b4c7c3f6e34e424a = $(`<div id="html_fdf737d6d0890576b4c7c3f6e34e424a" style="width: 100.0%; height: 100.0%;">Address: 6 Meclis i Mebusan Caddesi Istanbul 34 TR 34425, <a href="https://www.google.com/maps/dir/41.02747,28.98427/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_f1df08e14e51fdd1a8fe43b375a63644.setContent(html_fdf737d6d0890576b4c7c3f6e34e424a);
+            
+        
+
+        marker_77c9dc0d63e873faafe110289172c966.bindPopup(popup_f1df08e14e51fdd1a8fe43b375a63644)
+        ;
+
+        
+    
+    
+            var marker_cdf376de866e403a0e07df21bdce053c = L.marker(
+                [41.0291, 28.97476],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_fd9913615392b7ecfcea5ca77d820109 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cdf376de866e403a0e07df21bdce053c.setIcon(icon_fd9913615392b7ecfcea5ca77d820109);
+        
+    
+        var popup_932db64a0317959bcbcee5e219643530 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ad99a0acff90b7c65ee53fc4d456aec = $(`<div id="html_8ad99a0acff90b7c65ee53fc4d456aec" style="width: 100.0%; height: 100.0%;">Address: Istiklal Caddesi Asmali Mescit Mahallesi Istanbul 34 TR 34430, <a href="https://www.google.com/maps/dir/41.0291,28.97476/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_932db64a0317959bcbcee5e219643530.setContent(html_8ad99a0acff90b7c65ee53fc4d456aec);
+            
+        
+
+        marker_cdf376de866e403a0e07df21bdce053c.bindPopup(popup_932db64a0317959bcbcee5e219643530)
+        ;
+
+        
+    
+    
+            var marker_cde080fa8d5aa2257112a8a31a20cf19 = L.marker(
+                [41.03035, 28.9885],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_386e0eca8bf949356c77240b23c2bcab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cde080fa8d5aa2257112a8a31a20cf19.setIcon(icon_386e0eca8bf949356c77240b23c2bcab);
+        
+    
+        var popup_9934fff70624f508fa28de9d5873730c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baac46b52690bd168441b99a18d8a2b1 = $(`<div id="html_baac46b52690bd168441b99a18d8a2b1" style="width: 100.0%; height: 100.0%;">Address: Meclisi Mebusan Cad CBS Is Hani No 47 Istanbul 34 TR 34398, <a href="https://www.google.com/maps/dir/41.03035,28.9885/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_9934fff70624f508fa28de9d5873730c.setContent(html_baac46b52690bd168441b99a18d8a2b1);
+            
+        
+
+        marker_cde080fa8d5aa2257112a8a31a20cf19.bindPopup(popup_9934fff70624f508fa28de9d5873730c)
+        ;
+
+        
+    
+    
+            var marker_15ae3d9831f144b815c4601af588f7ec = L.marker(
+                [41.03572, 28.98285],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_537d6159d52b0fcc93e5ce430c63ee33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_15ae3d9831f144b815c4601af588f7ec.setIcon(icon_537d6159d52b0fcc93e5ce430c63ee33);
+        
+    
+        var popup_dcc66fa54d01ace5344b977804ed2cfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a82ae8f1c100fe38accea88873b0d6b4 = $(`<div id="html_a82ae8f1c100fe38accea88873b0d6b4" style="width: 100.0%; height: 100.0%;">Address: Istiklal Cad. NO 18 Beyoglu Istanbul 34 TR 00000, <a href="https://www.google.com/maps/dir/41.03572,28.98285/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_dcc66fa54d01ace5344b977804ed2cfb.setContent(html_a82ae8f1c100fe38accea88873b0d6b4);
+            
+        
+
+        marker_15ae3d9831f144b815c4601af588f7ec.bindPopup(popup_dcc66fa54d01ace5344b977804ed2cfb)
+        ;
+
+        
+    
+    
+            var marker_17af319a3b26cab9cdcf223ec5b47c40 = L.marker(
+                [41.03644, 28.97919],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_fbd1205ba44ebfe55be68a6b826df4a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_17af319a3b26cab9cdcf223ec5b47c40.setIcon(icon_fbd1205ba44ebfe55be68a6b826df4a0);
+        
+    
+        var popup_53560ceae08762b50e8333705fc37ada = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfaeee8e3ba62d3cbbf3f4bc73a0ad21 = $(`<div id="html_cfaeee8e3ba62d3cbbf3f4bc73a0ad21" style="width: 100.0%; height: 100.0%;">Address: Sehit Muhtar Tarlabasi Blv no 150 D 170 Beyoglu Istanbul Istanbul 34 TR 34435, <a href="https://www.google.com/maps/dir/41.03644,28.97919/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_53560ceae08762b50e8333705fc37ada.setContent(html_cfaeee8e3ba62d3cbbf3f4bc73a0ad21);
+            
+        
+
+        marker_17af319a3b26cab9cdcf223ec5b47c40.bindPopup(popup_53560ceae08762b50e8333705fc37ada)
+        ;
+
+        
+    
+    
+            var marker_5cb90c8e88b9cc91c75b5613866c22bb = L.marker(
+                [41.03657, 28.98629],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_4872e6b20a2e1e7f67269ab529252644 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5cb90c8e88b9cc91c75b5613866c22bb.setIcon(icon_4872e6b20a2e1e7f67269ab529252644);
+        
+    
+        var popup_8d7aa564db22c52e595bca68d65ec5a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce4348304393ab946447c3b8b21dfa64 = $(`<div id="html_ce4348304393ab946447c3b8b21dfa64" style="width: 100.0%; height: 100.0%;">Address: 3 Nolu Bagimsiz Bolum Taksim Meydani Taki Zafer Cad. Istanbul 34 TR 34437, <a href="https://www.google.com/maps/dir/41.03657,28.98629/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_8d7aa564db22c52e595bca68d65ec5a7.setContent(html_ce4348304393ab946447c3b8b21dfa64);
+            
+        
+
+        marker_5cb90c8e88b9cc91c75b5613866c22bb.bindPopup(popup_8d7aa564db22c52e595bca68d65ec5a7)
+        ;
+
+        
+    
+    
+            var marker_142d03fb6ff94014556ccd68fd004776 = L.marker(
+                [41.01706, 28.94105],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_f499b0907ff0c8c1ed793a9ea274df3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_142d03fb6ff94014556ccd68fd004776.setIcon(icon_f499b0907ff0c8c1ed793a9ea274df3f);
+        
+    
+        var popup_28dc071ccfe63678f4b8c2d07ac3e0b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97db271cf5be2954dcd76863f6985464 = $(`<div id="html_97db271cf5be2954dcd76863f6985464" style="width: 100.0%; height: 100.0%;">Address: Aksemsettin Mah Adnan Menderes Vatan Bulvari No 46 Istanbul 34 TR 34080, <a href="https://www.google.com/maps/dir/41.01706,28.94105/" target="_blank">Link</a>, Cluster: 6, Store Type: Starbucks</div>`)[0];
+                popup_28dc071ccfe63678f4b8c2d07ac3e0b7.setContent(html_97db271cf5be2954dcd76863f6985464);
+            
+        
+
+        marker_142d03fb6ff94014556ccd68fd004776.bindPopup(popup_28dc071ccfe63678f4b8c2d07ac3e0b7)
+        ;
+
+        
+    
+    
+            var marker_50fa68469ad6a61c68f9163be36f5f64 = L.marker(
+                [41.04012, 28.97637],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_01935d8dd5985b17a1a2e8c269bc4b9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_50fa68469ad6a61c68f9163be36f5f64.setIcon(icon_01935d8dd5985b17a1a2e8c269bc4b9d);
+        
+    
+        var popup_57fe0dd74ae4aa94125aabd522461fc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8b81411bd7dbe05ce9cc7f936527888 = $(`<div id="html_f8b81411bd7dbe05ce9cc7f936527888" style="width: 100.0%; height: 100.0%;">Address: Kurtulus Deresi Caddesi Istanbul 34 TR 34440, <a href="https://www.google.com/maps/dir/41.04012,28.97637/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_57fe0dd74ae4aa94125aabd522461fc3.setContent(html_f8b81411bd7dbe05ce9cc7f936527888);
+            
+        
+
+        marker_50fa68469ad6a61c68f9163be36f5f64.bindPopup(popup_57fe0dd74ae4aa94125aabd522461fc3)
+        ;
+
+        
+    
+    
+            var marker_cd9f7cf4acbb506d88a21036e9f05119 = L.marker(
+                [41.02377, 29.01731],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_c370ada6023d1b058936c903b49ea2b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cd9f7cf4acbb506d88a21036e9f05119.setIcon(icon_c370ada6023d1b058936c903b49ea2b7);
+        
+    
+        var popup_36a5a1bab1b391114f0a653249d07a73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8bdbd1462ce04037d2abc9b8cfbe5b3 = $(`<div id="html_b8bdbd1462ce04037d2abc9b8cfbe5b3" style="width: 100.0%; height: 100.0%;">Address: Mimar Sinan Atlas Ck NO2 Uskudar Istanbul Uskudar, Istanbul 34 TR 34672, <a href="https://www.google.com/maps/dir/41.02377,29.01731/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_36a5a1bab1b391114f0a653249d07a73.setContent(html_b8bdbd1462ce04037d2abc9b8cfbe5b3);
+            
+        
+
+        marker_cd9f7cf4acbb506d88a21036e9f05119.bindPopup(popup_36a5a1bab1b391114f0a653249d07a73)
+        ;
+
+        
+    
+    
+            var marker_c861725a421468af4b576b750b86da5d = L.marker(
+                [41.04188, 28.98667],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_3f8fe9b45ef923fbf0843b372b764b3f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c861725a421468af4b576b750b86da5d.setIcon(icon_3f8fe9b45ef923fbf0843b372b764b3f);
+        
+    
+        var popup_f7f21d0f52cae3cf5f94e825c1573020 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5be1a4b70dde926c6ad2d5d815c82adf = $(`<div id="html_5be1a4b70dde926c6ad2d5d815c82adf" style="width: 100.0%; height: 100.0%;">Address: Harbiye Mah Cumhuriyet Cad Istanbul 34 TR 34367, <a href="https://www.google.com/maps/dir/41.04188,28.98667/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_f7f21d0f52cae3cf5f94e825c1573020.setContent(html_5be1a4b70dde926c6ad2d5d815c82adf);
+            
+        
+
+        marker_c861725a421468af4b576b750b86da5d.bindPopup(popup_f7f21d0f52cae3cf5f94e825c1573020)
+        ;
+
+        
+    
+    
+            var marker_4775705131b713273cc4ffd36e0c0a0d = L.marker(
+                [41.04254, 29.00258],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_98eaa62bdc7a7a27e67a06020384dabd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4775705131b713273cc4ffd36e0c0a0d.setIcon(icon_98eaa62bdc7a7a27e67a06020384dabd);
+        
+    
+        var popup_edac1d376f92c511d224d9ee3947a480 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6fe1d10facaec52baf12912d6b69398 = $(`<div id="html_b6fe1d10facaec52baf12912d6b69398" style="width: 100.0%; height: 100.0%;">Address: Sair Nedim Cad. No 5 Besiktas Istanbul Istanbul 34 TR 0, <a href="https://www.google.com/maps/dir/41.04254,29.00258/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_edac1d376f92c511d224d9ee3947a480.setContent(html_b6fe1d10facaec52baf12912d6b69398);
+            
+        
+
+        marker_4775705131b713273cc4ffd36e0c0a0d.bindPopup(popup_edac1d376f92c511d224d9ee3947a480)
+        ;
+
+        
+    
+    
+            var marker_593a8af9d770126929b44dfeb842d9e5 = L.marker(
+                [41.04403, 29.00704],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_f1160b7c753c1ff495cfa5349687063f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_593a8af9d770126929b44dfeb842d9e5.setIcon(icon_f1160b7c753c1ff495cfa5349687063f);
+        
+    
+        var popup_7d3e26c02657fbea1cb622b5af8d9332 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b74229beb58b57d3af920700f80d85c9 = $(`<div id="html_b74229beb58b57d3af920700f80d85c9" style="width: 100.0%; height: 100.0%;">Address: Barbaros Bulv Yildiz ls Hani Istanbul 34 TR 34200, <a href="https://www.google.com/maps/dir/41.04403,29.00704/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_7d3e26c02657fbea1cb622b5af8d9332.setContent(html_b74229beb58b57d3af920700f80d85c9);
+            
+        
+
+        marker_593a8af9d770126929b44dfeb842d9e5.bindPopup(popup_7d3e26c02657fbea1cb622b5af8d9332)
+        ;
+
+        
+    
+    
+            var marker_af8ef5bb811e1f900bd17f8cd929a9c3 = L.marker(
+                [40.98936, 29.02871],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_684253304cc72e065281820c122f2551 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_af8ef5bb811e1f900bd17f8cd929a9c3.setIcon(icon_684253304cc72e065281820c122f2551);
+        
+    
+        var popup_cad201358979e519b37b826c1d4a8985 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5f2ce8834976a723beec8ddc5ae3c92 = $(`<div id="html_e5f2ce8834976a723beec8ddc5ae3c92" style="width: 100.0%; height: 100.0%;">Address: General Asim Gunduz Cad. Istanbul 34 TR 34714, <a href="https://www.google.com/maps/dir/40.98936,29.02871/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_cad201358979e519b37b826c1d4a8985.setContent(html_e5f2ce8834976a723beec8ddc5ae3c92);
+            
+        
+
+        marker_af8ef5bb811e1f900bd17f8cd929a9c3.bindPopup(popup_cad201358979e519b37b826c1d4a8985)
+        ;
+
+        
+    
+    
+            var marker_c88887df4114ef6ba06c8599ccc2e1c8 = L.marker(
+                [41.05158, 28.98771],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_809728630948cdb7aa6f8f9ab24e3d55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c88887df4114ef6ba06c8599ccc2e1c8.setIcon(icon_809728630948cdb7aa6f8f9ab24e3d55);
+        
+    
+        var popup_8ad0a8a4eacb99d0dc4a23bf5bb7627c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c5c2a31f720acdca4294bedabbbcd5a = $(`<div id="html_5c5c2a31f720acdca4294bedabbbcd5a" style="width: 100.0%; height: 100.0%;">Address: Halaskargazi Cd No 38 66 34371 Sisli Istanbul Istanbul 34 TR 34371, <a href="https://www.google.com/maps/dir/41.05158,28.98771/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_8ad0a8a4eacb99d0dc4a23bf5bb7627c.setContent(html_5c5c2a31f720acdca4294bedabbbcd5a);
+            
+        
+
+        marker_c88887df4114ef6ba06c8599ccc2e1c8.bindPopup(popup_8ad0a8a4eacb99d0dc4a23bf5bb7627c)
+        ;
+
+        
+    
+    
+            var marker_2a37be6bac0d86a2dd181c456b24c5b1 = L.marker(
+                [40.98064, 29.02364],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_9bdfafcb6aa8dff13611508f082a093e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2a37be6bac0d86a2dd181c456b24c5b1.setIcon(icon_9bdfafcb6aa8dff13611508f082a093e);
+        
+    
+        var popup_087532a3a8985b85df84cb89cb05f99d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c50055c11830fad87791786caba9b4c = $(`<div id="html_6c50055c11830fad87791786caba9b4c" style="width: 100.0%; height: 100.0%;">Address: Moda Cad. Aylin Apt. No: 188/C Kadikoy Istanbul - Asya 34 TR 34710, <a href="https://www.google.com/maps/dir/40.98064,29.02364/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_087532a3a8985b85df84cb89cb05f99d.setContent(html_6c50055c11830fad87791786caba9b4c);
+            
+        
+
+        marker_2a37be6bac0d86a2dd181c456b24c5b1.bindPopup(popup_087532a3a8985b85df84cb89cb05f99d)
+        ;
+
+        
+    
+    
+            var marker_d468d9bf8d84e51e2550f8af79d8f9ab = L.marker(
+                [41.00602, 29.03679],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_e35eebb9c380a75cd46f286be9af9fa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d468d9bf8d84e51e2550f8af79d8f9ab.setIcon(icon_e35eebb9c380a75cd46f286be9af9fa7);
+        
+    
+        var popup_cd4a503ed2bbb4ca0b087f8d8e5a161f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f64eb50c7a46d9e35844f48774de65a = $(`<div id="html_4f64eb50c7a46d9e35844f48774de65a" style="width: 100.0%; height: 100.0%;">Address: Muhittin Ustundag Cd Istanbul 34 TR 34718, <a href="https://www.google.com/maps/dir/41.00602,29.03679/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_cd4a503ed2bbb4ca0b087f8d8e5a161f.setContent(html_4f64eb50c7a46d9e35844f48774de65a);
+            
+        
+
+        marker_d468d9bf8d84e51e2550f8af79d8f9ab.bindPopup(popup_cd4a503ed2bbb4ca0b087f8d8e5a161f)
+        ;
+
+        
+    
+    
+            var marker_a59798f5df2adce68a89f3c2d3bb1689 = L.marker(
+                [41.05138, 28.99111],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_c067a3655a613a6122746629635fa0df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a59798f5df2adce68a89f3c2d3bb1689.setIcon(icon_c067a3655a613a6122746629635fa0df);
+        
+    
+        var popup_9730121beb3376edeabfb34e238a0865 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1934c49e86df6ee47dca0bb0c9bb6665 = $(`<div id="html_1934c49e86df6ee47dca0bb0c9bb6665" style="width: 100.0%; height: 100.0%;">Address: Nisantasi Mah Vali Konagi Cad No 30 Istanbul 34 TR 34398, <a href="https://www.google.com/maps/dir/41.05138,28.99111/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_9730121beb3376edeabfb34e238a0865.setContent(html_1934c49e86df6ee47dca0bb0c9bb6665);
+            
+        
+
+        marker_a59798f5df2adce68a89f3c2d3bb1689.bindPopup(popup_9730121beb3376edeabfb34e238a0865)
+        ;
+
+        
+    
+    
+            var marker_35e3c78e7c4ceda0f862b184b450f29c = L.marker(
+                [41.0061, 29.03721],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_46b370b9d4447d547b684a338b19f48d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_35e3c78e7c4ceda0f862b184b450f29c.setIcon(icon_46b370b9d4447d547b684a338b19f48d);
+        
+    
+        var popup_dce5901df052a9f2550bd0e1f3fe4342 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eae7f66bcbaf38962faa2c3a6bc7d199 = $(`<div id="html_eae7f66bcbaf38962faa2c3a6bc7d199" style="width: 100.0%; height: 100.0%;">Address: Muhittin Ustundag Cad. Istanbul Istanbul 34 TR 34718, <a href="https://www.google.com/maps/dir/41.0061,29.03721/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_dce5901df052a9f2550bd0e1f3fe4342.setContent(html_eae7f66bcbaf38962faa2c3a6bc7d199);
+            
+        
+
+        marker_35e3c78e7c4ceda0f862b184b450f29c.bindPopup(popup_dce5901df052a9f2550bd0e1f3fe4342)
+        ;
+
+        
+    
+    
+            var marker_48689e356cf3f662cc8ec0182bf10348 = L.marker(
+                [41.05144, 28.99341],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_208a766fffa4bf77ce297bd0a82ff487 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_48689e356cf3f662cc8ec0182bf10348.setIcon(icon_208a766fffa4bf77ce297bd0a82ff487);
+        
+    
+        var popup_1fa23b645f87be4c678f1378aeecde71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f543f0adcf36ecae8a974267ed099b9d = $(`<div id="html_f543f0adcf36ecae8a974267ed099b9d" style="width: 100.0%; height: 100.0%;">Address: Akkavak Sokak Tesvikiye Sisli Istanbul 34 TR 34365, <a href="https://www.google.com/maps/dir/41.05144,28.99341/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_1fa23b645f87be4c678f1378aeecde71.setContent(html_f543f0adcf36ecae8a974267ed099b9d);
+            
+        
+
+        marker_48689e356cf3f662cc8ec0182bf10348.bindPopup(popup_1fa23b645f87be4c678f1378aeecde71)
+        ;
+
+        
+    
+    
+            var marker_5a52b9b63a0bf09248e59205ef2faea2 = L.marker(
+                [41.01173, 29.03877],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_da63dc1e732e3f0c083c6f2223cacdd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5a52b9b63a0bf09248e59205ef2faea2.setIcon(icon_da63dc1e732e3f0c083c6f2223cacdd6);
+        
+    
+        var popup_2542b27cca6f687c3a9e74d2dc23af58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f74a3a52b29351fc33f5d24224a1b70c = $(`<div id="html_f74a3a52b29351fc33f5d24224a1b70c" style="width: 100.0%; height: 100.0%;">Address: Kosuyolu Cad. Direkli Carsi Sok. No:1 Kosuyolu, Kadikoy Istanbul 34 TR 34662, <a href="https://www.google.com/maps/dir/41.01173,29.03877/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_2542b27cca6f687c3a9e74d2dc23af58.setContent(html_f74a3a52b29351fc33f5d24224a1b70c);
+            
+        
+
+        marker_5a52b9b63a0bf09248e59205ef2faea2.bindPopup(popup_2542b27cca6f687c3a9e74d2dc23af58)
+        ;
+
+        
+    
+    
+            var marker_b8d89b4c51baa7b916ad7e642a6fe83c = L.marker(
+                [40.99949, 29.039],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_947e964fa1ae38a5b571019b2ff5c860 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b8d89b4c51baa7b916ad7e642a6fe83c.setIcon(icon_947e964fa1ae38a5b571019b2ff5c860);
+        
+    
+        var popup_47bf052b0354669d72f49e5a0519c81a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40a51cc3e57510c7dceab090c7280553 = $(`<div id="html_40a51cc3e57510c7dceab090c7280553" style="width: 100.0%; height: 100.0%;">Address: Acibadem Mah. Acibadem Cad. NO 98 Uskudar Istanbul 34 TR 0000, <a href="https://www.google.com/maps/dir/40.99949,29.039/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_47bf052b0354669d72f49e5a0519c81a.setContent(html_40a51cc3e57510c7dceab090c7280553);
+            
+        
+
+        marker_b8d89b4c51baa7b916ad7e642a6fe83c.bindPopup(popup_47bf052b0354669d72f49e5a0519c81a)
+        ;
+
+        
+    
+    
+            var marker_223f5cc183451442a8659f235e124b31 = L.marker(
+                [41.05678, 28.98124],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_6ac7c24daa512b829065a95053a0435e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_223f5cc183451442a8659f235e124b31.setIcon(icon_6ac7c24daa512b829065a95053a0435e);
+        
+    
+        var popup_f2a215b92de4c654dc87d8133bd036b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_384fc94b1c6855746990a275819aa03c = $(`<div id="html_384fc94b1c6855746990a275819aa03c" style="width: 100.0%; height: 100.0%;">Address: Gokkusagi Sokak Istanbul 34 TR 34380, <a href="https://www.google.com/maps/dir/41.05678,28.98124/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_f2a215b92de4c654dc87d8133bd036b7.setContent(html_384fc94b1c6855746990a275819aa03c);
+            
+        
+
+        marker_223f5cc183451442a8659f235e124b31.bindPopup(popup_f2a215b92de4c654dc87d8133bd036b7)
+        ;
+
+        
+    
+    
+            var marker_1a94dfb7a8f865b1d78ace61bbcde64d = L.marker(
+                [41.05801, 29.00319],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_4d27c96d1a4457f9e1cc4a8a5c8eb6b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1a94dfb7a8f865b1d78ace61bbcde64d.setIcon(icon_4d27c96d1a4457f9e1cc4a8a5c8eb6b9);
+        
+    
+        var popup_ac0f4cd43061e8c7ed2f6e3295eadac8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e82719f117200a4b04c6d1125f61250a = $(`<div id="html_e82719f117200a4b04c6d1125f61250a" style="width: 100.0%; height: 100.0%;">Address: Dikilitas Ayazmaderesi Cd No 10 Besiktas Istanbul Istanbul 34 TR 34349, <a href="https://www.google.com/maps/dir/41.05801,29.00319/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_ac0f4cd43061e8c7ed2f6e3295eadac8.setContent(html_e82719f117200a4b04c6d1125f61250a);
+            
+        
+
+        marker_1a94dfb7a8f865b1d78ace61bbcde64d.bindPopup(popup_ac0f4cd43061e8c7ed2f6e3295eadac8)
+        ;
+
+        
+    
+    
+            var marker_d76c6de51b2b4b80305224a26755f783 = L.marker(
+                [41.04799, 29.02646],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_f44ed2adf5c5986dbc233739484818b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d76c6de51b2b4b80305224a26755f783.setIcon(icon_f44ed2adf5c5986dbc233739484818b5);
+        
+    
+        var popup_dfceae7dfa796468f212cc3ba896c84f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd1d5654a09d910136e437c1399e7859 = $(`<div id="html_cd1d5654a09d910136e437c1399e7859" style="width: 100.0%; height: 100.0%;">Address: Mecidiye Mah Degirmen Sok No 16 Istanbul 34 TR 34400, <a href="https://www.google.com/maps/dir/41.04799,29.02646/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_dfceae7dfa796468f212cc3ba896c84f.setContent(html_cd1d5654a09d910136e437c1399e7859);
+            
+        
+
+        marker_d76c6de51b2b4b80305224a26755f783.bindPopup(popup_dfceae7dfa796468f212cc3ba896c84f)
+        ;
+
+        
+    
+    
+            var marker_b0a465510985f1e824498fdbcc35cecb = L.marker(
+                [41.0103, 29.05179],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_8b4452b1f59b9d4faccda117a1568edc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b0a465510985f1e824498fdbcc35cecb.setIcon(icon_8b4452b1f59b9d4faccda117a1568edc);
+        
+    
+        var popup_b9c84196d1c77fe61117b24c4eba6617 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78013c7fb37d19039d9fc1ec37955d99 = $(`<div id="html_78013c7fb37d19039d9fc1ec37955d99" style="width: 100.0%; height: 100.0%;">Address: Acibadem Mah. Acibadem Cad. NO 190 Uskudar Istanbul 34 TR 00000, <a href="https://www.google.com/maps/dir/41.0103,29.05179/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_b9c84196d1c77fe61117b24c4eba6617.setContent(html_78013c7fb37d19039d9fc1ec37955d99);
+            
+        
+
+        marker_b0a465510985f1e824498fdbcc35cecb.bindPopup(popup_b9c84196d1c77fe61117b24c4eba6617)
+        ;
+
+        
+    
+    
+            var marker_50174a5f22623761fe25809e93e39830 = L.marker(
+                [41.06262, 28.99293],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_d7fbec47e17bbe891a2aed56dab33d08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_50174a5f22623761fe25809e93e39830.setIcon(icon_d7fbec47e17bbe891a2aed56dab33d08);
+        
+    
+        var popup_6eb1db7549d6589cd69d33a8de85b83c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cd224724a6375a8d520de616ab47dba = $(`<div id="html_6cd224724a6375a8d520de616ab47dba" style="width: 100.0%; height: 100.0%;">Address: Buyukdere Cad Istanbul Cevahir Alisveri Istanbul 34 TR 34381, <a href="https://www.google.com/maps/dir/41.06262,28.99293/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_6eb1db7549d6589cd69d33a8de85b83c.setContent(html_6cd224724a6375a8d520de616ab47dba);
+            
+        
+
+        marker_50174a5f22623761fe25809e93e39830.bindPopup(popup_6eb1db7549d6589cd69d33a8de85b83c)
+        ;
+
+        
+    
+    
+            var marker_f0a5206a99ce88284491d57a6c22f0e0 = L.marker(
+                [41.0642, 28.99694],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_b132571cf7faa5a5ca33cb4d187f1922 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f0a5206a99ce88284491d57a6c22f0e0.setIcon(icon_b132571cf7faa5a5ca33cb4d187f1922);
+        
+    
+        var popup_348c5d1287e9549f00c42477df412c94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d2c2fe8b0c05e389daee27b9ad9c29b = $(`<div id="html_3d2c2fe8b0c05e389daee27b9ad9c29b" style="width: 100.0%; height: 100.0%;">Address: Ortaklar caddesi no 17 sisli ISTANBUL 34 TR 34394, <a href="https://www.google.com/maps/dir/41.0642,28.99694/" target="_blank">Link</a>, Cluster: 5, Store Type: Starbucks</div>`)[0];
+                popup_348c5d1287e9549f00c42477df412c94.setContent(html_3d2c2fe8b0c05e389daee27b9ad9c29b);
+            
+        
+
+        marker_f0a5206a99ce88284491d57a6c22f0e0.bindPopup(popup_348c5d1287e9549f00c42477df412c94)
+        ;
+
+        
+    
+    
+            var marker_522f26e901a29a150cecb45de837d391 = L.marker(
+                [41.00265, 29.05463],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_0184da2de96eaabab89332b4d6328c3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_522f26e901a29a150cecb45de837d391.setIcon(icon_0184da2de96eaabab89332b4d6328c3c);
+        
+    
+        var popup_81016d306c70c6167913c408c1c91b87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bd0a0e6d84ca507008dca5ea1a46960 = $(`<div id="html_1bd0a0e6d84ca507008dca5ea1a46960" style="width: 100.0%; height: 100.0%;">Address: Cecen Sokak Acıbadem Mah. Uskudar Istanbul 34 TR 34660, <a href="https://www.google.com/maps/dir/41.00265,29.05463/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_81016d306c70c6167913c408c1c91b87.setContent(html_1bd0a0e6d84ca507008dca5ea1a46960);
+            
+        
+
+        marker_522f26e901a29a150cecb45de837d391.bindPopup(popup_81016d306c70c6167913c408c1c91b87)
+        ;
+
+        
+    
+    
+            var marker_9e7ef0220905ab1f9f5379e9bb3f7a7a = L.marker(
+                [40.99473, 29.05678],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_e92be007f33cc313c27f73b09252f703 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9e7ef0220905ab1f9f5379e9bb3f7a7a.setIcon(icon_e92be007f33cc313c27f73b09252f703);
+        
+    
+        var popup_f57d2eb43cae3716cba869c7c5334437 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c0fdca5f2fa9d0e20a79d07ba5d8d00 = $(`<div id="html_6c0fdca5f2fa9d0e20a79d07ba5d8d00" style="width: 100.0%; height: 100.0%;">Address: Dumlupinar Ucar Sk 34720 Kadikoy Istanbul Istanbul 34 TR 34720, <a href="https://www.google.com/maps/dir/40.99473,29.05678/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_f57d2eb43cae3716cba869c7c5334437.setContent(html_6c0fdca5f2fa9d0e20a79d07ba5d8d00);
+            
+        
+
+        marker_9e7ef0220905ab1f9f5379e9bb3f7a7a.bindPopup(popup_f57d2eb43cae3716cba869c7c5334437)
+        ;
+
+        
+    
+    
+            var marker_c3bcf45df786c5d88b2f353385adbe87 = L.marker(
+                [40.98457, 29.0531],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_7e4c76ea296be3351cd5a12ea80aac43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c3bcf45df786c5d88b2f353385adbe87.setIcon(icon_7e4c76ea296be3351cd5a12ea80aac43);
+        
+    
+        var popup_6d010f9690accafebeb323992887ddad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_351c7586dd9942b7170ecb69af24d125 = $(`<div id="html_351c7586dd9942b7170ecb69af24d125" style="width: 100.0%; height: 100.0%;">Address: Gazi Muhtar Pasa Sok Istanbul 34 TR 34724, <a href="https://www.google.com/maps/dir/40.98457,29.0531/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_6d010f9690accafebeb323992887ddad.setContent(html_351c7586dd9942b7170ecb69af24d125);
+            
+        
+
+        marker_c3bcf45df786c5d88b2f353385adbe87.bindPopup(popup_6d010f9690accafebeb323992887ddad)
+        ;
+
+        
+    
+    
+            var marker_b4155168b8e63f1af0ad44ed2754b086 = L.marker(
+                [40.97928, 29.06722],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_deccd2db1ce8b9b8ae79ede2c24b348c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b4155168b8e63f1af0ad44ed2754b086.setIcon(icon_deccd2db1ce8b9b8ae79ede2c24b348c);
+        
+    
+        var popup_d12998c35709ae5f10bc530d40c1af3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58553e2f5312f3cbc780fbe9f0ce4220 = $(`<div id="html_58553e2f5312f3cbc780fbe9f0ce4220" style="width: 100.0%; height: 100.0%;">Address: Goztepe Mah Tutuncu Mehmet Efendi Cad 84 Istanbul 34 TR 34730, <a href="https://www.google.com/maps/dir/40.97928,29.06722/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_d12998c35709ae5f10bc530d40c1af3d.setContent(html_58553e2f5312f3cbc780fbe9f0ce4220);
+            
+        
+
+        marker_b4155168b8e63f1af0ad44ed2754b086.bindPopup(popup_d12998c35709ae5f10bc530d40c1af3d)
+        ;
+
+        
+    
+    
+            var marker_73c509cdfc33ecfd793f2f8a10a19b28 = L.marker(
+                [40.973, 29.05698],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_6e477b3e37288bedaaa445648295148d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_73c509cdfc33ecfd793f2f8a10a19b28.setIcon(icon_6e477b3e37288bedaaa445648295148d);
+        
+    
+        var popup_19e41f2bf0d3d11adf5ff51de4e06895 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f01d165713487f7f1bdd8ee16d918504 = $(`<div id="html_f01d165713487f7f1bdd8ee16d918504" style="width: 100.0%; height: 100.0%;">Address: Goztepe Mah Bagdat Cad Alemdar Istanbul 34 TR 34730, <a href="https://www.google.com/maps/dir/40.973,29.05698/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_19e41f2bf0d3d11adf5ff51de4e06895.setContent(html_f01d165713487f7f1bdd8ee16d918504);
+            
+        
+
+        marker_73c509cdfc33ecfd793f2f8a10a19b28.bindPopup(popup_19e41f2bf0d3d11adf5ff51de4e06895)
+        ;
+
+        
+    
+    
+            var marker_bbcc41bca96f17987f56ce338443b7b0 = L.marker(
+                [40.97387, 29.04844],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_6d88386f8c627006208eb66541e51d75 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bbcc41bca96f17987f56ce338443b7b0.setIcon(icon_6d88386f8c627006208eb66541e51d75);
+        
+    
+        var popup_599cc76617f82edaf6208089ec4bddb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2d70bf59f61a838108c8fc96ae1f0b6 = $(`<div id="html_d2d70bf59f61a838108c8fc96ae1f0b6" style="width: 100.0%; height: 100.0%;">Address: Haci Mehmet Efendi Cad. No:23 D:1-2 Selamicesme, Kadikoy Istanbul 34 TR 34730, <a href="https://www.google.com/maps/dir/40.97387,29.04844/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_599cc76617f82edaf6208089ec4bddb9.setContent(html_d2d70bf59f61a838108c8fc96ae1f0b6);
+            
+        
+
+        marker_bbcc41bca96f17987f56ce338443b7b0.bindPopup(popup_599cc76617f82edaf6208089ec4bddb9)
+        ;
+
+        
+    
+    
+            var marker_0550db54d4b106126e842276812f536e = L.marker(
+                [40.97104, 29.08386],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_85274ae97a35fcc041f21f3969decd5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_0550db54d4b106126e842276812f536e.setIcon(icon_85274ae97a35fcc041f21f3969decd5e);
+        
+    
+        var popup_6d49d4b331e3a05a49b685b80bf6a81b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_626fdb9b57c7ce2f1a68ca7db5777669 = $(`<div id="html_626fdb9b57c7ce2f1a68ca7db5777669" style="width: 100.0%; height: 100.0%;">Address: Semsettin Gunaltay Cad Cadirlikosk Apt Istanbul 34 TR 34714, <a href="https://www.google.com/maps/dir/40.97104,29.08386/" target="_blank">Link</a>, Cluster: 7, Store Type: Starbucks</div>`)[0];
+                popup_6d49d4b331e3a05a49b685b80bf6a81b.setContent(html_626fdb9b57c7ce2f1a68ca7db5777669);
+            
+        
+
+        marker_0550db54d4b106126e842276812f536e.bindPopup(popup_6d49d4b331e3a05a49b685b80bf6a81b)
+        ;
+
+        
+    
+    
+            var marker_cbaed9c49b72fff4fa2009439751c301 = L.marker(
+                [40.99046, 29.0234],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_70bb7f3f55f86d9ac2862d5a7ffc7dea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cbaed9c49b72fff4fa2009439751c301.setIcon(icon_70bb7f3f55f86d9ac2862d5a7ffc7dea);
+        
+    
+        var popup_69e0a380f08d3a8d83dc1b27caf211bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c6a5a65caf8dee6e0f4b222266173dc = $(`<div id="html_2c6a5a65caf8dee6e0f4b222266173dc" style="width: 100.0%; height: 100.0%;">Address: Caferaga Mah Muvakkithane Sok No 9 Istanbul 34 TR 34710, <a href="https://www.google.com/maps/dir/40.99046,29.0234/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_69e0a380f08d3a8d83dc1b27caf211bc.setContent(html_2c6a5a65caf8dee6e0f4b222266173dc);
+            
+        
+
+        marker_cbaed9c49b72fff4fa2009439751c301.bindPopup(popup_69e0a380f08d3a8d83dc1b27caf211bc)
+        ;
+
+        
+    
+    
+            var marker_6252804ad513ee1985f2c9a05a3577fe = L.marker(
+                [40.9979, 29.09775],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_43f579314b1c18d5d3ecc97e606c318b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6252804ad513ee1985f2c9a05a3577fe.setIcon(icon_43f579314b1c18d5d3ecc97e606c318b);
+        
+    
+        var popup_c262cd6d6b72d222c5667259eabef6a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d1ba285a3d82c4da93774784c7f1823 = $(`<div id="html_5d1ba285a3d82c4da93774784c7f1823" style="width: 100.0%; height: 100.0%;">Address: Barbaros mah. Uzman Sok.12-1 Atasehir Istanbul 34 TR 00000, <a href="https://www.google.com/maps/dir/40.9979,29.09775/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_c262cd6d6b72d222c5667259eabef6a8.setContent(html_5d1ba285a3d82c4da93774784c7f1823);
+            
+        
+
+        marker_6252804ad513ee1985f2c9a05a3577fe.bindPopup(popup_c262cd6d6b72d222c5667259eabef6a8)
+        ;
+
+        
+    
+    
+            var marker_a30ee43c424baf2980eddfb2f5a635a0 = L.marker(
+                [40.96401, 29.06545],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_a5b2925b0bb5ed6ddcb1aecec97744ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a30ee43c424baf2980eddfb2f5a635a0.setIcon(icon_a5b2925b0bb5ed6ddcb1aecec97744ff);
+        
+    
+        var popup_7d426da10e36f8ac239f459f0e1c58d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fee1b2b1afa33a8de5497431cdc4e02a = $(`<div id="html_fee1b2b1afa33a8de5497431cdc4e02a" style="width: 100.0%; height: 100.0%;">Address: Erenk y Mahallesi Iskele Sokak Istanbul - Kadikoy 34 TR 34278, <a href="https://www.google.com/maps/dir/40.96401,29.06545/" target="_blank">Link</a>, Cluster: 1, Store Type: Starbucks</div>`)[0];
+                popup_7d426da10e36f8ac239f459f0e1c58d1.setContent(html_fee1b2b1afa33a8de5497431cdc4e02a);
+            
+        
+
+        marker_a30ee43c424baf2980eddfb2f5a635a0.bindPopup(popup_7d426da10e36f8ac239f459f0e1c58d1)
+        ;
+
+        
+    
+    
+            var marker_cb18c2e6573665ae7c21207e7e85639b = L.marker(
+                [40.96511, 29.0768],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_7b640d384c203def35b128e862ab3f6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_cb18c2e6573665ae7c21207e7e85639b.setIcon(icon_7b640d384c203def35b128e862ab3f6a);
+        
+    
+        var popup_7d3915acb1d53a1aa181b6e4c880c620 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9a93230d7d9a8676de0b72ed237dd1c = $(`<div id="html_a9a93230d7d9a8676de0b72ed237dd1c" style="width: 100.0%; height: 100.0%;">Address: Bagdat Cd. Noter Sk. 18/1 Kadikoy Istanbul 34 TR 34740, <a href="https://www.google.com/maps/dir/40.96511,29.0768/" target="_blank">Link</a>, Cluster: 7, Store Type: Starbucks</div>`)[0];
+                popup_7d3915acb1d53a1aa181b6e4c880c620.setContent(html_a9a93230d7d9a8676de0b72ed237dd1c);
+            
+        
+
+        marker_cb18c2e6573665ae7c21207e7e85639b.bindPopup(popup_7d3915acb1d53a1aa181b6e4c880c620)
+        ;
+
+        
+    
+    
+            var marker_f70a32c727f51fe563eede96aa9969fa = L.marker(
+                [40.9865, 29.10006],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_af7fade95821fe1e6dda1f3ce83dc99c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f70a32c727f51fe563eede96aa9969fa.setIcon(icon_af7fade95821fe1e6dda1f3ce83dc99c);
+        
+    
+        var popup_9ef581193f121cfc87f1f0b8a8b48de2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d7385ad809d4cf1b0af3198157c5606 = $(`<div id="html_4d7385ad809d4cf1b0af3198157c5606" style="width: 100.0%; height: 100.0%;">Address: Barbaros mah. Halk caddesi 8 /B Atasehir Kadikoy Istanbul 34 TR 00000, <a href="https://www.google.com/maps/dir/40.9865,29.10006/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_9ef581193f121cfc87f1f0b8a8b48de2.setContent(html_4d7385ad809d4cf1b0af3198157c5606);
+            
+        
+
+        marker_f70a32c727f51fe563eede96aa9969fa.bindPopup(popup_9ef581193f121cfc87f1f0b8a8b48de2)
+        ;
+
+        
+    
+    
+            var marker_2e5320153b68988ab4380c029a3de40d = L.marker(
+                [40.97972, 29.10017],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_e04bc2c962f5d1c2189e0c57d85cd9f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2e5320153b68988ab4380c029a3de40d.setIcon(icon_e04bc2c962f5d1c2189e0c57d85cd9f1);
+        
+    
+        var popup_5be132193f7f6f32ae5e5753ae4a73a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94b592a9deac7e5218ac037d3fc90697 = $(`<div id="html_94b592a9deac7e5218ac037d3fc90697" style="width: 100.0%; height: 100.0%;">Address: Icerenkoy Mah Cayir Cad 1 Istanbul 34 TR 34752, <a href="https://www.google.com/maps/dir/40.97972,29.10017/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_5be132193f7f6f32ae5e5753ae4a73a8.setContent(html_94b592a9deac7e5218ac037d3fc90697);
+            
+        
+
+        marker_2e5320153b68988ab4380c029a3de40d.bindPopup(popup_5be132193f7f6f32ae5e5753ae4a73a8)
+        ;
+
+        
+    
+    
+            var marker_cbaa1e7b9b4f9410629a17c8980b46cf = L.marker(
+                [40.99178, 29.10446],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_8e1ee30c1fbf60609b7ccdc47c8f2b03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cbaa1e7b9b4f9410629a17c8980b46cf.setIcon(icon_8e1ee30c1fbf60609b7ccdc47c8f2b03);
+        
+    
+        var popup_02397c32f90e6ddf5b5d7310e3f1cb61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cb7a7ffbf938aa750534619e27eca91 = $(`<div id="html_1cb7a7ffbf938aa750534619e27eca91" style="width: 100.0%; height: 100.0%;">Address: Ihlamur Sokak Atasehir Istanbul 34 TR 34746, <a href="https://www.google.com/maps/dir/40.99178,29.10446/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_02397c32f90e6ddf5b5d7310e3f1cb61.setContent(html_1cb7a7ffbf938aa750534619e27eca91);
+            
+        
+
+        marker_cbaa1e7b9b4f9410629a17c8980b46cf.bindPopup(popup_02397c32f90e6ddf5b5d7310e3f1cb61)
+        ;
+
+        
+    
+    
+            var marker_329f22d4aff4be7bada4b2bd1cb2960f = L.marker(
+                [40.97396, 29.09818],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_8cf2285b83cffb0c89c1c11e8117523c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_329f22d4aff4be7bada4b2bd1cb2960f.setIcon(icon_8cf2285b83cffb0c89c1c11e8117523c);
+        
+    
+        var popup_c699fc5a0387b647e3fc3b9d324965e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f23bab47cf7b57c39352c0526b8834d1 = $(`<div id="html_f23bab47cf7b57c39352c0526b8834d1" style="width: 100.0%; height: 100.0%;">Address: Kozyatagi Mah. Degirmen Sok. Nida Kule No:18 K:Bodrum D:1 Istanbul 34 TR 34742, <a href="https://www.google.com/maps/dir/40.97396,29.09818/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_c699fc5a0387b647e3fc3b9d324965e7.setContent(html_f23bab47cf7b57c39352c0526b8834d1);
+            
+        
+
+        marker_329f22d4aff4be7bada4b2bd1cb2960f.bindPopup(popup_c699fc5a0387b647e3fc3b9d324965e7)
+        ;
+
+        
+    
+    
+            var marker_68f6c09f4e9209a3cbc4272a2040ef3c = L.marker(
+                [40.96549, 29.08777],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_10aab90cae0cf584ffee38e9d75be597 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_68f6c09f4e9209a3cbc4272a2040ef3c.setIcon(icon_10aab90cae0cf584ffee38e9d75be597);
+        
+    
+        var popup_86de6f43acb67f55286d12ff62ae538a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7926953993599a233918026fa5b953f = $(`<div id="html_b7926953993599a233918026fa5b953f" style="width: 100.0%; height: 100.0%;">Address: Semsettin Gunaltay Cad. NO.108 Kozyatagi Kadikoy Istanbul 34 TR 34742, <a href="https://www.google.com/maps/dir/40.96549,29.08777/" target="_blank">Link</a>, Cluster: 7, Store Type: Starbucks</div>`)[0];
+                popup_86de6f43acb67f55286d12ff62ae538a.setContent(html_b7926953993599a233918026fa5b953f);
+            
+        
+
+        marker_68f6c09f4e9209a3cbc4272a2040ef3c.bindPopup(popup_86de6f43acb67f55286d12ff62ae538a)
+        ;
+
+        
+    
+    
+            var marker_3e361a76defc245b714d08335dc4e195 = L.marker(
+                [41.01565, 29.09367],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_28a0453c5b8a2625f45fc68af2701510 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3e361a76defc245b714d08335dc4e195.setIcon(icon_28a0453c5b8a2625f45fc68af2701510);
+        
+    
+        var popup_5b8b67302616ca597a06cba865545eee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09bcef2582ef9f5a97e67771275a56fc = $(`<div id="html_09bcef2582ef9f5a97e67771275a56fc" style="width: 100.0%; height: 100.0%;">Address: Mahir lz Caddesi No 4 Altunizade/Uskudar/Istanbul Istanbul 34 TR 34662, <a href="https://www.google.com/maps/dir/41.01565,29.09367/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_5b8b67302616ca597a06cba865545eee.setContent(html_09bcef2582ef9f5a97e67771275a56fc);
+            
+        
+
+        marker_3e361a76defc245b714d08335dc4e195.bindPopup(popup_5b8b67302616ca597a06cba865545eee)
+        ;
+
+        
+    
+    
+            var marker_6bf6d69581a4f486fcb1c3ab9d89c571 = L.marker(
+                [40.96106, 29.07919],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_252340ed0662f24fcf5a374f9f365180 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_6bf6d69581a4f486fcb1c3ab9d89c571.setIcon(icon_252340ed0662f24fcf5a374f9f365180);
+        
+    
+        var popup_b9c8420623a39ef3c926c1e267655e43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44e3b338f236967183193b03e60e37eb = $(`<div id="html_44e3b338f236967183193b03e60e37eb" style="width: 100.0%; height: 100.0%;">Address: Bagdat Cad. No 471/3 Suadiye Kadikoy Istanbul Istanbul 34 TR 00000, <a href="https://www.google.com/maps/dir/40.96106,29.07919/" target="_blank">Link</a>, Cluster: 7, Store Type: Starbucks</div>`)[0];
+                popup_b9c8420623a39ef3c926c1e267655e43.setContent(html_44e3b338f236967183193b03e60e37eb);
+            
+        
+
+        marker_6bf6d69581a4f486fcb1c3ab9d89c571.bindPopup(popup_b9c8420623a39ef3c926c1e267655e43)
+        ;
+
+        
+    
+    
+            var marker_c01a13eac50591879ec1f4fa63ac243d = L.marker(
+                [40.99439, 29.11051],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_b0b2c648fb8db23691e92f57e0d249bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c01a13eac50591879ec1f4fa63ac243d.setIcon(icon_b0b2c648fb8db23691e92f57e0d249bc);
+        
+    
+        var popup_ce48231391fcc6b192d5dee942e51da6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7b929bc6437271cb20903635a9d254d = $(`<div id="html_c7b929bc6437271cb20903635a9d254d" style="width: 100.0%; height: 100.0%;">Address: Atasehir Bulvari NO. 1 Atasehir Atasehir 34 TR 34746, <a href="https://www.google.com/maps/dir/40.99439,29.11051/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_ce48231391fcc6b192d5dee942e51da6.setContent(html_c7b929bc6437271cb20903635a9d254d);
+            
+        
+
+        marker_c01a13eac50591879ec1f4fa63ac243d.bindPopup(popup_ce48231391fcc6b192d5dee942e51da6)
+        ;
+
+        
+    
+    
+            var marker_539947c0b5dcc39bd4e5625a86267317 = L.marker(
+                [40.95696, 29.08054],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_273a69866652324a4b1f400a6ed02e62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_539947c0b5dcc39bd4e5625a86267317.setIcon(icon_273a69866652324a4b1f400a6ed02e62);
+        
+    
+        var popup_a41cd4fdb86b6b8dd4daf86e904e2c68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b51ac16ea5b8c1ceda08c830de221136 = $(`<div id="html_b51ac16ea5b8c1ceda08c830de221136" style="width: 100.0%; height: 100.0%;">Address: Suadiye Park Plaj Yolu No 18 A Blok Beyoglu 34 TR 34740, <a href="https://www.google.com/maps/dir/40.95696,29.08054/" target="_blank">Link</a>, Cluster: 7, Store Type: Starbucks</div>`)[0];
+                popup_a41cd4fdb86b6b8dd4daf86e904e2c68.setContent(html_b51ac16ea5b8c1ceda08c830de221136);
+            
+        
+
+        marker_539947c0b5dcc39bd4e5625a86267317.bindPopup(popup_a41cd4fdb86b6b8dd4daf86e904e2c68)
+        ;
+
+        
+    
+    
+            var marker_04636715958deb94b8a393ac3e791602 = L.marker(
+                [40.95978, 29.09485],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_b8e29dbcd078a062078d2172afa73a2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_04636715958deb94b8a393ac3e791602.setIcon(icon_b8e29dbcd078a062078d2172afa73a2b);
+        
+    
+        var popup_7893e6a752d9543034599a64f0192755 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dadd841447baeb14137a4b2f066bd169 = $(`<div id="html_dadd841447baeb14137a4b2f066bd169" style="width: 100.0%; height: 100.0%;">Address: Semsettin Gunaltay Caddesi No 20 Istanbul 34 TR 34744, <a href="https://www.google.com/maps/dir/40.95978,29.09485/" target="_blank">Link</a>, Cluster: 7, Store Type: Starbucks</div>`)[0];
+                popup_7893e6a752d9543034599a64f0192755.setContent(html_dadd841447baeb14137a4b2f066bd169);
+            
+        
+
+        marker_04636715958deb94b8a393ac3e791602.bindPopup(popup_7893e6a752d9543034599a64f0192755)
+        ;
+
+        
+    
+    
+            var marker_03928bca48e8aba096e6aadf6a80567b = L.marker(
+                [40.9861, 29.11861],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_cd9cf15c14789fca0f4dc9739003342a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_03928bca48e8aba096e6aadf6a80567b.setIcon(icon_cd9cf15c14789fca0f4dc9739003342a);
+        
+    
+        var popup_6ec920b9d414d625e6cd1a61c444841e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78f784fbd90a3c1a120ba3f0bc360f4b = $(`<div id="html_78f784fbd90a3c1a120ba3f0bc360f4b" style="width: 100.0%; height: 100.0%;">Address: Kucukbakkalkoy Mah. Sehit Sakir Elkovan Cad. Novada Atasehir No:20 K:1 D:25 Istanbul 34 TR 34700, <a href="https://www.google.com/maps/dir/40.9861,29.11861/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_6ec920b9d414d625e6cd1a61c444841e.setContent(html_78f784fbd90a3c1a120ba3f0bc360f4b);
+            
+        
+
+        marker_03928bca48e8aba096e6aadf6a80567b.bindPopup(popup_6ec920b9d414d625e6cd1a61c444841e)
+        ;
+
+        
+    
+    
+            var marker_aa8bc141e419858323fa3fc71f4df60c = L.marker(
+                [40.9942, 29.12329],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_e134b3f0ce264b3f5230bd930c9300db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_aa8bc141e419858323fa3fc71f4df60c.setIcon(icon_e134b3f0ce264b3f5230bd930c9300db);
+        
+    
+        var popup_8857528097f670aa56a8319d78598a0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1310e38950b3a0d637797bd5ef44be8 = $(`<div id="html_f1310e38950b3a0d637797bd5ef44be8" style="width: 100.0%; height: 100.0%;">Address: Siteler Yolu No1 Aydnevler Mahallesi, Maltepe Istanbul 34 TR 34765, <a href="https://www.google.com/maps/dir/40.9942,29.12329/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_8857528097f670aa56a8319d78598a0e.setContent(html_f1310e38950b3a0d637797bd5ef44be8);
+            
+        
+
+        marker_aa8bc141e419858323fa3fc71f4df60c.bindPopup(popup_8857528097f670aa56a8319d78598a0e)
+        ;
+
+        
+    
+    
+            var marker_a4958862d5625678409a06ae3d17cf08 = L.marker(
+                [40.98597, 28.83137],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_814b97d2aed352c22f08636b842ae9d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a4958862d5625678409a06ae3d17cf08.setIcon(icon_814b97d2aed352c22f08636b842ae9d9);
+        
+    
+        var popup_e77b91ff0ef5a510d32da1871129ee84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_622bbd9f1d54f20715b3536387c40595 = $(`<div id="html_622bbd9f1d54f20715b3536387c40595" style="width: 100.0%; height: 100.0%;">Address: Yesilkoy Mah Ataturk Cad Istanbul Dunya Istanbul 34 TR 34149, <a href="https://www.google.com/maps/dir/40.98597,28.83137/" target="_blank">Link</a>, Cluster: 2, Store Type: Starbucks</div>`)[0];
+                popup_e77b91ff0ef5a510d32da1871129ee84.setContent(html_622bbd9f1d54f20715b3536387c40595);
+            
+        
+
+        marker_a4958862d5625678409a06ae3d17cf08.bindPopup(popup_e77b91ff0ef5a510d32da1871129ee84)
+        ;
+
+        
+    
+    
+            var marker_415add5851103e5f7aa991c02629a90e = L.marker(
+                [41.02535, 28.81567],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_c849544bd141b6bec3ac25a3ac9a58b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_415add5851103e5f7aa991c02629a90e.setIcon(icon_c849544bd141b6bec3ac25a3ac9a58b3);
+        
+    
+        var popup_05240a705cfda522065d20b97bc2bd84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99e041acd302c9faea4f126f62a89d3f = $(`<div id="html_99e041acd302c9faea4f126f62a89d3f" style="width: 100.0%; height: 100.0%;">Address: Yalcin Kores Caddesi Cavdar Sokak No:1 Bagcilar Istanbul 34 TR 34212, <a href="https://www.google.com/maps/dir/41.02535,28.81567/" target="_blank">Link</a>, Cluster: 2, Store Type: Starbucks</div>`)[0];
+                popup_05240a705cfda522065d20b97bc2bd84.setContent(html_99e041acd302c9faea4f126f62a89d3f);
+            
+        
+
+        marker_415add5851103e5f7aa991c02629a90e.bindPopup(popup_05240a705cfda522065d20b97bc2bd84)
+        ;
+
+        
+    
+    
+            var marker_2d7cab7f0c13e7189b2c24024f63dec6 = L.marker(
+                [41.02099, 28.79166],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_487ddbb6af00b4462e31e53b0b1f4b38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2d7cab7f0c13e7189b2c24024f63dec6.setIcon(icon_487ddbb6af00b4462e31e53b0b1f4b38);
+        
+    
+        var popup_e827047966480bf243d7c936db1fb38a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_498cc72f98fbb967b202157814006207 = $(`<div id="html_498cc72f98fbb967b202157814006207" style="width: 100.0%; height: 100.0%;">Address: Halkali Caddesi Istanbul 34 TR 34260, <a href="https://www.google.com/maps/dir/41.02099,28.79166/" target="_blank">Link</a>, Cluster: 2, Store Type: Starbucks</div>`)[0];
+                popup_e827047966480bf243d7c936db1fb38a.setContent(html_498cc72f98fbb967b202157814006207);
+            
+        
+
+        marker_2d7cab7f0c13e7189b2c24024f63dec6.bindPopup(popup_e827047966480bf243d7c936db1fb38a)
+        ;
+
+        
+    
+    
+            var marker_50c4720f39f034c780c9ffca2983c867 = L.marker(
+                [40.95853, 28.82181],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_ca2487d9b83b36810756b1a95b7a0345 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_50c4720f39f034c780c9ffca2983c867.setIcon(icon_ca2487d9b83b36810756b1a95b7a0345);
+        
+    
+        var popup_6ad436af17d945564883f2f8d838786e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dbad2609386a65eca40ce59bdab92aa = $(`<div id="html_1dbad2609386a65eca40ce59bdab92aa" style="width: 100.0%; height: 100.0%;">Address: Istasyon Cad. Yesilkoy Bakirkoy Istanbul 34 TR 0000, <a href="https://www.google.com/maps/dir/40.95853,28.82181/" target="_blank">Link</a>, Cluster: 2, Store Type: Starbucks</div>`)[0];
+                popup_6ad436af17d945564883f2f8d838786e.setContent(html_1dbad2609386a65eca40ce59bdab92aa);
+            
+        
+
+        marker_50c4720f39f034c780c9ffca2983c867.bindPopup(popup_6ad436af17d945564883f2f8d838786e)
+        ;
+
+        
+    
+    
+            var marker_d57bfb5dfa42da961c310a7829801529 = L.marker(
+                [41.04027, 28.8138],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_e7e7f6dd6019096695954527210b08e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d57bfb5dfa42da961c310a7829801529.setIcon(icon_e7e7f6dd6019096695954527210b08e6);
+        
+    
+        var popup_1d50ccc4dcbd4e72b99c154cd8a1f2e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7cab546206ee931784d91e97be7ee56 = $(`<div id="html_f7cab546206ee931784d91e97be7ee56" style="width: 100.0%; height: 100.0%;">Address: Gulbahar Cad No96 Evren Mah. Bagcilar Istanbul 34 TR 34212, <a href="https://www.google.com/maps/dir/41.04027,28.8138/" target="_blank">Link</a>, Cluster: 2, Store Type: Starbucks</div>`)[0];
+                popup_1d50ccc4dcbd4e72b99c154cd8a1f2e8.setContent(html_f7cab546206ee931784d91e97be7ee56);
+            
+        
+
+        marker_d57bfb5dfa42da961c310a7829801529.bindPopup(popup_1d50ccc4dcbd4e72b99c154cd8a1f2e8)
+        ;
+
+        
+    
+    
+            var marker_78e451bd934a1465eb098027215e3cfc = L.marker(
+                [41.04031, 28.81127],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_66a3c6a411f99fdbdd5441ea3ed1b3da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78e451bd934a1465eb098027215e3cfc.setIcon(icon_66a3c6a411f99fdbdd5441ea3ed1b3da);
+        
+    
+        var popup_815f39223daf6e78b686b4c71e38fe98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_899eba7d56a7232bfc10a167d133a682 = $(`<div id="html_899eba7d56a7232bfc10a167d133a682" style="width: 100.0%; height: 100.0%;">Address: Evren Mah. Bahar Cd. 43-J, Gunesli Bagcilar Istanbul 34 TR 34200, <a href="https://www.google.com/maps/dir/41.04031,28.81127/" target="_blank">Link</a>, Cluster: 2, Store Type: Starbucks</div>`)[0];
+                popup_815f39223daf6e78b686b4c71e38fe98.setContent(html_899eba7d56a7232bfc10a167d133a682);
+            
+        
+
+        marker_78e451bd934a1465eb098027215e3cfc.bindPopup(popup_815f39223daf6e78b686b4c71e38fe98)
+        ;
+
+        
+    
+    
+            var marker_f678bf1d491585383e16db49cab9904a = L.marker(
+                [41.05256, 28.81088],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_9e38f5b14e48740ca71fa21c93469c97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f678bf1d491585383e16db49cab9904a.setIcon(icon_9e38f5b14e48740ca71fa21c93469c97);
+        
+    
+        var popup_8ee65a5eb34e44b46d33e9b2c9ac8103 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e332d8bb604c13234fa2fcab403b25b2 = $(`<div id="html_e332d8bb604c13234fa2fcab403b25b2" style="width: 100.0%; height: 100.0%;">Address: Mahmutbey Mah.Tasocagi Yolu No19 Gunesli Bagcilar Istanbul 34 TR 34218, <a href="https://www.google.com/maps/dir/41.05256,28.81088/" target="_blank">Link</a>, Cluster: 2, Store Type: Starbucks</div>`)[0];
+                popup_8ee65a5eb34e44b46d33e9b2c9ac8103.setContent(html_e332d8bb604c13234fa2fcab403b25b2);
+            
+        
+
+        marker_f678bf1d491585383e16db49cab9904a.bindPopup(popup_8ee65a5eb34e44b46d33e9b2c9ac8103)
+        ;
+
+        
+    
+    
+            var marker_5bbf76f755bbf0824c7ca3a317e0dc56 = L.marker(
+                [41.0578, 28.81946],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_9e57631b794ba05f90ae431319dbfefd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5bbf76f755bbf0824c7ca3a317e0dc56.setIcon(icon_9e57631b794ba05f90ae431319dbfefd);
+        
+    
+        var popup_d7082a202ae99df6b9ed5f5e02f36fd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_927b95b3ae7a3129446ca8a10e21ca69 = $(`<div id="html_927b95b3ae7a3129446ca8a10e21ca69" style="width: 100.0%; height: 100.0%;">Address: Peyami Sefa Caddesi Mahmutbey Mahallesi Istanbul 34 TR 34218, <a href="https://www.google.com/maps/dir/41.0578,28.81946/" target="_blank">Link</a>, Cluster: 2, Store Type: Starbucks</div>`)[0];
+                popup_d7082a202ae99df6b9ed5f5e02f36fd8.setContent(html_927b95b3ae7a3129446ca8a10e21ca69);
+            
+        
+
+        marker_5bbf76f755bbf0824c7ca3a317e0dc56.bindPopup(popup_d7082a202ae99df6b9ed5f5e02f36fd8)
+        ;
+
+        
+    
+    
+            var marker_6769534febfd14403e2aef7e0314b59b = L.marker(
+                [41.0633, 28.84099],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_904e889466211e26d65e6d55547014d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6769534febfd14403e2aef7e0314b59b.setIcon(icon_904e889466211e26d65e6d55547014d1);
+        
+    
+        var popup_82b76f756e41c7a48b2d7e1e7c328f06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ceb9d1fe59fe36bd6316fb4985a0a6ee = $(`<div id="html_ceb9d1fe59fe36bd6316fb4985a0a6ee" style="width: 100.0%; height: 100.0%;">Address: Batisehir Cad. G3 blok D1 Bagcilar Istanbul 34 TR 0000, <a href="https://www.google.com/maps/dir/41.0633,28.84099/" target="_blank">Link</a>, Cluster: 2, Store Type: Starbucks</div>`)[0];
+                popup_82b76f756e41c7a48b2d7e1e7c328f06.setContent(html_ceb9d1fe59fe36bd6316fb4985a0a6ee);
+            
+        
+
+        marker_6769534febfd14403e2aef7e0314b59b.bindPopup(popup_82b76f756e41c7a48b2d7e1e7c328f06)
+        ;
+
+        
+    
+    
+            var marker_397b1198ad41de7ed51e1762f6928fd9 = L.marker(
+                [40.98076, 28.90357],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_b55ff25b69e07acd046b1e5b70d02a1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_397b1198ad41de7ed51e1762f6928fd9.setIcon(icon_b55ff25b69e07acd046b1e5b70d02a1a);
+        
+    
+        var popup_5bc908b12fc65ffc2c3c68324539b7c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22ad46aced4a1c609b33dcdf6c6960b0 = $(`<div id="html_22ad46aced4a1c609b33dcdf6c6960b0" style="width: 100.0%; height: 100.0%;">Address: Kazlicesme Mahallesi Kennedy Caddesi 62 1 C Blok Istanbul 34 TR 34020, <a href="https://www.google.com/maps/dir/40.98076,28.90357/" target="_blank">Link</a>, Cluster: 6, Store Type: Starbucks</div>`)[0];
+                popup_5bc908b12fc65ffc2c3c68324539b7c4.setContent(html_22ad46aced4a1c609b33dcdf6c6960b0);
+            
+        
+
+        marker_397b1198ad41de7ed51e1762f6928fd9.bindPopup(popup_5bc908b12fc65ffc2c3c68324539b7c4)
+        ;
+
+        
+    
+    
+            var marker_345a0d6fe7edc5b498abd5fe2c3620ed = L.marker(
+                [40.98278, 28.90567],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_588c6efbdb774f2fc7759975914562eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_345a0d6fe7edc5b498abd5fe2c3620ed.setIcon(icon_588c6efbdb774f2fc7759975914562eb);
+        
+    
+        var popup_b68fae3c1eb748b216fd79b18ce4cd98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4e3e94be893321b96bc43705e23ab2e = $(`<div id="html_a4e3e94be893321b96bc43705e23ab2e" style="width: 100.0%; height: 100.0%;">Address: Kennedy Caddesi Istanbul 34 TR 34020, <a href="https://www.google.com/maps/dir/40.98278,28.90567/" target="_blank">Link</a>, Cluster: 6, Store Type: Starbucks</div>`)[0];
+                popup_b68fae3c1eb748b216fd79b18ce4cd98.setContent(html_a4e3e94be893321b96bc43705e23ab2e);
+            
+        
+
+        marker_345a0d6fe7edc5b498abd5fe2c3620ed.bindPopup(popup_b68fae3c1eb748b216fd79b18ce4cd98)
+        ;
+
+        
+    
+    
+            var marker_5b7d71a3b8a0d866c9946e060ddf9bfb = L.marker(
+                [41.04661, 28.89766],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_7ef121ee43a6e41849c17512788cd41c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_5b7d71a3b8a0d866c9946e060ddf9bfb.setIcon(icon_7ef121ee43a6e41849c17512788cd41c);
+        
+    
+        var popup_9d1999dac8bffb6e8b6d694cb628e2a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38a8d8e8342eb7b52b22c06fad49f1f5 = $(`<div id="html_38a8d8e8342eb7b52b22c06fad49f1f5" style="width: 100.0%; height: 100.0%;">Address: Kocatepe Mah Sehir Parki Cad 12 Sok Istanbul - Avrupa 34 TR 34045, <a href="https://www.google.com/maps/dir/41.04661,28.89766/" target="_blank">Link</a>, Cluster: 6, Store Type: Starbucks</div>`)[0];
+                popup_9d1999dac8bffb6e8b6d694cb628e2a7.setContent(html_38a8d8e8342eb7b52b22c06fad49f1f5);
+            
+        
+
+        marker_5b7d71a3b8a0d866c9946e060ddf9bfb.bindPopup(popup_9d1999dac8bffb6e8b6d694cb628e2a7)
+        ;
+
+        
+    
+    
+            var marker_5a292a9cd3b7b5b53ea289456449ff90 = L.marker(
+                [41.04784, 28.89641],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_4e2f1a8fc388e89d382b130c3e4e0f7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_5a292a9cd3b7b5b53ea289456449ff90.setIcon(icon_4e2f1a8fc388e89d382b130c3e4e0f7b);
+        
+    
+        var popup_bb79172ce2655b9891a7526e1fd3ab1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fee9022ce66e5defc569aa438a1d410 = $(`<div id="html_4fee9022ce66e5defc569aa438a1d410" style="width: 100.0%; height: 100.0%;">Address: Pasa Caddesi No3 Kocatepe Mahallesi, Bayrampasa Istanbul 34 TR 34045, <a href="https://www.google.com/maps/dir/41.04784,28.89641/" target="_blank">Link</a>, Cluster: 6, Store Type: Starbucks</div>`)[0];
+                popup_bb79172ce2655b9891a7526e1fd3ab1c.setContent(html_4fee9022ce66e5defc569aa438a1d410);
+            
+        
+
+        marker_5a292a9cd3b7b5b53ea289456449ff90.bindPopup(popup_bb79172ce2655b9891a7526e1fd3ab1c)
+        ;
+
+        
+    
+    
+            var marker_189aa0f56fa0dd6e937b2822ccb66426 = L.marker(
+                [41.05289, 28.91026],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_70749335ad9687d51332d102d3dc9e91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_189aa0f56fa0dd6e937b2822ccb66426.setIcon(icon_70749335ad9687d51332d102d3dc9e91);
+        
+    
+        var popup_5e26f36ae768de2e3cfd246ac94cff5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48878553f49e245274c23e4458778b46 = $(`<div id="html_48878553f49e245274c23e4458778b46" style="width: 100.0%; height: 100.0%;">Address: Eski Edirne Asfalti Istanbul 34 TR 34055, <a href="https://www.google.com/maps/dir/41.05289,28.91026/" target="_blank">Link</a>, Cluster: 6, Store Type: Starbucks</div>`)[0];
+                popup_5e26f36ae768de2e3cfd246ac94cff5e.setContent(html_48878553f49e245274c23e4458778b46);
+            
+        
+
+        marker_189aa0f56fa0dd6e937b2822ccb66426.bindPopup(popup_5e26f36ae768de2e3cfd246ac94cff5e)
+        ;
+
+        
+    
+    
+            var marker_00b8d31c5423d19eb5672f2316be4e7f = L.marker(
+                [40.92089, 29.15744],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_e63ebfbe05565cdf00846ce84221db0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_00b8d31c5423d19eb5672f2316be4e7f.setIcon(icon_e63ebfbe05565cdf00846ce84221db0d);
+        
+    
+        var popup_6278b1c85d7e8f8264734ed42b219efd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68e0887376a9b3e913fad58a44fb1d38 = $(`<div id="html_68e0887376a9b3e913fad58a44fb1d38" style="width: 100.0%; height: 100.0%;">Address: Fatma Cavus Sokak Cevizli Maltepe Istanbul 34 TR 0000, <a href="https://www.google.com/maps/dir/40.92089,29.15744/" target="_blank">Link</a>, Cluster: 7, Store Type: Starbucks</div>`)[0];
+                popup_6278b1c85d7e8f8264734ed42b219efd.setContent(html_68e0887376a9b3e913fad58a44fb1d38);
+            
+        
+
+        marker_00b8d31c5423d19eb5672f2316be4e7f.bindPopup(popup_6278b1c85d7e8f8264734ed42b219efd)
+        ;
+
+        
+    
+    
+            var marker_781238a27f78d4f6c6010021354b7db6 = L.marker(
+                [40.91847, 29.17588],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_563b2be9691492701271840cbb6208ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_781238a27f78d4f6c6010021354b7db6.setIcon(icon_563b2be9691492701271840cbb6208ab);
+        
+    
+        var popup_008049b586db044ba18fa5413f7ab480 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb3d9283dc5c873559f3f13dbe75b65d = $(`<div id="html_cb3d9283dc5c873559f3f13dbe75b65d" style="width: 100.0%; height: 100.0%;">Address: Soganlk D-100 Kuzey Yanyol Cad. kartal Istanbul 34 TR 34865, <a href="https://www.google.com/maps/dir/40.91847,29.17588/" target="_blank">Link</a>, Cluster: 3, Store Type: Starbucks</div>`)[0];
+                popup_008049b586db044ba18fa5413f7ab480.setContent(html_cb3d9283dc5c873559f3f13dbe75b65d);
+            
+        
+
+        marker_781238a27f78d4f6c6010021354b7db6.bindPopup(popup_008049b586db044ba18fa5413f7ab480)
+        ;
+
+        
+    
+    
+            var marker_06efa1937fb600d9f336706b03925124 = L.marker(
+                [40.9445, 29.15922],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_c865f30a7e13a8905249f5b1c0318daf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_06efa1937fb600d9f336706b03925124.setIcon(icon_c865f30a7e13a8905249f5b1c0318daf);
+        
+    
+        var popup_e33d6877f8d9cf3007d3c411e3ef2476 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_470bfee04e63de548fd382e90375bcd9 = $(`<div id="html_470bfee04e63de548fd382e90375bcd9" style="width: 100.0%; height: 100.0%;">Address: Zumrutevler Mah Mevlana Halid Cad Nish Adalar Sitesi A44 Blok Istanbul 34 TR 34852, <a href="https://www.google.com/maps/dir/40.9445,29.15922/" target="_blank">Link</a>, Cluster: 7, Store Type: Starbucks</div>`)[0];
+                popup_e33d6877f8d9cf3007d3c411e3ef2476.setContent(html_470bfee04e63de548fd382e90375bcd9);
+            
+        
+
+        marker_06efa1937fb600d9f336706b03925124.bindPopup(popup_e33d6877f8d9cf3007d3c411e3ef2476)
+        ;
+
+        
+    
+    
+            var marker_62f0680d77a22aec25a8c38b66fc00f7 = L.marker(
+                [40.93163, 29.12734],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_cd065405d1c86e726c061b119915486c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_62f0680d77a22aec25a8c38b66fc00f7.setIcon(icon_cd065405d1c86e726c061b119915486c);
+        
+    
+        var popup_282f071f017781cbc28755bba6f5713f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45263f18a40265cf03bee4b74acbf54f = $(`<div id="html_45263f18a40265cf03bee4b74acbf54f" style="width: 100.0%; height: 100.0%;">Address: Bagdat Caddesi Istanbul 34 TR 34843, <a href="https://www.google.com/maps/dir/40.93163,29.12734/" target="_blank">Link</a>, Cluster: 7, Store Type: Starbucks</div>`)[0];
+                popup_282f071f017781cbc28755bba6f5713f.setContent(html_45263f18a40265cf03bee4b74acbf54f);
+            
+        
+
+        marker_62f0680d77a22aec25a8c38b66fc00f7.bindPopup(popup_282f071f017781cbc28755bba6f5713f)
+        ;
+
+        
+    
+    
+            var marker_091a7f875888fd334fc20b89a643e911 = L.marker(
+                [40.8941, 29.17258],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_ca9feea22739b97dc08eac1bd76e8d03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_091a7f875888fd334fc20b89a643e911.setIcon(icon_ca9feea22739b97dc08eac1bd76e8d03);
+        
+    
+        var popup_60631b19dc8fe15c552f7ab1e96445f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1f51293523f7eecf7fa5df84431fafd = $(`<div id="html_d1f51293523f7eecf7fa5df84431fafd" style="width: 100.0%; height: 100.0%;">Address: Kordonboyu Mah Cilek Sok 1 B16 Istanbul 34 TR 34860, <a href="https://www.google.com/maps/dir/40.8941,29.17258/" target="_blank">Link</a>, Cluster: 3, Store Type: Starbucks</div>`)[0];
+                popup_60631b19dc8fe15c552f7ab1e96445f6.setContent(html_d1f51293523f7eecf7fa5df84431fafd);
+            
+        
+
+        marker_091a7f875888fd334fc20b89a643e911.bindPopup(popup_60631b19dc8fe15c552f7ab1e96445f6)
+        ;
+
+        
+    
+    
+            var marker_7de6c4e36463da1cc90a14430896a338 = L.marker(
+                [40.94111, 29.11609],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_7b883c98ecd049759532c0c174e2e0ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_7de6c4e36463da1cc90a14430896a338.setIcon(icon_7b883c98ecd049759532c0c174e2e0ba);
+        
+    
+        var popup_07950e4d3033cb8d9a8589b5be7f2da7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7867605d724998999380edbd4903708e = $(`<div id="html_7867605d724998999380edbd4903708e" style="width: 100.0%; height: 100.0%;">Address: Bagdat Caddesi 215 B Istanbul 34 TR 34841, <a href="https://www.google.com/maps/dir/40.94111,29.11609/" target="_blank">Link</a>, Cluster: 7, Store Type: Starbucks</div>`)[0];
+                popup_07950e4d3033cb8d9a8589b5be7f2da7.setContent(html_7867605d724998999380edbd4903708e);
+            
+        
+
+        marker_7de6c4e36463da1cc90a14430896a338.bindPopup(popup_07950e4d3033cb8d9a8589b5be7f2da7)
+        ;
+
+        
+    
+    
+            var marker_cfb3ce5323aee4640555184d2e2a7b91 = L.marker(
+                [40.95271, 29.12168],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_b546038153dde0bf967bd41b692ae544 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_cfb3ce5323aee4640555184d2e2a7b91.setIcon(icon_b546038153dde0bf967bd41b692ae544);
+        
+    
+        var popup_c4a82790e6e3d842aacf413f7aae91c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb8574a0d5a7d19d274c4da73b4f6cca = $(`<div id="html_cb8574a0d5a7d19d274c4da73b4f6cca" style="width: 100.0%; height: 100.0%;">Address: Camlica Sitesi Yolu Sok. Kucukyali Istanbul 34 TR 34765, <a href="https://www.google.com/maps/dir/40.95271,29.12168/" target="_blank">Link</a>, Cluster: 7, Store Type: Starbucks</div>`)[0];
+                popup_c4a82790e6e3d842aacf413f7aae91c8.setContent(html_cb8574a0d5a7d19d274c4da73b4f6cca);
+            
+        
+
+        marker_cfb3ce5323aee4640555184d2e2a7b91.bindPopup(popup_c4a82790e6e3d842aacf413f7aae91c8)
+        ;
+
+        
+    
+    
+            var marker_54614157459df0b0b2e11a74c310b875 = L.marker(
+                [40.9313, 29.21399],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_dbee0eb855be6a3ca0bc4c75321610c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54614157459df0b0b2e11a74c310b875.setIcon(icon_dbee0eb855be6a3ca0bc4c75321610c8);
+        
+    
+        var popup_765dc642438db2d333d5d10fd5248175 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4929ff109c82d5ae38160f53cf4e1c03 = $(`<div id="html_4929ff109c82d5ae38160f53cf4e1c03" style="width: 100.0%; height: 100.0%;">Address: Seyh Samil Cad. Kartal Istanbul 34 TR 34882, <a href="https://www.google.com/maps/dir/40.9313,29.21399/" target="_blank">Link</a>, Cluster: 3, Store Type: Starbucks</div>`)[0];
+                popup_765dc642438db2d333d5d10fd5248175.setContent(html_4929ff109c82d5ae38160f53cf4e1c03);
+            
+        
+
+        marker_54614157459df0b0b2e11a74c310b875.bindPopup(popup_765dc642438db2d333d5d10fd5248175)
+        ;
+
+        
+    
+    
+            var marker_8b6edd367c07adf620574f4e711997a1 = L.marker(
+                [40.95292, 29.095],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_3564a1d299572efb1b04ebaaded33269 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8b6edd367c07adf620574f4e711997a1.setIcon(icon_3564a1d299572efb1b04ebaaded33269);
+        
+    
+        var popup_381f1f4864c131f8c6354153877547ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b407fb740a124bbe4041468ca677d434 = $(`<div id="html_b407fb740a124bbe4041468ca677d434" style="width: 100.0%; height: 100.0%;">Address: Iskele Cad No 4 D 4 Istanbul 34 TR 34710, <a href="https://www.google.com/maps/dir/40.95292,29.095/" target="_blank">Link</a>, Cluster: 7, Store Type: Starbucks</div>`)[0];
+                popup_381f1f4864c131f8c6354153877547ce.setContent(html_b407fb740a124bbe4041468ca677d434);
+            
+        
+
+        marker_8b6edd367c07adf620574f4e711997a1.bindPopup(popup_381f1f4864c131f8c6354153877547ce)
+        ;
+
+        
+    
+    
+            var marker_84193f64bc5e63e03152be244453d7b8 = L.marker(
+                [40.99015, 29.13988],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_40bbbfc634ee8f7b02c0189e9bb0aba5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_84193f64bc5e63e03152be244453d7b8.setIcon(icon_40bbbfc634ee8f7b02c0189e9bb0aba5);
+        
+    
+        var popup_72ddee2f32bcb011297032ebff316821 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1bb6c82f660024905ab362a5b2a954c = $(`<div id="html_f1bb6c82f660024905ab362a5b2a954c" style="width: 100.0%; height: 100.0%;">Address: Ataturk Mah. Gulibrisim Cad. Atasehir Kadikoy Istanbul 34 TR 00000, <a href="https://www.google.com/maps/dir/40.99015,29.13988/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_72ddee2f32bcb011297032ebff316821.setContent(html_f1bb6c82f660024905ab362a5b2a954c);
+            
+        
+
+        marker_84193f64bc5e63e03152be244453d7b8.bindPopup(popup_72ddee2f32bcb011297032ebff316821)
+        ;
+
+        
+    
+    
+            var marker_c644144c8419e0f0234c3878ca3d2d79 = L.marker(
+                [40.9912, 29.13627],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_63cfcaaee64b0ca24cea59906381ed8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c644144c8419e0f0234c3878ca3d2d79.setIcon(icon_63cfcaaee64b0ca24cea59906381ed8f);
+        
+    
+        var popup_50e88dec2f2629e8f691a5d382daa392 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3eca8d257c3bcf4c026937daaa13ad6 = $(`<div id="html_c3eca8d257c3bcf4c026937daaa13ad6" style="width: 100.0%; height: 100.0%;">Address: Ataturk Mah. Atasehir Bulv. 3 Cad. No:7 Istanbul 34 TR 34750, <a href="https://www.google.com/maps/dir/40.9912,29.13627/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_50e88dec2f2629e8f691a5d382daa392.setContent(html_c3eca8d257c3bcf4c026937daaa13ad6);
+            
+        
+
+        marker_c644144c8419e0f0234c3878ca3d2d79.bindPopup(popup_50e88dec2f2629e8f691a5d382daa392)
+        ;
+
+        
+    
+    
+            var marker_08d0ec287480062f42c7aacdfe2d42c6 = L.marker(
+                [40.9929, 29.12521],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_d3439825cd76c9de5382dfdfa49bd03d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_08d0ec287480062f42c7aacdfe2d42c6.setIcon(icon_d3439825cd76c9de5382dfdfa49bd03d);
+        
+    
+        var popup_1e38b267cf64d26060a8267ec10bc9ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7b93065bf14991c025407817c24c638 = $(`<div id="html_f7b93065bf14991c025407817c24c638" style="width: 100.0%; height: 100.0%;">Address: 41 Ada Atasehir Bulv Ata Carsi 4 1 Istanbul 34 TR 34398, <a href="https://www.google.com/maps/dir/40.9929,29.12521/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_1e38b267cf64d26060a8267ec10bc9ce.setContent(html_f7b93065bf14991c025407817c24c638);
+            
+        
+
+        marker_08d0ec287480062f42c7aacdfe2d42c6.bindPopup(popup_1e38b267cf64d26060a8267ec10bc9ce)
+        ;
+
+        
+    
+    
+            var marker_f4bf596b5ba79786609bd28b2cb201bb = L.marker(
+                [40.99729, 29.13999],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_2809087287b15d810e33459785128b84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f4bf596b5ba79786609bd28b2cb201bb.setIcon(icon_2809087287b15d810e33459785128b84);
+        
+    
+        var popup_3b7ad67c7c780c220a49f71c64f76347 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a4ab07fb3cc60c0dedb1d0996d38123 = $(`<div id="html_5a4ab07fb3cc60c0dedb1d0996d38123" style="width: 100.0%; height: 100.0%;">Address: Serifali Mah. Husrev Sok. Umraniye Istanbul 34 TR 34775, <a href="https://www.google.com/maps/dir/40.99729,29.13999/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_3b7ad67c7c780c220a49f71c64f76347.setContent(html_5a4ab07fb3cc60c0dedb1d0996d38123);
+            
+        
+
+        marker_f4bf596b5ba79786609bd28b2cb201bb.bindPopup(popup_3b7ad67c7c780c220a49f71c64f76347)
+        ;
+
+        
+    
+    
+            var marker_5f7ffea0f0da599e05bf23abb044d26c = L.marker(
+                [40.88948, 29.26406],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_61470b1271a3cdfa626edd0d6312a8a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5f7ffea0f0da599e05bf23abb044d26c.setIcon(icon_61470b1271a3cdfa626edd0d6312a8a3);
+        
+    
+        var popup_8d6cb92bab05b42c7d7afaafb7c1d0ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af35ca7ddaa93233bc3107ca857c4b0d = $(`<div id="html_af35ca7ddaa93233bc3107ca857c4b0d" style="width: 100.0%; height: 100.0%;">Address: Fevzi Cakmak Muhsin Yazicioglu Cd No1 34899 Pendik Istanbul Pendik/Istanbul 34 TR 34899, <a href="https://www.google.com/maps/dir/40.88948,29.26406/" target="_blank">Link</a>, Cluster: 3, Store Type: Starbucks</div>`)[0];
+                popup_8d6cb92bab05b42c7d7afaafb7c1d0ee.setContent(html_af35ca7ddaa93233bc3107ca857c4b0d);
+            
+        
+
+        marker_5f7ffea0f0da599e05bf23abb044d26c.bindPopup(popup_8d6cb92bab05b42c7d7afaafb7c1d0ee)
+        ;
+
+        
+    
+    
+            var marker_d3fe1eb6d70e345bcf415904e9a8e297 = L.marker(
+                [41.00884, 29.13531],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_a6eac80cb4bf7be7312b25045ab3eb01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d3fe1eb6d70e345bcf415904e9a8e297.setIcon(icon_a6eac80cb4bf7be7312b25045ab3eb01);
+        
+    
+        var popup_14a22595d831b8d4c021e0afdac780e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6e2d8b7264b1da0b3529f8ad0959c85 = $(`<div id="html_c6e2d8b7264b1da0b3529f8ad0959c85" style="width: 100.0%; height: 100.0%;">Address: Tatlisu Mahallesi Elalmis Caddesi No15 Umraniye Istanbul Istanbul - Umraniye 34 TR 34774, <a href="https://www.google.com/maps/dir/41.00884,29.13531/" target="_blank">Link</a>, Cluster: 4, Store Type: Starbucks</div>`)[0];
+                popup_14a22595d831b8d4c021e0afdac780e0.setContent(html_c6e2d8b7264b1da0b3529f8ad0959c85);
+            
+        
+
+        marker_d3fe1eb6d70e345bcf415904e9a8e297.bindPopup(popup_14a22595d831b8d4c021e0afdac780e0)
+        ;
+
+        
+    
+    
+            var marker_9e8907116d6a42759ed8db4bf4b6c705 = L.marker(
+                [40.89658, 29.27012],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_cd91c72980f0ada448691b94f0b0c2c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9e8907116d6a42759ed8db4bf4b6c705.setIcon(icon_cd91c72980f0ada448691b94f0b0c2c9);
+        
+    
+        var popup_a34fd8e6069fdb2dc23918726e6c3081 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db4c35b05896b5593c9482e336bc745e = $(`<div id="html_db4c35b05896b5593c9482e336bc745e" style="width: 100.0%; height: 100.0%;">Address: Sanayi Mh Istanbul 34 TR 34906, <a href="https://www.google.com/maps/dir/40.89658,29.27012/" target="_blank">Link</a>, Cluster: 3, Store Type: Starbucks</div>`)[0];
+                popup_a34fd8e6069fdb2dc23918726e6c3081.setContent(html_db4c35b05896b5593c9482e336bc745e);
+            
+        
+
+        marker_9e8907116d6a42759ed8db4bf4b6c705.bindPopup(popup_a34fd8e6069fdb2dc23918726e6c3081)
+        ;
+
+        
+    
+    
+            var marker_eeaf464158a4eff7eb5db08969287d47 = L.marker(
+                [40.97826396, 28.87404984],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_b46d1edec16adcd4d78d62fcdd8c1014 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eeaf464158a4eff7eb5db08969287d47.setIcon(icon_b46d1edec16adcd4d78d62fcdd8c1014);
+        
+    
+        var popup_a6002391dd7b1fa589d9fe56067f17d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_018f15a2a48eeee978fcbbf23c2569f0 = $(`<div id="html_018f15a2a48eeee978fcbbf23c2569f0" style="width: 100.0%; height: 100.0%;">Address: Ebu Ziya Cd. No:2 Bakırköy/İstanbul, <a href="https://www.google.com/maps/dir/40.97826396,28.87404984/" target="_blank">Link</a>, Cluster: 2, Store Type: McDonalds</div>`)[0];
+                popup_a6002391dd7b1fa589d9fe56067f17d4.setContent(html_018f15a2a48eeee978fcbbf23c2569f0);
+            
+        
+
+        marker_eeaf464158a4eff7eb5db08969287d47.bindPopup(popup_a6002391dd7b1fa589d9fe56067f17d4)
+        ;
+
+        
+    
+    
+            var marker_3c1aae51713217947fb5a8d0c505b74b = L.marker(
+                [41.00315697, 29.04408612],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_902dcd10530123109971d4bfe2477057 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3c1aae51713217947fb5a8d0c505b74b.setIcon(icon_902dcd10530123109971d4bfe2477057);
+        
+    
+        var popup_6c7604e22df1c8c8afb3324f2ab59956 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27c5cf6f190dd048122732d046e70328 = $(`<div id="html_27c5cf6f190dd048122732d046e70328" style="width: 100.0%; height: 100.0%;">Address: Acıbadem Cad. No:128 Kadıköy/İstanbul 81010, <a href="https://www.google.com/maps/dir/41.00315697,29.04408612/" target="_blank">Link</a>, Cluster: 1, Store Type: McDonalds</div>`)[0];
+                popup_6c7604e22df1c8c8afb3324f2ab59956.setContent(html_27c5cf6f190dd048122732d046e70328);
+            
+        
+
+        marker_3c1aae51713217947fb5a8d0c505b74b.bindPopup(popup_6c7604e22df1c8c8afb3324f2ab59956)
+        ;
+
+        
+    
+    
+            var marker_af422c95d04c144ba6d483dc9f81c23f = L.marker(
+                [40.98624, 28.790036],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_a8cc2e302d53d688ccdcb2d8fb6aabf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_af422c95d04c144ba6d483dc9f81c23f.setIcon(icon_a8cc2e302d53d688ccdcb2d8fb6aabf5);
+        
+    
+        var popup_9bceb6b70ce92aa7b0557162d1d91284 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5cf6fd85fad3d9005d9e2c8ef0aa039 = $(`<div id="html_b5cf6fd85fad3d9005d9e2c8ef0aa039" style="width: 100.0%; height: 100.0%;">Address: Şenlik Mah. Florya Çiftliği Sok. No:49 Florya/İstanbul 34153, <a href="https://www.google.com/maps/dir/40.98624,28.790036/" target="_blank">Link</a>, Cluster: 2, Store Type: McDonalds</div>`)[0];
+                popup_9bceb6b70ce92aa7b0557162d1d91284.setContent(html_b5cf6fd85fad3d9005d9e2c8ef0aa039);
+            
+        
+
+        marker_af422c95d04c144ba6d483dc9f81c23f.bindPopup(popup_9bceb6b70ce92aa7b0557162d1d91284)
+        ;
+
+        
+    
+    
+            var marker_4a0d8f4cf012a8ece90d927c276aa101 = L.marker(
+                [41.00433804, 28.89159912],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_ebc50b191a8cb689c933b4612ef242a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_4a0d8f4cf012a8ece90d927c276aa101.setIcon(icon_ebc50b191a8cb689c933b4612ef242a1);
+        
+    
+        var popup_59563a838ff2e12d2ecc58504cf8c25a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8a74b97b22a8fcf8eea1fb4ef9adec2 = $(`<div id="html_a8a74b97b22a8fcf8eea1fb4ef9adec2" style="width: 100.0%; height: 100.0%;">Address: Abdurrahman Nafiz Gürman Mah. Eski Londra Asfaltı Güngören/İstanbul, <a href="https://www.google.com/maps/dir/41.00433804,28.89159912/" target="_blank">Link</a>, Cluster: 6, Store Type: McDonalds</div>`)[0];
+                popup_59563a838ff2e12d2ecc58504cf8c25a.setContent(html_a8a74b97b22a8fcf8eea1fb4ef9adec2);
+            
+        
+
+        marker_4a0d8f4cf012a8ece90d927c276aa101.bindPopup(popup_59563a838ff2e12d2ecc58504cf8c25a)
+        ;
+
+        
+    
+    
+            var marker_667ed2f2421899af56223859a03a6303 = L.marker(
+                [40.92645303, 29.12400612],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_b34e833e6f2dd25340bcd4a8337a3383 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_667ed2f2421899af56223859a03a6303.setIcon(icon_b34e833e6f2dd25340bcd4a8337a3383);
+        
+    
+        var popup_39e755a6f18bdf739de67e5a3ba2f4d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_abaebfc3e0fa50d4fc4cbe1662df449f = $(`<div id="html_abaebfc3e0fa50d4fc4cbe1662df449f" style="width: 100.0%; height: 100.0%;">Address: Yalı Mah. Turgut Özal Bul. Yaylada AVM Maltepe/İstanbul 34893, <a href="https://www.google.com/maps/dir/40.92645303,29.12400612/" target="_blank">Link</a>, Cluster: 7, Store Type: McDonalds</div>`)[0];
+                popup_39e755a6f18bdf739de67e5a3ba2f4d8.setContent(html_abaebfc3e0fa50d4fc4cbe1662df449f);
+            
+        
+
+        marker_667ed2f2421899af56223859a03a6303.bindPopup(popup_39e755a6f18bdf739de67e5a3ba2f4d8)
+        ;
+
+        
+    
+    
+            var marker_883d2c6715317bb58701077d4352a039 = L.marker(
+                [40.99280796, 29.127924],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_a6a7ba6cef4a0deaeb001119fc048713 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_883d2c6715317bb58701077d4352a039.setIcon(icon_a6a7ba6cef4a0deaeb001119fc048713);
+        
+    
+        var popup_8722a3ef1de55495925330d415c4c68b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4075095b2e1a35f2475191089a6d37f1 = $(`<div id="html_4075095b2e1a35f2475191089a6d37f1" style="width: 100.0%; height: 100.0%;">Address: Turgut Özal Bulvarı 42 Ada C Blok Gardenya Çarşısı No:7 Ataşehir/İstanbul, <a href="https://www.google.com/maps/dir/40.99280796,29.127924/" target="_blank">Link</a>, Cluster: 4, Store Type: McDonalds</div>`)[0];
+                popup_8722a3ef1de55495925330d415c4c68b.setContent(html_4075095b2e1a35f2475191089a6d37f1);
+            
+        
+
+        marker_883d2c6715317bb58701077d4352a039.bindPopup(popup_8722a3ef1de55495925330d415c4c68b)
+        ;
+
+        
+    
+    
+            var marker_1f28eef7360d5bcf4748023c635b667c = L.marker(
+                [41.042867, 29.006245],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_7550fc9edbad58a1f432dddd9380c8be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1f28eef7360d5bcf4748023c635b667c.setIcon(icon_7550fc9edbad58a1f432dddd9380c8be);
+        
+    
+        var popup_9e8bc0dfd126221b85d2f5274e1b4ed1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef97cfdaf1b1ffb68af93b5a26993af8 = $(`<div id="html_ef97cfdaf1b1ffb68af93b5a26993af8" style="width: 100.0%; height: 100.0%;">Address: Sinanpaşa Mah. Has Fırın Cad. No:3/I Beşiktaş/İstanbul, <a href="https://www.google.com/maps/dir/41.042867,29.006245/" target="_blank">Link</a>, Cluster: 5, Store Type: McDonalds</div>`)[0];
+                popup_9e8bc0dfd126221b85d2f5274e1b4ed1.setContent(html_ef97cfdaf1b1ffb68af93b5a26993af8);
+            
+        
+
+        marker_1f28eef7360d5bcf4748023c635b667c.bindPopup(popup_9e8bc0dfd126221b85d2f5274e1b4ed1)
+        ;
+
+        
+    
+    
+            var marker_197213d05529e5a96c6c0077217baf49 = L.marker(
+                [41.0259712868, 29.0163518559],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_4469397305d56cfccb63fe945005ed9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_197213d05529e5a96c6c0077217baf49.setIcon(icon_4469397305d56cfccb63fe945005ed9a);
+        
+    
+        var popup_1a092f6b2b1bb4e676ab08b394697ebd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4802dea75cdc890fc3a9dc84c8326ef3 = $(`<div id="html_4802dea75cdc890fc3a9dc84c8326ef3" style="width: 100.0%; height: 100.0%;">Address: Selman-i Pak Cad. No:33 Üsküdar/İstanbul 81200, <a href="https://www.google.com/maps/dir/41.0259712868,29.0163518559/" target="_blank">Link</a>, Cluster: 1, Store Type: McDonalds</div>`)[0];
+                popup_1a092f6b2b1bb4e676ab08b394697ebd.setContent(html_4802dea75cdc890fc3a9dc84c8326ef3);
+            
+        
+
+        marker_197213d05529e5a96c6c0077217baf49.bindPopup(popup_1a092f6b2b1bb4e676ab08b394697ebd)
+        ;
+
+        
+    
+    
+            var marker_b32b042ea0722e8a649795074640c5b9 = L.marker(
+                [40.898094, 29.16485],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_f5f54ef6e346933bb0e7c4dbbbf6101f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b32b042ea0722e8a649795074640c5b9.setIcon(icon_f5f54ef6e346933bb0e7c4dbbbf6101f);
+        
+    
+        var popup_7a22ffba456f3773c144bc3a0fbb3eaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12391dc8794ae448373f8fb240ffdc1c = $(`<div id="html_12391dc8794ae448373f8fb240ffdc1c" style="width: 100.0%; height: 100.0%;">Address: Kordonboyu Mah.Turgut Özal Bulvarı No:33/3 Kartal/İstanbul, <a href="https://www.google.com/maps/dir/40.898094,29.16485/" target="_blank">Link</a>, Cluster: 3, Store Type: McDonalds</div>`)[0];
+                popup_7a22ffba456f3773c144bc3a0fbb3eaa.setContent(html_12391dc8794ae448373f8fb240ffdc1c);
+            
+        
+
+        marker_b32b042ea0722e8a649795074640c5b9.bindPopup(popup_7a22ffba456f3773c144bc3a0fbb3eaa)
+        ;
+
+        
+    
+    
+            var marker_5f8d8d5af7392ab6df2bac3b0314da48 = L.marker(
+                [41.02707501, 28.81274904],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_16205f1f58cb6c10ec552024711bc1fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5f8d8d5af7392ab6df2bac3b0314da48.setIcon(icon_16205f1f58cb6c10ec552024711bc1fd);
+        
+    
+        var popup_d592d5ec26ac0b3390930019757bbd6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a35ed3a7b00cdc196f11658ba8a0b33a = $(`<div id="html_a35ed3a7b00cdc196f11658ba8a0b33a" style="width: 100.0%; height: 100.0%;">Address: Evren Mah. Koçman Cad. No:56 Güneşli/İstanbul, <a href="https://www.google.com/maps/dir/41.02707501,28.81274904/" target="_blank">Link</a>, Cluster: 2, Store Type: McDonalds</div>`)[0];
+                popup_d592d5ec26ac0b3390930019757bbd6f.setContent(html_a35ed3a7b00cdc196f11658ba8a0b33a);
+            
+        
+
+        marker_5f8d8d5af7392ab6df2bac3b0314da48.bindPopup(popup_d592d5ec26ac0b3390930019757bbd6f)
+        ;
+
+        
+    
+    
+            var marker_ae1998abad9bed40f41c78691a5817eb = L.marker(
+                [41.034923, 28.980961],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_d097f8c814b87d8847125ba2a52d298e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ae1998abad9bed40f41c78691a5817eb.setIcon(icon_d097f8c814b87d8847125ba2a52d298e);
+        
+    
+        var popup_d91743ff2174efd4c6281314aac52282 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f93d7dc77762b9d9b0bd46d47a613609 = $(`<div id="html_f93d7dc77762b9d9b0bd46d47a613609" style="width: 100.0%; height: 100.0%;">Address: İstiklal Cad. No:93 Beyoğlu/İstanbul, <a href="https://www.google.com/maps/dir/41.034923,28.980961/" target="_blank">Link</a>, Cluster: 5, Store Type: McDonalds</div>`)[0];
+                popup_d91743ff2174efd4c6281314aac52282.setContent(html_f93d7dc77762b9d9b0bd46d47a613609);
+            
+        
+
+        marker_ae1998abad9bed40f41c78691a5817eb.bindPopup(popup_d91743ff2174efd4c6281314aac52282)
+        ;
+
+        
+    
+    
+            var marker_05cddbc12e4408fbbb9474b344b52b53 = L.marker(
+                [40.87689597, 29.23623612],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_f9c2b9648f9885193df2a988d8915b10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_05cddbc12e4408fbbb9474b344b52b53.setIcon(icon_f9c2b9648f9885193df2a988d8915b10);
+        
+    
+        var popup_3e1c5fd58b940735530b044a4bc670d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af7de610d8967aa6ebc9e36e0c814c30 = $(`<div id="html_af7de610d8967aa6ebc9e36e0c814c30" style="width: 100.0%; height: 100.0%;">Address: Doğu Mah. Erol Kaya Cad. No:138/B Pendik/İstanbul, <a href="https://www.google.com/maps/dir/40.87689597,29.23623612/" target="_blank">Link</a>, Cluster: 3, Store Type: McDonalds</div>`)[0];
+                popup_3e1c5fd58b940735530b044a4bc670d7.setContent(html_af7de610d8967aa6ebc9e36e0c814c30);
+            
+        
+
+        marker_05cddbc12e4408fbbb9474b344b52b53.bindPopup(popup_3e1c5fd58b940735530b044a4bc670d7)
+        ;
+
+        
+    
+    
+            var marker_6ca65b1737010650d926a524a02ca29f = L.marker(
+                [41.060659, 28.987875],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_3555dba2bb18ff4a7a30a391f5e8e9fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6ca65b1737010650d926a524a02ca29f.setIcon(icon_3555dba2bb18ff4a7a30a391f5e8e9fc);
+        
+    
+        var popup_0565fb10ac01769cae33856ee42a5a73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ad389dd504fc687c1a871e7baf4dd18 = $(`<div id="html_9ad389dd504fc687c1a871e7baf4dd18" style="width: 100.0%; height: 100.0%;">Address: Halaskargazi Cad. Terminus Palas No:366 Şişli/İstanbul, <a href="https://www.google.com/maps/dir/41.060659,28.987875/" target="_blank">Link</a>, Cluster: 5, Store Type: McDonalds</div>`)[0];
+                popup_0565fb10ac01769cae33856ee42a5a73.setContent(html_9ad389dd504fc687c1a871e7baf4dd18);
+            
+        
+
+        marker_6ca65b1737010650d926a524a02ca29f.bindPopup(popup_0565fb10ac01769cae33856ee42a5a73)
+        ;
+
+        
+    
+    
+            var marker_670fe69f68173331eb4c0166a58199af = L.marker(
+                [41.008107, 28.974072],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_3d624d7ef27a6165cc66e427121fa748 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_670fe69f68173331eb4c0166a58199af.setIcon(icon_3d624d7ef27a6165cc66e427121fa748);
+        
+    
+        var popup_2ffd37ffa9f6f721b44490f51eb8d691 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fbcf126222865842f0d254d4ade6bf2 = $(`<div id="html_5fbcf126222865842f0d254d4ade6bf2" style="width: 100.0%; height: 100.0%;">Address: 1001 Direk Mah. Divanyolu Cad. No:15 Sultanahmet/İstanbul, <a href="https://www.google.com/maps/dir/41.008107,28.974072/" target="_blank">Link</a>, Cluster: 6, Store Type: McDonalds</div>`)[0];
+                popup_2ffd37ffa9f6f721b44490f51eb8d691.setContent(html_5fbcf126222865842f0d254d4ade6bf2);
+            
+        
+
+        marker_670fe69f68173331eb4c0166a58199af.bindPopup(popup_2ffd37ffa9f6f721b44490f51eb8d691)
+        ;
+
+        
+    
+    
+            var marker_c425edfcce6d0a5f3fa016e6bd6f344c = L.marker(
+                [41.057586, 28.914364],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_fd694ad791d5b2978bb912221dbcb2ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_c425edfcce6d0a5f3fa016e6bd6f344c.setIcon(icon_fd694ad791d5b2978bb912221dbcb2ed);
+        
+    
+        var popup_2176c67d57fd8504f7988d4268c2f87f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_281e9622249c05b77ae1e6686bf2f19d = $(`<div id="html_281e9622249c05b77ae1e6686bf2f19d" style="width: 100.0%; height: 100.0%;">Address: Gaziosmanpaşa Merkez Mah. Cumhuriyet Meydanı 20-12 Gazisomanpaşa/İstanbul, <a href="https://www.google.com/maps/dir/41.057586,28.914364/" target="_blank">Link</a>, Cluster: 6, Store Type: McDonalds</div>`)[0];
+                popup_2176c67d57fd8504f7988d4268c2f87f.setContent(html_281e9622249c05b77ae1e6686bf2f19d);
+            
+        
+
+        marker_c425edfcce6d0a5f3fa016e6bd6f344c.bindPopup(popup_2176c67d57fd8504f7988d4268c2f87f)
+        ;
+
+        
+    
+    
+            var marker_22db2ead3bb06fd5ed270e2388ee1619 = L.marker(
+                [40.95209, 29.101223],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_994b2e2e3c2fcac6ae92597f7d6585ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_22db2ead3bb06fd5ed270e2388ee1619.setIcon(icon_994b2e2e3c2fcac6ae92597f7d6585ce);
+        
+    
+        var popup_647a4965b5e4e2bc0fc9c2a6dde7ff4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cd3f10e01d069574c812b689522b059 = $(`<div id="html_6cd3f10e01d069574c812b689522b059" style="width: 100.0%; height: 100.0%;">Address: Altıntepe Mah. Bağdat Cad.No:52/1  Maltepe/İstanbul, <a href="https://www.google.com/maps/dir/40.95209,29.101223/" target="_blank">Link</a>, Cluster: 7, Store Type: McDonalds</div>`)[0];
+                popup_647a4965b5e4e2bc0fc9c2a6dde7ff4e.setContent(html_6cd3f10e01d069574c812b689522b059);
+            
+        
+
+        marker_22db2ead3bb06fd5ed270e2388ee1619.bindPopup(popup_647a4965b5e4e2bc0fc9c2a6dde7ff4e)
+        ;
+
+        
+    
+    
+            var marker_2694696e68faa58f5fd885faa2b845cb = L.marker(
+                [41.015953, 29.075643],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_c63066d3796d64a79c691aa3a236173b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2694696e68faa58f5fd885faa2b845cb.setIcon(icon_c63066d3796d64a79c691aa3a236173b);
+        
+    
+        var popup_7fbae20396ff5d1fd0ff1b8db84f4039 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e90186c8f5241c2cba36f226f2f28ad3 = $(`<div id="html_e90186c8f5241c2cba36f226f2f28ad3" style="width: 100.0%; height: 100.0%;">Address: Bulgurlu Mah. Libadiye Cad. Ünlü Sok. No:7 Ümraniye/İstanbul 34760, <a href="https://www.google.com/maps/dir/41.015953,29.075643/" target="_blank">Link</a>, Cluster: 1, Store Type: McDonalds</div>`)[0];
+                popup_7fbae20396ff5d1fd0ff1b8db84f4039.setContent(html_e90186c8f5241c2cba36f226f2f28ad3);
+            
+        
+
+        marker_2694696e68faa58f5fd885faa2b845cb.bindPopup(popup_7fbae20396ff5d1fd0ff1b8db84f4039)
+        ;
+
+        
+    
+    
+            var marker_441554ed1a859fcca005b06d8c167fb5 = L.marker(
+                [40.988758, 29.023041],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_7d87326d3f7cdeb0acfbc7f974e63377 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_441554ed1a859fcca005b06d8c167fb5.setIcon(icon_7d87326d3f7cdeb0acfbc7f974e63377);
+        
+    
+        var popup_eb471fe8ace0702e2cdb85bf6513f848 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c01581fafa2d020f083b0b3375dadffc = $(`<div id="html_c01581fafa2d020f083b0b3375dadffc" style="width: 100.0%; height: 100.0%;">Address: Caferağa Mah. Mühürdar Cad. No:29-31 Kadıköy/İstanbul, <a href="https://www.google.com/maps/dir/40.988758,29.023041/" target="_blank">Link</a>, Cluster: 1, Store Type: McDonalds</div>`)[0];
+                popup_eb471fe8ace0702e2cdb85bf6513f848.setContent(html_c01581fafa2d020f083b0b3375dadffc);
+            
+        
+
+        marker_441554ed1a859fcca005b06d8c167fb5.bindPopup(popup_eb471fe8ace0702e2cdb85bf6513f848)
+        ;
+
+        
+    
+    
+            var marker_8ef8845c3083b5600790bd840761d063 = L.marker(
+                [41.015285, 28.932691],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_0115bcf24e443ea90093ae365528c06d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_8ef8845c3083b5600790bd840761d063.setIcon(icon_0115bcf24e443ea90093ae365528c06d);
+        
+    
+        var popup_5a6831032808dc6224af4a57e86af949 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21bcf48f883322f21fb9a6f8f3bcf173 = $(`<div id="html_21bcf48f883322f21fb9a6f8f3bcf173" style="width: 100.0%; height: 100.0%;">Address: Deniz Abdal Mah. Millet Cad. No:131/1  Fatih/İstanbul, <a href="https://www.google.com/maps/dir/41.015285,28.932691/" target="_blank">Link</a>, Cluster: 6, Store Type: McDonalds</div>`)[0];
+                popup_5a6831032808dc6224af4a57e86af949.setContent(html_21bcf48f883322f21fb9a6f8f3bcf173);
+            
+        
+
+        marker_8ef8845c3083b5600790bd840761d063.bindPopup(popup_5a6831032808dc6224af4a57e86af949)
+        ;
+
+        
+    
+    
+            var marker_7cb8f8b9da398ca73c16a1a12623ea14 = L.marker(
+                [40.997444, 29.140189],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_cee501604e9499c6b92e2feca7d7d64d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7cb8f8b9da398ca73c16a1a12623ea14.setIcon(icon_cee501604e9499c6b92e2feca7d7d64d);
+        
+    
+        var popup_45addc0a4a0ec8264871110f186397c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25342698ecd01f84da81a53e65aae351 = $(`<div id="html_25342698ecd01f84da81a53e65aae351" style="width: 100.0%; height: 100.0%;">Address: Şerifali Mah. Hüsrev Sok. No:5 Ümraniye/İstanbul, <a href="https://www.google.com/maps/dir/40.997444,29.140189/" target="_blank">Link</a>, Cluster: 4, Store Type: McDonalds</div>`)[0];
+                popup_45addc0a4a0ec8264871110f186397c7.setContent(html_25342698ecd01f84da81a53e65aae351);
+            
+        
+
+        marker_7cb8f8b9da398ca73c16a1a12623ea14.bindPopup(popup_45addc0a4a0ec8264871110f186397c7)
+        ;
+
+        
+    
+    
+            var marker_d29f0bbc042327f36e412fb7ce428b70 = L.marker(
+                [40.9524997, 29.0909804],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_3bdd0f005f34133c2760212abd44ce67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d29f0bbc042327f36e412fb7ce428b70.setIcon(icon_3bdd0f005f34133c2760212abd44ce67);
+        
+    
+        var popup_3cc5713cf5533095cef3e48916953dff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b26b6131400cef7066d5aef3304cb006 = $(`<div id="html_b26b6131400cef7066d5aef3304cb006" style="width: 100.0%; height: 100.0%;">Address: Çetin Emeç Cad. Bostancı İdo İskelesi Yanı  Kadıköy/İstanbul, <a href="https://www.google.com/maps/dir/40.9524997,29.0909804/" target="_blank">Link</a>, Cluster: 7, Store Type: McDonalds</div>`)[0];
+                popup_3cc5713cf5533095cef3e48916953dff.setContent(html_b26b6131400cef7066d5aef3304cb006);
+            
+        
+
+        marker_d29f0bbc042327f36e412fb7ce428b70.bindPopup(popup_3cc5713cf5533095cef3e48916953dff)
+        ;
+
+        
+    
+    
+            var marker_caa59a05b1dd7644059f3e6c1ab0b108 = L.marker(
+                [41.038218, 28.985804],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_28d364d124657a4afda2a32ff81cfb12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_caa59a05b1dd7644059f3e6c1ab0b108.setIcon(icon_28d364d124657a4afda2a32ff81cfb12);
+        
+    
+        var popup_d912480e9c7cec7d82618231ddd8b367 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b5b3544cd3533171ce2d746fe363139 = $(`<div id="html_7b5b3544cd3533171ce2d746fe363139" style="width: 100.0%; height: 100.0%;">Address: Gümüşsuyu Mah. Osmanlı Sokak No:2 Bodrum Kat Beyoğlu/İstanbul, <a href="https://www.google.com/maps/dir/41.038218,28.985804/" target="_blank">Link</a>, Cluster: 5, Store Type: McDonalds</div>`)[0];
+                popup_d912480e9c7cec7d82618231ddd8b367.setContent(html_7b5b3544cd3533171ce2d746fe363139);
+            
+        
+
+        marker_caa59a05b1dd7644059f3e6c1ab0b108.bindPopup(popup_d912480e9c7cec7d82618231ddd8b367)
+        ;
+
+        
+    
+    
+            var marker_3fcc14089f8c92125c616815986093a6 = L.marker(
+                [41.064571, 28.97139],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_a0cd0ebc2c3803590b34c19c9e6c7f5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3fcc14089f8c92125c616815986093a6.setIcon(icon_a0cd0ebc2c3803590b34c19c9e6c7f5d);
+        
+    
+        var popup_85cddd1417ee8c2f1b02c27987ded421 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a675cf1e8960704ce8fbdabf152d585 = $(`<div id="html_0a675cf1e8960704ce8fbdabf152d585" style="width: 100.0%; height: 100.0%;">Address: Kaptanpaşa Mah. H.Ziya Türkkan Sok. No:10-12   A-Blok Dükkan No:1 Okmeydanı/Şişli/İstanbul, <a href="https://www.google.com/maps/dir/41.064571,28.97139/" target="_blank">Link</a>, Cluster: 5, Store Type: McDonalds</div>`)[0];
+                popup_85cddd1417ee8c2f1b02c27987ded421.setContent(html_0a675cf1e8960704ce8fbdabf152d585);
+            
+        
+
+        marker_3fcc14089f8c92125c616815986093a6.bindPopup(popup_85cddd1417ee8c2f1b02c27987ded421)
+        ;
+
+        
+    
+    
+            var marker_8a913f681bff622dc6056a5e43b55fa1 = L.marker(
+                [41.0028270362, 28.9570176349],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_36be9690259be491c096fd583a749fe0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_8a913f681bff622dc6056a5e43b55fa1.setIcon(icon_36be9690259be491c096fd583a749fe0);
+        
+    
+        var popup_03e882a5ec4e2b195888bec8b52b8bbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f12ffc8b46d5a2856ebeb2c0094c0155 = $(`<div id="html_f12ffc8b46d5a2856ebeb2c0094c0155" style="width: 100.0%; height: 100.0%;">Address: Kennedy Cad. Yenikapı Hızlı Feribot İskelesi 34480 Fatih/İstanbul, <a href="https://www.google.com/maps/dir/41.0028270362,28.9570176349/" target="_blank">Link</a>, Cluster: 6, Store Type: McDonalds</div>`)[0];
+                popup_03e882a5ec4e2b195888bec8b52b8bbd.setContent(html_f12ffc8b46d5a2856ebeb2c0094c0155);
+            
+        
+
+        marker_8a913f681bff622dc6056a5e43b55fa1.bindPopup(popup_03e882a5ec4e2b195888bec8b52b8bbd)
+        ;
+
+        
+    
+    
+            var marker_2edac2b0b9583b84b95caaf51ee64475 = L.marker(
+                [40.939831, 29.133022],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_c44e87b9d0c30c9d4d9d0ca934c2351c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_2edac2b0b9583b84b95caaf51ee64475.setIcon(icon_c44e87b9d0c30c9d4d9d0ca934c2351c);
+        
+    
+        var popup_9326100248dc8460177603598fc95fb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e865cc09b7ce9ce3517f68f93dc8f679 = $(`<div id="html_e865cc09b7ce9ce3517f68f93dc8f679" style="width: 100.0%; height: 100.0%;">Address: Altayçeşme Mah. Çam Sk. No:29 Maltepe/İstanbul 34843, <a href="https://www.google.com/maps/dir/40.939831,29.133022/" target="_blank">Link</a>, Cluster: 7, Store Type: McDonalds</div>`)[0];
+                popup_9326100248dc8460177603598fc95fb1.setContent(html_e865cc09b7ce9ce3517f68f93dc8f679);
+            
+        
+
+        marker_2edac2b0b9583b84b95caaf51ee64475.bindPopup(popup_9326100248dc8460177603598fc95fb1)
+        ;
+
+        
+    
+    
+            var marker_c041f8ddb280f9716ed7e57cfda1a0aa = L.marker(
+                [41.033478, 28.855726],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_b79f56b302f5ee1bfe2a63916c8d72a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c041f8ddb280f9716ed7e57cfda1a0aa.setIcon(icon_b79f56b302f5ee1bfe2a63916c8d72a0);
+        
+    
+        var popup_4c73d2a0755654bb3e06f602e190c797 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9bce42d9a8d6e6f3e53ae24761a3bd0 = $(`<div id="html_d9bce42d9a8d6e6f3e53ae24761a3bd0" style="width: 100.0%; height: 100.0%;">Address: Hoca Ahmet Yesevi Cad. Köyiçi Mevkii No:3 Bağımsız Bölüm No:14-15 34200 Bağcılar/İstanbul, <a href="https://www.google.com/maps/dir/41.033478,28.855726/" target="_blank">Link</a>, Cluster: 2, Store Type: McDonalds</div>`)[0];
+                popup_4c73d2a0755654bb3e06f602e190c797.setContent(html_d9bce42d9a8d6e6f3e53ae24761a3bd0);
+            
+        
+
+        marker_c041f8ddb280f9716ed7e57cfda1a0aa.bindPopup(popup_4c73d2a0755654bb3e06f602e190c797)
+        ;
+
+        
+    
+    
+            var marker_917064268685d38aca15c1c809309d6f = L.marker(
+                [40.975819, 29.098044],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_0de0f5f47aa3ffbe3408eac94aee8422 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_917064268685d38aca15c1c809309d6f.setIcon(icon_0de0f5f47aa3ffbe3408eac94aee8422);
+        
+    
+        var popup_df38395d09a834c9567f6f896664bb2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21c8e3611d026704df887203eee8008c = $(`<div id="html_21c8e3611d026704df887203eee8008c" style="width: 100.0%; height: 100.0%;">Address: Kozyatağı Mah. Saniye Ermutlu Sok. Çolakoğlu İş Merkezi B Blok No:121/1 Kozyatağı/Kadıköy/İstanbul, <a href="https://www.google.com/maps/dir/40.975819,29.098044/" target="_blank">Link</a>, Cluster: 4, Store Type: McDonalds</div>`)[0];
+                popup_df38395d09a834c9567f6f896664bb2f.setContent(html_21c8e3611d026704df887203eee8008c);
+            
+        
+
+        marker_917064268685d38aca15c1c809309d6f.bindPopup(popup_df38395d09a834c9567f6f896664bb2f)
+        ;
+
+        
+    
+    
+            var marker_d9a215dc287c0a18d42ca511a8f44dfc = L.marker(
+                [40.914874, 29.202201],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_5795c95aaca5e3e4cc725c46bc8ea8dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d9a215dc287c0a18d42ca511a8f44dfc.setIcon(icon_5795c95aaca5e3e4cc725c46bc8ea8dc);
+        
+    
+        var popup_1c4605782912b11c943052003b2eb9f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_603a590ab6a94ac756cbf148fbc704ec = $(`<div id="html_603a590ab6a94ac756cbf148fbc704ec" style="width: 100.0%; height: 100.0%;">Address: Soğanlık Mah. Atatürk Cad. Tiryaki Hasan Paşa Sok. No:2/2 Kartal/İstanbul, <a href="https://www.google.com/maps/dir/40.914874,29.202201/" target="_blank">Link</a>, Cluster: 3, Store Type: McDonalds</div>`)[0];
+                popup_1c4605782912b11c943052003b2eb9f8.setContent(html_603a590ab6a94ac756cbf148fbc704ec);
+            
+        
+
+        marker_d9a215dc287c0a18d42ca511a8f44dfc.bindPopup(popup_1c4605782912b11c943052003b2eb9f8)
+        ;
+
+        
+    
+    
+            var marker_b7846611c360d5eea23ce5df223e9de2 = L.marker(
+                [40.983118982, 29.0404811945],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_19fa896d239d27f61f889c4ffbb83fca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b7846611c360d5eea23ce5df223e9de2.setIcon(icon_19fa896d239d27f61f889c4ffbb83fca);
+        
+    
+        var popup_8c41d6cfb8d9d3bb0a3c2ad5bb8f84ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63d0422be03ea4d3e05af2f0139c095e = $(`<div id="html_63d0422be03ea4d3e05af2f0139c095e" style="width: 100.0%; height: 100.0%;">Address: Feneryolu Mah. Bağdat Cad. Karel İşhanı No:43 Kadıköy/İstanbul, <a href="https://www.google.com/maps/dir/40.983118982,29.0404811945/" target="_blank">Link</a>, Cluster: 1, Store Type: McDonalds</div>`)[0];
+                popup_8c41d6cfb8d9d3bb0a3c2ad5bb8f84ed.setContent(html_63d0422be03ea4d3e05af2f0139c095e);
+            
+        
+
+        marker_b7846611c360d5eea23ce5df223e9de2.bindPopup(popup_8c41d6cfb8d9d3bb0a3c2ad5bb8f84ed)
+        ;
+
+        
+    
+    
+            var marker_e444439f89a06cd56821d20704c75e33 = L.marker(
+                [40.991614, 28.903787],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_64961de896b75ffc383e6886ea155337 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_e444439f89a06cd56821d20704c75e33.setIcon(icon_64961de896b75ffc383e6886ea155337);
+        
+    
+        var popup_59c22cadb70768d16bdb58467eb68f00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_920dc685eecc0eb38bf3d99bbaf7b202 = $(`<div id="html_920dc685eecc0eb38bf3d99bbaf7b202" style="width: 100.0%; height: 100.0%;">Address: Gökalp Mah. 58.Bulvar Cad. No:54 P.K.34020   Zeytinburnu/İstanbul, <a href="https://www.google.com/maps/dir/40.991614,28.903787/" target="_blank">Link</a>, Cluster: 6, Store Type: McDonalds</div>`)[0];
+                popup_59c22cadb70768d16bdb58467eb68f00.setContent(html_920dc685eecc0eb38bf3d99bbaf7b202);
+            
+        
+
+        marker_e444439f89a06cd56821d20704c75e33.bindPopup(popup_59c22cadb70768d16bdb58467eb68f00)
+        ;
+
+        
+    
+    
+            var marker_0d93efbe9dd334f30cc5925f494a13f5 = L.marker(
+                [40.888498, 29.18761],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_dfbf86ad1e443b3859db4aa839ddea02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0d93efbe9dd334f30cc5925f494a13f5.setIcon(icon_dfbf86ad1e443b3859db4aa839ddea02);
+        
+    
+        var popup_1f80960f719fd72763abe18016081773 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5da855ca0cf9e50b6b6da023dcecadbb = $(`<div id="html_5da855ca0cf9e50b6b6da023dcecadbb" style="width: 100.0%; height: 100.0%;">Address: Kordonboyu Mah. Ankara Cad. No:48 Kartal/İstanbul, <a href="https://www.google.com/maps/dir/40.888498,29.18761/" target="_blank">Link</a>, Cluster: 3, Store Type: McDonalds</div>`)[0];
+                popup_1f80960f719fd72763abe18016081773.setContent(html_5da855ca0cf9e50b6b6da023dcecadbb);
+            
+        
+
+        marker_0d93efbe9dd334f30cc5925f494a13f5.bindPopup(popup_1f80960f719fd72763abe18016081773)
+        ;
+
+        
+    
+    
+            var marker_d8f3f781b9e0fc1d9af1e4861ee6eda7 = L.marker(
+                [41.065033, 28.987189],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_4e24fdfd0bf62bebd37b963ea2a80a6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d8f3f781b9e0fc1d9af1e4861ee6eda7.setIcon(icon_4e24fdfd0bf62bebd37b963ea2a80a6f);
+        
+    
+        var popup_4c04ecc9a79f5800936a6943a2cc52d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31cc5b61fe19976593ca4619e4208af7 = $(`<div id="html_31cc5b61fe19976593ca4619e4208af7" style="width: 100.0%; height: 100.0%;">Address: Merkez Mah. Abide-İ Hürriyet Cad. No:211 Blockout   Şişli/İstanbul, <a href="https://www.google.com/maps/dir/41.065033,28.987189/" target="_blank">Link</a>, Cluster: 5, Store Type: McDonalds</div>`)[0];
+                popup_4c04ecc9a79f5800936a6943a2cc52d7.setContent(html_31cc5b61fe19976593ca4619e4208af7);
+            
+        
+
+        marker_d8f3f781b9e0fc1d9af1e4861ee6eda7.bindPopup(popup_4c04ecc9a79f5800936a6943a2cc52d7)
+        ;
+
+        
+    
+    
+            var marker_ad19afeed10af4a89df31c69175095d3 = L.marker(
+                [41.007972716, 28.9531247809],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_dca3a84ffcb3e89f409402f901f61d11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_ad19afeed10af4a89df31c69175095d3.setIcon(icon_dca3a84ffcb3e89f409402f901f61d11);
+        
+    
+        var popup_d91a768135e2c75d56f8ade716738bca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b33777d151c094a01d4d38ea860f362 = $(`<div id="html_2b33777d151c094a01d4d38ea860f362" style="width: 100.0%; height: 100.0%;">Address: Aksaray Mah. Gazi Mustafa Kemalpaşa Cad. No:29/B Fatih/İstanbul, <a href="https://www.google.com/maps/dir/41.007972716,28.9531247809/" target="_blank">Link</a>, Cluster: 6, Store Type: McDonalds</div>`)[0];
+                popup_d91a768135e2c75d56f8ade716738bca.setContent(html_2b33777d151c094a01d4d38ea860f362);
+            
+        
+
+        marker_ad19afeed10af4a89df31c69175095d3.bindPopup(popup_d91a768135e2c75d56f8ade716738bca)
+        ;
+
+        
+    
+    
+            var marker_ccc2be4354ca0db415c577c09bec814a = L.marker(
+                [40.980749, 29.071533],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_23c078ac9dd4b48450a6a31349c29fc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ccc2be4354ca0db415c577c09bec814a.setIcon(icon_23c078ac9dd4b48450a6a31349c29fc2);
+        
+    
+        var popup_8f9a889f4b5e71cf8f052838ac3410a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4caacb1152dac208a344e43212aa70b5 = $(`<div id="html_4caacb1152dac208a344e43212aa70b5" style="width: 100.0%; height: 100.0%;">Address: Göztepe Mah. Fahrettin Kerim Gökay Cad. Sedat Bey Apt. No:242/32 Kadıköy/İstanbul, <a href="https://www.google.com/maps/dir/40.980749,29.071533/" target="_blank">Link</a>, Cluster: 1, Store Type: McDonalds</div>`)[0];
+                popup_8f9a889f4b5e71cf8f052838ac3410a7.setContent(html_4caacb1152dac208a344e43212aa70b5);
+            
+        
+
+        marker_ccc2be4354ca0db415c577c09bec814a.bindPopup(popup_8f9a889f4b5e71cf8f052838ac3410a7)
+        ;
+
+        
+    
+    
+            var marker_abe82e17a0c59ceb7a7f3e0cbede6d9d = L.marker(
+                [40.9639305248, 29.0655840116],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_2d8f5df14c05938d281dc5bd3a817860 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_abe82e17a0c59ceb7a7f3e0cbede6d9d.setIcon(icon_2d8f5df14c05938d281dc5bd3a817860);
+        
+    
+        var popup_fefa49cc4637fa87b26802a2af10a05c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_568ff1b0bbb2f4c7c20383ed162c9e9f = $(`<div id="html_568ff1b0bbb2f4c7c20383ed162c9e9f" style="width: 100.0%; height: 100.0%;">Address: Caddebostan Mah. İskele Sok. No:25A Kadıköy/İstanbul, <a href="https://www.google.com/maps/dir/40.9639305248,29.0655840116/" target="_blank">Link</a>, Cluster: 1, Store Type: McDonalds</div>`)[0];
+                popup_fefa49cc4637fa87b26802a2af10a05c.setContent(html_568ff1b0bbb2f4c7c20383ed162c9e9f);
+            
+        
+
+        marker_abe82e17a0c59ceb7a7f3e0cbede6d9d.bindPopup(popup_fefa49cc4637fa87b26802a2af10a05c)
+        ;
+
+        
+    
+    
+            var marker_e06f466d57d7b027021ba3754c54842d = L.marker(
+                [40.9839474, 29.0877613],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_84cbf149471af8b43f5ca7df8b3bf972 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e06f466d57d7b027021ba3754c54842d.setIcon(icon_84cbf149471af8b43f5ca7df8b3bf972);
+        
+    
+        var popup_fa0545d4848c3136a92eaf9047a54933 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0ecd0c5c86daac27ede34ce606f2306 = $(`<div id="html_e0ecd0c5c86daac27ede34ce606f2306" style="width: 100.0%; height: 100.0%;">Address: Sahrayıcedit Mah. Halk Sok. No:39/A  Kadıköy/İstanbul, <a href="https://www.google.com/maps/dir/40.9839474,29.0877613/" target="_blank">Link</a>, Cluster: 4, Store Type: McDonalds</div>`)[0];
+                popup_fa0545d4848c3136a92eaf9047a54933.setContent(html_e0ecd0c5c86daac27ede34ce606f2306);
+            
+        
+
+        marker_e06f466d57d7b027021ba3754c54842d.bindPopup(popup_fa0545d4848c3136a92eaf9047a54933)
+        ;
+
+        
+    
+    
+            var marker_30c3b764e544461aae2442e974e4938b = L.marker(
+                [41.051222, 28.9874006],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_087bf7886035a75ef5ceb43e02aae86e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_30c3b764e544461aae2442e974e4938b.setIcon(icon_087bf7886035a75ef5ceb43e02aae86e);
+        
+    
+        var popup_9c1b24f891577fcd3bccf1bab2a1fd72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9c016cd8bf42638c828276933d71fac = $(`<div id="html_b9c016cd8bf42638c828276933d71fac" style="width: 100.0%; height: 100.0%;">Address: Ergenekon Mah. Halaskargazi Cad. No:63/C Şişli/İstanbul, <a href="https://www.google.com/maps/dir/41.051222,28.9874006/" target="_blank">Link</a>, Cluster: 5, Store Type: McDonalds</div>`)[0];
+                popup_9c1b24f891577fcd3bccf1bab2a1fd72.setContent(html_b9c016cd8bf42638c828276933d71fac);
+            
+        
+
+        marker_30c3b764e544461aae2442e974e4938b.bindPopup(popup_9c1b24f891577fcd3bccf1bab2a1fd72)
+        ;
+
+        
+    
+    
+            var marker_3fd13238988dd66a5cecbf57405bc34d = L.marker(
+                [40.9658919, 29.0875981],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_6b9ca03291dac09aff5a0dce39e3c955 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3fd13238988dd66a5cecbf57405bc34d.setIcon(icon_6b9ca03291dac09aff5a0dce39e3c955);
+        
+    
+        var popup_09bf2e8f21643904faefedb46c3183a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcb7528ae93889d4cb7874f29ebe5b2d = $(`<div id="html_dcb7528ae93889d4cb7874f29ebe5b2d" style="width: 100.0%; height: 100.0%;">Address: Kozyatağı Mah. Şemsettin Günaltay Cad.. No:108/A  Kadıköy/İstanbul, <a href="https://www.google.com/maps/dir/40.9658919,29.0875981/" target="_blank">Link</a>, Cluster: 7, Store Type: McDonalds</div>`)[0];
+                popup_09bf2e8f21643904faefedb46c3183a2.setContent(html_dcb7528ae93889d4cb7874f29ebe5b2d);
+            
+        
+
+        marker_3fd13238988dd66a5cecbf57405bc34d.bindPopup(popup_09bf2e8f21643904faefedb46c3183a2)
+        ;
+
+        
+    
+    
+            var marker_cf9cf2c13aa86d6e3937f7e391239a52 = L.marker(
+                [40.9117878388, 29.1959064979],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_085ef87a99ed92c815b859733135104d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cf9cf2c13aa86d6e3937f7e391239a52.setIcon(icon_085ef87a99ed92c815b859733135104d);
+        
+    
+        var popup_ae342b1bfda3039881d0804b49a78d22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff3e646f2b9f8929225f69761f876294 = $(`<div id="html_ff3e646f2b9f8929225f69761f876294" style="width: 100.0%; height: 100.0%;">Address: Soğanlık Yeni Mah. Pegagaz Sokak No:2 Kartal / İstanbul, <a href="https://www.google.com/maps/dir/40.9117878388,29.1959064979/" target="_blank">Link</a>, Cluster: 3, Store Type: McDonalds</div>`)[0];
+                popup_ae342b1bfda3039881d0804b49a78d22.setContent(html_ff3e646f2b9f8929225f69761f876294);
+            
+        
+
+        marker_cf9cf2c13aa86d6e3937f7e391239a52.bindPopup(popup_ae342b1bfda3039881d0804b49a78d22)
+        ;
+
+        
+    
+    
+            var marker_1592cfcaccb84a35b985d776733ebeb1 = L.marker(
+                [41.0230847368, 29.1135869913],
+                {}
+            ).addTo(map_f28716cbcb3a52e4d457694320822333);
+        
+    
+            var icon_a791a40b8358de2d5523ded249fabaed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1592cfcaccb84a35b985d776733ebeb1.setIcon(icon_a791a40b8358de2d5523ded249fabaed);
+        
+    
+        var popup_12d9e12d408a3f0bcdeafa2b4e1e820e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c26d7351972ea3e787199988b2999cbb = $(`<div id="html_c26d7351972ea3e787199988b2999cbb" style="width: 100.0%; height: 100.0%;">Address: Yamanevler Mah. Almdağ Cad. Canpark AVM Yanı Ümraniye / İstanbul, <a href="https://www.google.com/maps/dir/41.0230847368,29.1135869913/" target="_blank">Link</a>, Cluster: 4, Store Type: McDonalds</div>`)[0];
+                popup_12d9e12d408a3f0bcdeafa2b4e1e820e.setContent(html_c26d7351972ea3e787199988b2999cbb);
+            
+        
+
+        marker_1592cfcaccb84a35b985d776733ebeb1.bindPopup(popup_12d9e12d408a3f0bcdeafa2b4e1e820e)
+        ;
+
+        
+    
+</script>
+</html>

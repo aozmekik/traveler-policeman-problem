@@ -1,0 +1,1685 @@
+[
+    {
+        "STORE_NAME": "Sultanahmet Divan Yolu No:76",
+        "LATITUDE": "41.00824",
+        "LONGITUDE": "28.97379",
+        "STORE_ADDRESS": "Alemdar Mah. Divanyolu Cad. No:76/A Istanbul 34 TR 34110",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Cemberlitas",
+        "LATITUDE": "41.00869",
+        "LONGITUDE": "28.96963",
+        "STORE_ADDRESS": "Yeniceriler Caddesi Mimar Hayrettin Mahallesi Istanbul 34 TR 34126",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Istanbul Galataport HOSS",
+        "LATITUDE": "41.02447",
+        "LONGITUDE": "28.98042",
+        "STORE_ADDRESS": "Kilicali Pasa Mahallesi Kemankes Sokak No 40 A Galataport Beyoglu Istanbul Istanbul 34 TR 34425",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Tophane Reserve",
+        "LATITUDE": "41.02586",
+        "LONGITUDE": "28.98042",
+        "STORE_ADDRESS": "Mumhane Cad. Beyoglu Istanbul 33 TR 34425",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Galataport Meydan",
+        "LATITUDE": "41.02747",
+        "LONGITUDE": "28.98427",
+        "STORE_ADDRESS": "6 Meclis i Mebusan Caddesi Istanbul 34 TR 34425",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Tunel Narmanli Han",
+        "LATITUDE": "41.0291",
+        "LONGITUDE": "28.97476",
+        "STORE_ADDRESS": "Istiklal Caddesi Asmali Mescit Mahallesi Istanbul 34 TR 34430",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Findikli",
+        "LATITUDE": "41.03035",
+        "LONGITUDE": "28.9885",
+        "STORE_ADDRESS": "Meclisi Mebusan Cad CBS Is Hani No 47 Istanbul 34 TR 34398",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Istiklal Cad No:18",
+        "LATITUDE": "41.03572",
+        "LONGITUDE": "28.98285",
+        "STORE_ADDRESS": "Istiklal Cad. NO 18 Beyoglu Istanbul 34 TR 00000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Istanbul Taksim 360",
+        "LATITUDE": "41.03644",
+        "LONGITUDE": "28.97919",
+        "STORE_ADDRESS": "Sehit Muhtar Tarlabasi Blv no 150 D 170 Beyoglu Istanbul Istanbul 34 TR 34435",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Taksim Meydani",
+        "LATITUDE": "41.03657",
+        "LONGITUDE": "28.98629",
+        "STORE_ADDRESS": "3 Nolu Bagimsiz Bolum Taksim Meydani Taki Zafer Cad. Istanbul 34 TR 34437",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Vatan Caddesi",
+        "LATITUDE": "41.01706",
+        "LONGITUDE": "28.94105",
+        "STORE_ADDRESS": "Aksemsettin Mah Adnan Menderes Vatan Bulvari No 46 Istanbul 34 TR 34080",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Dolapdere",
+        "LATITUDE": "41.04012",
+        "LONGITUDE": "28.97637",
+        "STORE_ADDRESS": "Kurtulus Deresi Caddesi Istanbul 34 TR 34440",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Uskudar Mimar Sinan Carsisi",
+        "LATITUDE": "41.02377",
+        "LONGITUDE": "29.01731",
+        "STORE_ADDRESS": "Mimar Sinan Atlas Ck NO2 Uskudar Istanbul Uskudar, Istanbul 34 TR 34672",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Elmadag",
+        "LATITUDE": "41.04188",
+        "LONGITUDE": "28.98667",
+        "STORE_ADDRESS": "Harbiye Mah Cumhuriyet Cad Istanbul 34 TR 34367",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kadikoy Carsi",
+        "LATITUDE": "40.99046",
+        "LONGITUDE": "29.0234",
+        "STORE_ADDRESS": "Caferaga Mah Muvakkithane Sok No 9 Istanbul 34 TR 34710",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Akaretler",
+        "LATITUDE": "41.04254",
+        "LONGITUDE": "29.00258",
+        "STORE_ADDRESS": "Sair Nedim Cad. No 5 Besiktas Istanbul Istanbul 34 TR 0",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Barbaros Bulvari Besiktas",
+        "LATITUDE": "41.04403",
+        "LONGITUDE": "29.00704",
+        "STORE_ADDRESS": "Barbaros Bulv Yildiz ls Hani Istanbul 34 TR 34200",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Bahariye Cad No:28",
+        "LATITUDE": "40.98936",
+        "LONGITUDE": "29.02871",
+        "STORE_ADDRESS": "General Asim Gunduz Cad. Istanbul 34 TR 34714",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Lotus Pangalti",
+        "LATITUDE": "41.05158",
+        "LONGITUDE": "28.98771",
+        "STORE_ADDRESS": "Halaskargazi Cd No 38 66 34371 Sisli Istanbul Istanbul 34 TR 34371",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Moda Reserve",
+        "LATITUDE": "40.98064",
+        "LONGITUDE": "29.02364",
+        "STORE_ADDRESS": "Moda Cad. Aylin Apt. No: 188/C Kadikoy Istanbul - Asya 34 TR 34710",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kosuyolu Reserve",
+        "LATITUDE": "41.00602",
+        "LONGITUDE": "29.03679",
+        "STORE_ADDRESS": "Muhittin Ustundag Cd Istanbul 34 TR 34718",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Nisantasi Reserve",
+        "LATITUDE": "41.05138",
+        "LONGITUDE": "28.99111",
+        "STORE_ADDRESS": "Nisantasi Mah Vali Konagi Cad No 30 Istanbul 34 TR 34398",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Elysium Elit Kosuyolu",
+        "LATITUDE": "41.0061",
+        "LONGITUDE": "29.03721",
+        "STORE_ADDRESS": "Muhittin Ustundag Cad. Istanbul Istanbul 34 TR 34718",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Akkavak Sokak",
+        "LATITUDE": "41.05144",
+        "LONGITUDE": "28.99341",
+        "STORE_ADDRESS": "Akkavak Sokak Tesvikiye Sisli Istanbul 34 TR 34365",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kosuyolu Isiklar",
+        "LATITUDE": "41.01173",
+        "LONGITUDE": "29.03877",
+        "STORE_ADDRESS": "Kosuyolu Cad. Direkli Carsi Sok. No:1 Kosuyolu, Kadikoy Istanbul 34 TR 34662",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Acibadem Cad No:98",
+        "LATITUDE": "40.99949",
+        "LONGITUDE": "29.039",
+        "STORE_ADDRESS": "Acibadem Mah. Acibadem Cad. NO 98 Uskudar Istanbul 34 TR 0000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Bomonti Bomonti Apartmani",
+        "LATITUDE": "41.05678",
+        "LONGITUDE": "28.98124",
+        "STORE_ADDRESS": "Gokkusagi Sokak Istanbul 34 TR 34380",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Istanbul Fulya 10",
+        "LATITUDE": "41.05801",
+        "LONGITUDE": "29.00319",
+        "STORE_ADDRESS": "Dikilitas Ayazmaderesi Cd No 10 Besiktas Istanbul Istanbul 34 TR 34349",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Ortakoy Sahil",
+        "LATITUDE": "41.04799",
+        "LONGITUDE": "29.02646",
+        "STORE_ADDRESS": "Mecidiye Mah Degirmen Sok No 16 Istanbul 34 TR 34400",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Acibadem Cad No:190",
+        "LATITUDE": "41.0103",
+        "LONGITUDE": "29.05179",
+        "STORE_ADDRESS": "Acibadem Mah. Acibadem Cad. NO 190 Uskudar Istanbul 34 TR 00000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Cevahir Meydan Dis",
+        "LATITUDE": "41.06262",
+        "LONGITUDE": "28.99293",
+        "STORE_ADDRESS": "Buyukdere Cad Istanbul Cevahir Alisveri Istanbul 34 TR 34381",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Sisli Carrefour Ortaklar Caddesi",
+        "LATITUDE": "41.0642",
+        "LONGITUDE": "28.99694",
+        "STORE_ADDRESS": "Ortaklar caddesi no 17 sisli ISTANBUL 34 TR 34394",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Akasya Kuzey 2",
+        "LATITUDE": "41.00265",
+        "LONGITUDE": "29.05463",
+        "STORE_ADDRESS": "Cecen Sokak Acıbadem Mah. Uskudar Istanbul 34 TR 34660",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Fikirtepe Yenitepe",
+        "LATITUDE": "40.99473",
+        "LONGITUDE": "29.05678",
+        "STORE_ADDRESS": "Dumlupinar Ucar Sk 34720 Kadikoy Istanbul Istanbul 34 TR 34720",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Goztepe",
+        "LATITUDE": "40.98457",
+        "LONGITUDE": "29.0531",
+        "STORE_ADDRESS": "Gazi Muhtar Pasa Sok Istanbul 34 TR 34724",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Akasya Kuzey 2",
+        "LATITUDE": "41.00265",
+        "LONGITUDE": "29.05463",
+        "STORE_ADDRESS": "Cecen Sokak Acıbadem Mah. Uskudar Istanbul 34 TR 34660",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Goztepe Loft",
+        "LATITUDE": "40.97928",
+        "LONGITUDE": "29.06722",
+        "STORE_ADDRESS": "Goztepe Mah Tutuncu Mehmet Efendi Cad 84 Istanbul 34 TR 34730",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Acibadem Cad No:98",
+        "LATITUDE": "40.99949",
+        "LONGITUDE": "29.039",
+        "STORE_ADDRESS": "Acibadem Mah. Acibadem Cad. NO 98 Uskudar Istanbul 34 TR 0000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Acibadem Cad No:190",
+        "LATITUDE": "41.0103",
+        "LONGITUDE": "29.05179",
+        "STORE_ADDRESS": "Acibadem Mah. Acibadem Cad. NO 190 Uskudar Istanbul 34 TR 00000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Ciftehavuzlar",
+        "LATITUDE": "40.973",
+        "LONGITUDE": "29.05698",
+        "STORE_ADDRESS": "Goztepe Mah Bagdat Cad Alemdar Istanbul 34 TR 34730",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Dalyan",
+        "LATITUDE": "40.97387",
+        "LONGITUDE": "29.04844",
+        "STORE_ADDRESS": "Haci Mehmet Efendi Cad. No:23 D:1-2 Selamicesme, Kadikoy Istanbul 34 TR 34730",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Elysium Elit Kosuyolu",
+        "LATITUDE": "41.0061",
+        "LONGITUDE": "29.03721",
+        "STORE_ADDRESS": "Muhittin Ustundag Cad. Istanbul Istanbul 34 TR 34718",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kosuyolu Reserve",
+        "LATITUDE": "41.00602",
+        "LONGITUDE": "29.03679",
+        "STORE_ADDRESS": "Muhittin Ustundag Cd Istanbul 34 TR 34718",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Bahariye Cad No:28",
+        "LATITUDE": "40.98936",
+        "LONGITUDE": "29.02871",
+        "STORE_ADDRESS": "General Asim Gunduz Cad. Istanbul 34 TR 34714",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kosuyolu Isiklar",
+        "LATITUDE": "41.01173",
+        "LONGITUDE": "29.03877",
+        "STORE_ADDRESS": "Kosuyolu Cad. Direkli Carsi Sok. No:1 Kosuyolu, Kadikoy Istanbul 34 TR 34662",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kazasker",
+        "LATITUDE": "40.97104",
+        "LONGITUDE": "29.08386",
+        "STORE_ADDRESS": "Semsettin Gunaltay Cad Cadirlikosk Apt Istanbul 34 TR 34714",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kadikoy Carsi",
+        "LATITUDE": "40.99046",
+        "LONGITUDE": "29.0234",
+        "STORE_ADDRESS": "Caferaga Mah Muvakkithane Sok No 9 Istanbul 34 TR 34710",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Watergarden",
+        "LATITUDE": "40.9979",
+        "LONGITUDE": "29.09775",
+        "STORE_ADDRESS": "Barbaros mah. Uzman Sok.12-1 Atasehir Istanbul 34 TR 00000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Caddebostan Iskele Sokak",
+        "LATITUDE": "40.96401",
+        "LONGITUDE": "29.06545",
+        "STORE_ADDRESS": "Erenk y Mahallesi Iskele Sokak Istanbul - Kadikoy 34 TR 34278",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Saskinbakkal",
+        "LATITUDE": "40.96511",
+        "LONGITUDE": "29.0768",
+        "STORE_ADDRESS": "Bagdat Cd. Noter Sk. 18/1 Kadikoy Istanbul 34 TR 34740",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Palladium Reserve",
+        "LATITUDE": "40.9865",
+        "LONGITUDE": "29.10006",
+        "STORE_ADDRESS": "Barbaros mah. Halk caddesi 8 /B Atasehir Kadikoy Istanbul 34 TR 00000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Moda Reserve",
+        "LATITUDE": "40.98064",
+        "LONGITUDE": "29.02364",
+        "STORE_ADDRESS": "Moda Cad. Aylin Apt. No: 188/C Kadikoy Istanbul - Asya 34 TR 34710",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kozyatagi City's",
+        "LATITUDE": "40.97972",
+        "LONGITUDE": "29.10017",
+        "STORE_ADDRESS": "Icerenkoy Mah Cayir Cad 1 Istanbul 34 TR 34752",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "My Newwork",
+        "LATITUDE": "40.99178",
+        "LONGITUDE": "29.10446",
+        "STORE_ADDRESS": "Ihlamur Sokak Atasehir Istanbul 34 TR 34746",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Nida Kule Kozyatagi",
+        "LATITUDE": "40.97396",
+        "LONGITUDE": "29.09818",
+        "STORE_ADDRESS": "Kozyatagi Mah. Degirmen Sok. Nida Kule No:18 K:Bodrum D:1 Istanbul 34 TR 34742",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Aysekadin",
+        "LATITUDE": "40.96549",
+        "LONGITUDE": "29.08777",
+        "STORE_ADDRESS": "Semsettin Gunaltay Cad. NO.108 Kozyatagi Kadikoy Istanbul 34 TR 34742",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Capitol Sinema Kati",
+        "LATITUDE": "41.01565",
+        "LONGITUDE": "29.09367",
+        "STORE_ADDRESS": "Mahir lz Caddesi No 4 Altunizade/Uskudar/Istanbul Istanbul 34 TR 34662",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Suadiye No:471",
+        "LATITUDE": "40.96106",
+        "LONGITUDE": "29.07919",
+        "STORE_ADDRESS": "Bagdat Cad. No 471/3 Suadiye Kadikoy Istanbul Istanbul 34 TR 00000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Bulvar 216 Teras",
+        "LATITUDE": "40.99439",
+        "LONGITUDE": "29.11051",
+        "STORE_ADDRESS": "Atasehir Bulvari NO. 1 Atasehir Atasehir 34 TR 34746",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Suadiye Sahil",
+        "LATITUDE": "40.95696",
+        "LONGITUDE": "29.08054",
+        "STORE_ADDRESS": "Suadiye Park Plaj Yolu No 18 A Blok Beyoglu 34 TR 34740",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kadikoy Bostanci Minibus Yolu",
+        "LATITUDE": "40.95978",
+        "LONGITUDE": "29.09485",
+        "STORE_ADDRESS": "Semsettin Gunaltay Caddesi No 20 Istanbul 34 TR 34744",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Novada Atasehir",
+        "LATITUDE": "40.9861",
+        "LONGITUDE": "29.11861",
+        "STORE_ADDRESS": "Kucukbakkalkoy Mah. Sehit Sakir Elkovan Cad. Novada Atasehir No:20 K:1 D:25 Istanbul 34 TR 34700",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Uskudar Mimar Sinan Carsisi",
+        "LATITUDE": "41.02377",
+        "LONGITUDE": "29.01731",
+        "STORE_ADDRESS": "Mimar Sinan Atlas Ck NO2 Uskudar Istanbul Uskudar, Istanbul 34 TR 34672",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Hilltown Kucukyali Meydan",
+        "LATITUDE": "40.9942",
+        "LONGITUDE": "29.12329",
+        "STORE_ADDRESS": "Siteler Yolu No1 Aydnevler Mahallesi, Maltepe Istanbul 34 TR 34765",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Istanbul DTM",
+        "LATITUDE": "40.98597",
+        "LONGITUDE": "28.83137",
+        "STORE_ADDRESS": "Yesilkoy Mah Ataturk Cad Istanbul Dunya Istanbul 34 TR 34149",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "G Plus",
+        "LATITUDE": "41.02535",
+        "LONGITUDE": "28.81567",
+        "STORE_ADDRESS": "Yalcin Kores Caddesi Cavdar Sokak No:1 Bagcilar Istanbul 34 TR 34212",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Halkali Atakent",
+        "LATITUDE": "41.02099",
+        "LONGITUDE": "28.79166",
+        "STORE_ADDRESS": "Halkali Caddesi Istanbul 34 TR 34260",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Yesilkoy Cadde",
+        "LATITUDE": "40.95853",
+        "LONGITUDE": "28.82181",
+        "STORE_ADDRESS": "Istasyon Cad. Yesilkoy Bakirkoy Istanbul 34 TR 0000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "LCW Gunesli HO",
+        "LATITUDE": "41.04027",
+        "LONGITUDE": "28.8138",
+        "STORE_ADDRESS": "Gulbahar Cad No96 Evren Mah. Bagcilar Istanbul 34 TR 34212",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Oasis Gunesli",
+        "LATITUDE": "41.04031",
+        "LONGITUDE": "28.81127",
+        "STORE_ADDRESS": "Evren Mah. Bahar Cd. 43-J, Gunesli Bagcilar Istanbul 34 TR 34200",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Balance Gunesli",
+        "LATITUDE": "41.05256",
+        "LONGITUDE": "28.81088",
+        "STORE_ADDRESS": "Mahmutbey Mah.Tasocagi Yolu No19 Gunesli Bagcilar Istanbul 34 TR 34218",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Mahmutbey",
+        "LATITUDE": "41.0578",
+        "LONGITUDE": "28.81946",
+        "STORE_ADDRESS": "Peyami Sefa Caddesi Mahmutbey Mahallesi Istanbul 34 TR 34218",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Batisehir",
+        "LATITUDE": "41.0633",
+        "LONGITUDE": "28.84099",
+        "STORE_ADDRESS": "Batisehir Cad. G3 blok D1 Bagcilar Istanbul 34 TR 0000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Tema Istanbul",
+        "LATITUDE": "41.05151",
+        "LONGITUDE": "28.76209",
+        "STORE_ADDRESS": "221 Sokak Istanbul 34 TR 34307",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Yedi Mavi C Blok",
+        "LATITUDE": "40.98076",
+        "LONGITUDE": "28.90357",
+        "STORE_ADDRESS": "Kazlicesme Mahallesi Kennedy Caddesi 62 1 C Blok Istanbul 34 TR 34020",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Buyukyali Konutlari",
+        "LATITUDE": "40.98278",
+        "LONGITUDE": "28.90567",
+        "STORE_ADDRESS": "Kennedy Caddesi Istanbul 34 TR 34020",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Deposite",
+        "LATITUDE": "41.07096",
+        "LONGITUDE": "28.80804",
+        "STORE_ADDRESS": "Giyim Koop. Sanayi Sitesi Ziya Gokalp Mahallesi Istanbul 34 TR 34490",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Forum Istanbul Akvaryum",
+        "LATITUDE": "41.04661",
+        "LONGITUDE": "28.89766",
+        "STORE_ADDRESS": "Kocatepe Mah Sehir Parki Cad 12 Sok Istanbul - Avrupa 34 TR 34045",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Forum Istanbul Metro Girisi",
+        "LATITUDE": "41.04784",
+        "LONGITUDE": "28.89641",
+        "STORE_ADDRESS": "Pasa Caddesi No3 Kocatepe Mahallesi, Bayrampasa Istanbul 34 TR 34045",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Basaksehir 4.Etap Shell",
+        "LATITUDE": "41.08452",
+        "LONGITUDE": "28.81083",
+        "STORE_ADDRESS": "Basak Arnavutkoy Resat Nuri Guntekin Sk 3 A 34480 Basaksehir Istanbul Istanbul 34 TR 34480",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Pashador Bayrampasa",
+        "LATITUDE": "41.05289",
+        "LONGITUDE": "28.91026",
+        "STORE_ADDRESS": "Eski Edirne Asfalti Istanbul 34 TR 34055",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Vatan Caddesi",
+        "LATITUDE": "41.01706",
+        "LONGITUDE": "28.94105",
+        "STORE_ADDRESS": "Aksemsettin Mah Adnan Menderes Vatan Bulvari No 46 Istanbul 34 TR 34080",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Ritim Istanbul",
+        "LATITUDE": "40.92089",
+        "LONGITUDE": "29.15744",
+        "STORE_ADDRESS": "Fatma Cavus Sokak Cevizli Maltepe Istanbul 34 TR 0000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Anatolium Marmara",
+        "LATITUDE": "40.91847",
+        "LONGITUDE": "29.17588",
+        "STORE_ADDRESS": "Soganlk D-100 Kuzey Yanyol Cad. kartal Istanbul 34 TR 34865",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Maltepe Nish Adalar",
+        "LATITUDE": "40.9445",
+        "LONGITUDE": "29.15922",
+        "STORE_ADDRESS": "Zumrutevler Mah Mevlana Halid Cad Nish Adalar Sitesi A44 Blok Istanbul 34 TR 34852",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Maltepe Mesa Cadde",
+        "LATITUDE": "40.93163",
+        "LONGITUDE": "29.12734",
+        "STORE_ADDRESS": "Bagdat Caddesi Istanbul 34 TR 34843",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kartal Sahil",
+        "LATITUDE": "40.8941",
+        "LONGITUDE": "29.17258",
+        "STORE_ADDRESS": "Kordonboyu Mah Cilek Sok 1 B16 Istanbul 34 TR 34860",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Idealtepe",
+        "LATITUDE": "40.94111",
+        "LONGITUDE": "29.11609",
+        "STORE_ADDRESS": "Bagdat Caddesi 215 B Istanbul 34 TR 34841",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Hilltown Kucukyali Reserve",
+        "LATITUDE": "40.95271",
+        "LONGITUDE": "29.12168",
+        "STORE_ADDRESS": "Camlica Sitesi Yolu Sok. Kucukyali Istanbul 34 TR 34765",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Ugur Mumcu",
+        "LATITUDE": "40.9313",
+        "LONGITUDE": "29.21399",
+        "STORE_ADDRESS": "Seyh Samil Cad. Kartal Istanbul 34 TR 34882",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Bostanci",
+        "LATITUDE": "40.95292",
+        "LONGITUDE": "29.095",
+        "STORE_ADDRESS": "Iskele Cad No 4 D 4 Istanbul 34 TR 34710",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kadikoy Bostanci Minibus Yolu",
+        "LATITUDE": "40.95978",
+        "LONGITUDE": "29.09485",
+        "STORE_ADDRESS": "Semsettin Gunaltay Caddesi No 20 Istanbul 34 TR 34744",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Suadiye Sahil",
+        "LATITUDE": "40.95696",
+        "LONGITUDE": "29.08054",
+        "STORE_ADDRESS": "Suadiye Park Plaj Yolu No 18 A Blok Beyoglu 34 TR 34740",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Aysekadin",
+        "LATITUDE": "40.96549",
+        "LONGITUDE": "29.08777",
+        "STORE_ADDRESS": "Semsettin Gunaltay Cad. NO.108 Kozyatagi Kadikoy Istanbul 34 TR 34742",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Nida Kule Kozyatagi",
+        "LATITUDE": "40.97396",
+        "LONGITUDE": "29.09818",
+        "STORE_ADDRESS": "Kozyatagi Mah. Degirmen Sok. Nida Kule No:18 K:Bodrum D:1 Istanbul 34 TR 34742",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Trendist Atasehir",
+        "LATITUDE": "40.99015",
+        "LONGITUDE": "29.13988",
+        "STORE_ADDRESS": "Ataturk Mah. Gulibrisim Cad. Atasehir Kadikoy Istanbul 34 TR 00000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Novada Atasehir",
+        "LATITUDE": "40.9861",
+        "LONGITUDE": "29.11861",
+        "STORE_ADDRESS": "Kucukbakkalkoy Mah. Sehit Sakir Elkovan Cad. Novada Atasehir No:20 K:1 D:25 Istanbul 34 TR 34700",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Suadiye No:471",
+        "LATITUDE": "40.96106",
+        "LONGITUDE": "29.07919",
+        "STORE_ADDRESS": "Bagdat Cad. No 471/3 Suadiye Kadikoy Istanbul Istanbul 34 TR 00000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Nar Point Atasehir",
+        "LATITUDE": "40.9912",
+        "LONGITUDE": "29.13627",
+        "STORE_ADDRESS": "Ataturk Mah. Atasehir Bulv. 3 Cad. No:7 Istanbul 34 TR 34750",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kozyatagi City's",
+        "LATITUDE": "40.97972",
+        "LONGITUDE": "29.10017",
+        "STORE_ADDRESS": "Icerenkoy Mah Cayir Cad 1 Istanbul 34 TR 34752",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Kazasker",
+        "LATITUDE": "40.97104",
+        "LONGITUDE": "29.08386",
+        "STORE_ADDRESS": "Semsettin Gunaltay Cad Cadirlikosk Apt Istanbul 34 TR 34714",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Saskinbakkal",
+        "LATITUDE": "40.96511",
+        "LONGITUDE": "29.0768",
+        "STORE_ADDRESS": "Bagdat Cd. Noter Sk. 18/1 Kadikoy Istanbul 34 TR 34740",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Atasehir Ata Bloklari",
+        "LATITUDE": "40.9929",
+        "LONGITUDE": "29.12521",
+        "STORE_ADDRESS": "41 Ada Atasehir Bulv Ata Carsi 4 1 Istanbul 34 TR 34398",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Serifali",
+        "LATITUDE": "40.99729",
+        "LONGITUDE": "29.13999",
+        "STORE_ADDRESS": "Serifali Mah. Husrev Sok. Umraniye Istanbul 34 TR 34775",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Hilltown Kucukyali Meydan",
+        "LATITUDE": "40.9942",
+        "LONGITUDE": "29.12329",
+        "STORE_ADDRESS": "Siteler Yolu No1 Aydnevler Mahallesi, Maltepe Istanbul 34 TR 34765",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Palladium Reserve",
+        "LATITUDE": "40.9865",
+        "LONGITUDE": "29.10006",
+        "STORE_ADDRESS": "Barbaros mah. Halk caddesi 8 /B Atasehir Kadikoy Istanbul 34 TR 00000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "My Newwork",
+        "LATITUDE": "40.99178",
+        "LONGITUDE": "29.10446",
+        "STORE_ADDRESS": "Ihlamur Sokak Atasehir Istanbul 34 TR 34746",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Bulvar 216 Teras",
+        "LATITUDE": "40.99439",
+        "LONGITUDE": "29.11051",
+        "STORE_ADDRESS": "Atasehir Bulvari NO. 1 Atasehir Atasehir 34 TR 34746",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Caddebostan Iskele Sokak",
+        "LATITUDE": "40.96401",
+        "LONGITUDE": "29.06545",
+        "STORE_ADDRESS": "Erenk y Mahallesi Iskele Sokak Istanbul - Kadikoy 34 TR 34278",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Well Club",
+        "LATITUDE": "41.0007",
+        "LONGITUDE": "29.18294",
+        "STORE_ADDRESS": "Tersane Cad. NO. 4 Esenkent Umraniye Istanbul 34 TR 34776",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Pendik Farilya Asia",
+        "LATITUDE": "40.88948",
+        "LONGITUDE": "29.26406",
+        "STORE_ADDRESS": "Fevzi Cakmak Muhsin Yazicioglu Cd No1 34899 Pendik Istanbul Pendik/Istanbul 34 TR 34899",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Watergarden",
+        "LATITUDE": "40.9979",
+        "LONGITUDE": "29.09775",
+        "STORE_ADDRESS": "Barbaros mah. Uzman Sok.12-1 Atasehir Istanbul 34 TR 00000",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Umraniye Elalmis Caddesi No15",
+        "LATITUDE": "41.00884",
+        "LONGITUDE": "29.13531",
+        "STORE_ADDRESS": "Tatlisu Mahallesi Elalmis Caddesi No15 Umraniye Istanbul Istanbul - Umraniye 34 TR 34774",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Starbucks",
+        "LATITUDE": "40.89658",
+        "LONGITUDE": "29.27012",
+        "STORE_ADDRESS": "Sanayi Mh Istanbul 34 TR 34906",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Goztepe Loft",
+        "LATITUDE": "40.97928",
+        "LONGITUDE": "29.06722",
+        "STORE_ADDRESS": "Goztepe Mah Tutuncu Mehmet Efendi Cad 84 Istanbul 34 TR 34730",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Atlas Park",
+        "LATITUDE": "40.96975",
+        "LONGITUDE": "29.25627",
+        "STORE_ADDRESS": "Fatih Bulvari No. 67 Sultanbeyli Istanbul 34 TR 34920",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Cekmekoy Eltes",
+        "LATITUDE": "41.01121",
+        "LONGITUDE": "29.17966",
+        "STORE_ADDRESS": "Kemerdere Mevkii Baraj Yolu Cad Eltes Istanbul 34 TR 34799",
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 24,
+        "STORE_TYPE": "Starbucks"
+    },
+    {
+        "STORE_NAME": "Bakırköy Çarşı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.97826396",
+        "LONGITUDE": "28.87404984",
+        "STORE_ADDRESS": "Ebu Ziya Cd. No:2 Bakırköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Acıbadem",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.00315697",
+        "LONGITUDE": "29.04408612",
+        "STORE_ADDRESS": "Acıbadem Cad. No:128 Kadıköy/İstanbul 81010",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Florya",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.98624",
+        "LONGITUDE": "28.790036",
+        "STORE_ADDRESS": "Şenlik Mah. Florya Çiftliği Sok. No:49 Florya/İstanbul 34153",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Merter",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.00433804",
+        "LONGITUDE": "28.89159912",
+        "STORE_ADDRESS": "Abdurrahman Nafiz Gürman Mah. Eski Londra Asfaltı Güngören/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Süreyyapaşa",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.92645303",
+        "LONGITUDE": "29.12400612",
+        "STORE_ADDRESS": "Yalı Mah. Turgut Özal Bul. Yaylada AVM Maltepe/İstanbul 34893",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Ataşehir",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.99280796",
+        "LONGITUDE": "29.127924",
+        "STORE_ADDRESS": "Turgut Özal Bulvarı 42 Ada C Blok Gardenya Çarşısı No:7 Ataşehir/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Beşiktaş",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.042867",
+        "LONGITUDE": "29.006245",
+        "STORE_ADDRESS": "Sinanpaşa Mah. Has Fırın Cad. No:3/I Beşiktaş/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Üsküdar",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.02597128684238",
+        "LONGITUDE": "29.016351855859707",
+        "STORE_ADDRESS": "Selman-i Pak Cad. No:33 Üsküdar/İstanbul 81200",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Cevizli",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.898094",
+        "LONGITUDE": "29.16485",
+        "STORE_ADDRESS": "Kordonboyu Mah.Turgut Özal Bulvarı No:33/3 Kartal/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Güneşli",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.02707501",
+        "LONGITUDE": "28.81274904",
+        "STORE_ADDRESS": "Evren Mah. Koçman Cad. No:56 Güneşli/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Beyoğlu",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.034923",
+        "LONGITUDE": "28.980961",
+        "STORE_ADDRESS": "İstiklal Cad. No:93 Beyoğlu/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Pendik",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.87689597",
+        "LONGITUDE": "29.23623612",
+        "STORE_ADDRESS": "Doğu Mah. Erol Kaya Cad. No:138/B Pendik/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Şişli Meydan",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "41.060659",
+        "LONGITUDE": "28.987875",
+        "STORE_ADDRESS": "Halaskargazi Cad. Terminus Palas No:366 Şişli/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Sultanahmet",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.008107",
+        "LONGITUDE": "28.974072",
+        "STORE_ADDRESS": "1001 Direk Mah. Divanyolu Cad. No:15 Sultanahmet/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Tüyap",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.02391502",
+        "LONGITUDE": "28.62475812",
+        "STORE_ADDRESS": "Gürpınar Kavşağı  Beylikdüzü/B.Çekmece/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Gaziosmanpaşa",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "41.057586",
+        "LONGITUDE": "28.914364",
+        "STORE_ADDRESS": "Gaziosmanpaşa Merkez Mah. Cumhuriyet Meydanı 20-12 Gazisomanpaşa/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Bahçeşehir",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.06293",
+        "LONGITUDE": "28.685874",
+        "STORE_ADDRESS": "Süzer Bulvarı Şehr-i Bazar AVM G-Blok No:9 Bahçeşehir 3. Cadde/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Beykent",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.016864",
+        "LONGITUDE": "28.627036",
+        "STORE_ADDRESS": "Cumhuriyet Mah. Avrupa Cad. Keleş Plaza No:2 Bölüm 12-13  Beylikdüzü/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Altıntepe",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.95209",
+        "LONGITUDE": "29.101223",
+        "STORE_ADDRESS": "Altıntepe Mah. Bağdat Cad.No:52/1  Maltepe/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Libadiye",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.015953",
+        "LONGITUDE": "29.075643",
+        "STORE_ADDRESS": "Bulgurlu Mah. Libadiye Cad. Ünlü Sok. No:7 Ümraniye/İstanbul 34760",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Beylikdüzü DT",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.010588",
+        "LONGITUDE": "28.643724",
+        "STORE_ADDRESS": "Cumhuriyet Mah. Sokullu Mehmet Paşa Sok. No:1/1 Blok Beylikdüzü/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Mühürdar",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.988758",
+        "LONGITUDE": "29.023041",
+        "STORE_ADDRESS": "Caferağa Mah. Mühürdar Cad. No:29-31 Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kavacık",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "41.09499",
+        "LONGITUDE": "29.097466",
+        "STORE_ADDRESS": "Kavacık Rüzgarlıbahçe Mah. Hasoğlu Plaza No:39 Zemin Kat Beykoz/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "İstanbul Çapa",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.015285",
+        "LONGITUDE": "28.932691",
+        "STORE_ADDRESS": "Deniz Abdal Mah. Millet Cad. No:131/1  Fatih/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Sabiha Gökçen Kara",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "40.90521",
+        "LONGITUDE": "29.319506",
+        "STORE_ADDRESS": "İstanbul Sabiha Gökçen Havaalanı İç Hatlar Terminali Yolcu Gidiş Bölümü Pendik/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Sabiha Gökçen Hava",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "40.898398",
+        "LONGITUDE": "29.301825",
+        "STORE_ADDRESS": "İstanbul Sabiha Gökçen Havaalanı Dış Hatlar Terminali Yolcu Gidiş Bölümü Pendik/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Şerifali",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.997444",
+        "LONGITUDE": "29.140189",
+        "STORE_ADDRESS": "Şerifali Mah. Hüsrev Sok. No:5 Ümraniye/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Mimaroba",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.007289",
+        "LONGITUDE": "28.539079",
+        "STORE_ADDRESS": "Mimarsinan Mah. Mustafa Kemal Bulvarı No:16 Büyükçekmece/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "BTA Bostancı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 23,
+        "LATITUDE": "40.9524997",
+        "LONGITUDE": "29.0909804",
+        "STORE_ADDRESS": "Çetin Emeç Cad. Bostancı İdo İskelesi Yanı  Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Taksim Meydan",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.038218",
+        "LONGITUDE": "28.985804",
+        "STORE_ADDRESS": "Gümüşsuyu Mah. Osmanlı Sokak No:2 Bodrum Kat Beyoğlu/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Başakşehir",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.104844",
+        "LONGITUDE": "28.804373",
+        "STORE_ADDRESS": "Başakşehir 5.Etap Yeşil Vadi Cad. Ahşap Çarşı No:2/2  Başakşehir/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Okmeydanı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.064571",
+        "LONGITUDE": "28.97139",
+        "STORE_ADDRESS": "Kaptanpaşa Mah. H.Ziya Türkkan Sok. No:10-12   A-Blok Dükkan No:1 Okmeydanı/Şişli/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "BTA Yenikapı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 8,
+        "STORE_CLOSE_AT": 22,
+        "LATITUDE": "41.00282703617721",
+        "LONGITUDE": "28.95701763493267",
+        "STORE_ADDRESS": "Kennedy Cad. Yenikapı Hızlı Feribot İskelesi 34480 Fatih/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Maltepe E-5",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "40.939831",
+        "LONGITUDE": "29.133022",
+        "STORE_ADDRESS": "Altayçeşme Mah. Çam Sk. No:29 Maltepe/İstanbul 34843",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "İstanbul Bağcılar",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.033478",
+        "LONGITUDE": "28.855726",
+        "STORE_ADDRESS": "Hoca Ahmet Yesevi Cad. Köyiçi Mevkii No:3 Bağımsız Bölüm No:14-15 34200 Bağcılar/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "4.Levent Emniyet Evler",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.086830802538245",
+        "LONGITUDE": "29.00624543403242",
+        "STORE_ADDRESS": "Emniyetevler Mah. Lala Paşa Cad. No:7/1 Kağıthane/İstanbul 34416",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Tuzla",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 23,
+        "LATITUDE": "40.81587",
+        "LONGITUDE": "29.302811",
+        "STORE_ADDRESS": "Postahane Mah. Cumhuriyet Cad. No:22  Köyiçi Tuzla/İstanbul\n P.K.34940",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "İstanbul Taşdelen",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.024666",
+        "LONGITUDE": "29.225172",
+        "STORE_ADDRESS": "Cumhuriyet Mahallesi A.Menderes Cad.No:18/A Zemin Kat Çekmeköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kozyatağı Yanyol",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.975819",
+        "LONGITUDE": "29.098044",
+        "STORE_ADDRESS": "Kozyatağı Mah. Saniye Ermutlu Sok. Çolakoğlu İş Merkezi B Blok No:121/1 Kozyatağı/Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kayışdağı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.976274",
+        "LONGITUDE": "29.1517",
+        "STORE_ADDRESS": "Kayışdağı Mah. Kayışdağı Cad. No:215 Ataşehir/İstanbul P.K.34755 ",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kartal Soğanlık",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 23,
+        "LATITUDE": "40.914874",
+        "LONGITUDE": "29.202201",
+        "STORE_ADDRESS": "Soğanlık Mah. Atatürk Cad. Tiryaki Hasan Paşa Sok. No:2/2 Kartal/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "İstanbul Kızıltoprak",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.9831189820496",
+        "LONGITUDE": "29.0404811944525",
+        "STORE_ADDRESS": "Feneryolu Mah. Bağdat Cad. Karel İşhanı No:43 Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Esenyurt Cumhuriyet",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.018591",
+        "LONGITUDE": "28.646315",
+        "STORE_ADDRESS": "Barbaros Hayrettin Paşa Mah. 1988 Sok. No:2G-9 Esenyurt/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Zeytinburnu 58. Bulvar",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.991614",
+        "LONGITUDE": "28.903787",
+        "STORE_ADDRESS": "Gökalp Mah. 58.Bulvar Cad. No:54 P.K.34020   Zeytinburnu/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kartal Çarşı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 23,
+        "LATITUDE": "40.888498",
+        "LONGITUDE": "29.18761",
+        "STORE_ADDRESS": "Kordonboyu Mah. Ankara Cad. No:48 Kartal/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Eyüp Yeşilpınar",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.079606",
+        "LONGITUDE": "28.930702",
+        "STORE_ADDRESS": "Karadolap Mah. Mustafa Kemal Bulvarı No:15  Eyüp/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Şişli Abide-i Hürriyet",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.065033",
+        "LONGITUDE": "28.987189",
+        "STORE_ADDRESS": "Merkez Mah. Abide-İ Hürriyet Cad. No:211 Blockout   Şişli/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Maslak Hub",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 11,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "41.11334347960475",
+        "LONGITUDE": "29.022131630354703",
+        "STORE_ADDRESS": "Maslak Mah. Ahi Evran Cad. Nazmi Akbacı Tic. Merk. A-B Bloklar  No:3/212 Maslak/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Aksaray 2",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "41.00797271604877",
+        "LONGITUDE": "28.953124780941266",
+        "STORE_ADDRESS": "Aksaray Mah. Gazi Mustafa Kemalpaşa Cad. No:29/B Fatih/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Göztepe Minibüs Caddesi",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.980749",
+        "LONGITUDE": "29.071533",
+        "STORE_ADDRESS": "Göztepe Mah. Fahrettin Kerim Gökay Cad. Sedat Bey Apt. No:242/32 Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Sabiha Gökçen Gelen Katı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.11334347960475",
+        "LONGITUDE": "29.022131630354703",
+        "STORE_ADDRESS": "Sabiha Gökçen Havalimanı İç Hatlar Gelen Yolcu Katı No:AL-400/AL-400A  Pendik/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Caddebostan",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.96393052475922",
+        "LONGITUDE": "29.06558401163116",
+        "STORE_ADDRESS": "Caddebostan Mah. İskele Sok. No:25A Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "İstanbul Kozyatağı E5",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.9839474",
+        "LONGITUDE": "29.0877613",
+        "STORE_ADDRESS": "Sahrayıcedit Mah. Halk Sok. No:39/A  Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Sabiha Gökçen Dış Hatlar 2",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 0,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "40.898398",
+        "LONGITUDE": "29.301825",
+        "STORE_ADDRESS": "Sabiha Gökçen Havalimanı Dış Hatlar Giden Yolcu Tarafı Mahal No:ML508-ML508A  Pendik/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Pangaltı",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 9,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "41.051222",
+        "LONGITUDE": "28.9874006",
+        "STORE_ADDRESS": "Ergenekon Mah. Halaskargazi Cad. No:63/C Şişli/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kazasker Ayşekadın",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 2,
+        "LATITUDE": "40.9658919",
+        "LONGITUDE": "29.0875981",
+        "STORE_ADDRESS": "Kozyatağı Mah. Şemsettin Günaltay Cad.. No:108/A  Kadıköy/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Esenyurt Merkez",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.02407575683421",
+        "LONGITUDE": "28.685477708368534",
+        "STORE_ADDRESS": "Zafer Mah. Doğan Araslı Bulvarı No:93/148  Esenyurt/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Beyoğlu Fitaş",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.021005",
+        "LONGITUDE": "28.585774",
+        "STORE_ADDRESS": "Şehit Muhtar Mah. İstiklal Cad. Fitaş Pasajı No:12/1 Beyoğlu/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Kartal DT",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "40.911787838830705",
+        "LONGITUDE": "29.195906497884053",
+        "STORE_ADDRESS": "Soğanlık Yeni Mah. Pegagaz Sokak No:2 Kartal / İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "İstanbul Airport B Terminal",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 10,
+        "STORE_CLOSE_AT": 22,
+        "LATITUDE": "41.263925807557314",
+        "LONGITUDE": "28.743414989250134",
+        "STORE_ADDRESS": "Tayakadin Mah. Terminal Cad. Havalimani Terminal Binası No 1 Mahal No E27 Arnavutköy / İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Ümraniye DT",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 1,
+        "LATITUDE": "41.02308473677343",
+        "LONGITUDE": "29.113586991322123",
+        "STORE_ADDRESS": "Yamanevler Mah. Almdağ Cad. Canpark AVM Yanı Ümraniye / İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Adnan Kahveci",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "40.997472482279385",
+        "LONGITUDE": "28.626427659850627",
+        "STORE_ADDRESS": "Adnan Kahveci Mah. Çamlıktepe Cad. No:1/A Beylikdüzü /İstanbul",
+        "STORE_TYPE": "McDonalds"
+    },
+    {
+        "STORE_NAME": "Mimaroba E-5",
+        "IN_SHOPPING_CENTER": 0,
+        "STORE_OPEN_AT": 7,
+        "STORE_CLOSE_AT": 0,
+        "LATITUDE": "41.012739724959715",
+        "LONGITUDE": "28.53763265659221",
+        "STORE_ADDRESS": "Murat Çeşme Mah. E5 Londra Asfaltı Cad. Oba Expres AVM No:104 G Büyükçekmece/İstanbul",
+        "STORE_TYPE": "McDonalds"
+    }
+]

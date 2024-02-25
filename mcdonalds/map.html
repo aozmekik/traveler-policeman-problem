@@ -1,0 +1,1719 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d440163d44a66f66141e3f5ec40b206e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d440163d44a66f66141e3f5ec40b206e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d440163d44a66f66141e3f5ec40b206e = L.map(
+                "map_d440163d44a66f66141e3f5ec40b206e",
+                {
+                    center: [41.0082, 28.9784],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f9cb9676258c865c917d19639658bdd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8f9cb9676258c865c917d19639658bdd.addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var marker_820b949402e0be9d521fdac538c0b012 = L.marker(
+                [40.97826396, 28.87404984],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_7378ea4205074772f60424af5db8901f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_820b949402e0be9d521fdac538c0b012.setIcon(icon_7378ea4205074772f60424af5db8901f);
+        
+    
+        var popup_0fa3bc757c652437dc8fa68b542d278c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c4833b1ec15b9fb7939543b34e14f0b = $(`<div id="html_0c4833b1ec15b9fb7939543b34e14f0b" style="width: 100.0%; height: 100.0%;">Address: Ebu Ziya Cd. No:2 Bakırköy/İstanbul, Cluster: 3</div>`)[0];
+                popup_0fa3bc757c652437dc8fa68b542d278c.setContent(html_0c4833b1ec15b9fb7939543b34e14f0b);
+            
+        
+
+        marker_820b949402e0be9d521fdac538c0b012.bindPopup(popup_0fa3bc757c652437dc8fa68b542d278c)
+        ;
+
+        
+    
+    
+            var marker_539c82717f7610ca18476f5867a25242 = L.marker(
+                [41.00315697, 29.04408612],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_9907f10c0e04a6c7dd10ab76248171df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_539c82717f7610ca18476f5867a25242.setIcon(icon_9907f10c0e04a6c7dd10ab76248171df);
+        
+    
+        var popup_d52466d6bf12dfb3d3a588c7ce77f0de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8670d9a9d6011c6dd628a324d5b6756d = $(`<div id="html_8670d9a9d6011c6dd628a324d5b6756d" style="width: 100.0%; height: 100.0%;">Address: Acıbadem Cad. No:128 Kadıköy/İstanbul 81010, Cluster: 0</div>`)[0];
+                popup_d52466d6bf12dfb3d3a588c7ce77f0de.setContent(html_8670d9a9d6011c6dd628a324d5b6756d);
+            
+        
+
+        marker_539c82717f7610ca18476f5867a25242.bindPopup(popup_d52466d6bf12dfb3d3a588c7ce77f0de)
+        ;
+
+        
+    
+    
+            var marker_023140d546fb42245ca04442d9bc8c33 = L.marker(
+                [40.98624, 28.790036],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_2d50f4736f90a3d63435bec9183229ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_023140d546fb42245ca04442d9bc8c33.setIcon(icon_2d50f4736f90a3d63435bec9183229ba);
+        
+    
+        var popup_3e526f53ee205890a08a6ae76db25bff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b8d7809153cb455d99f7c2111870f60 = $(`<div id="html_1b8d7809153cb455d99f7c2111870f60" style="width: 100.0%; height: 100.0%;">Address: Şenlik Mah. Florya Çiftliği Sok. No:49 Florya/İstanbul 34153, Cluster: 3</div>`)[0];
+                popup_3e526f53ee205890a08a6ae76db25bff.setContent(html_1b8d7809153cb455d99f7c2111870f60);
+            
+        
+
+        marker_023140d546fb42245ca04442d9bc8c33.bindPopup(popup_3e526f53ee205890a08a6ae76db25bff)
+        ;
+
+        
+    
+    
+            var marker_dcea5193cd9c119863d9fb77da26ead5 = L.marker(
+                [41.00433804, 28.89159912],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_ed4eb626dd486f01ad0ced1ea08e16fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_dcea5193cd9c119863d9fb77da26ead5.setIcon(icon_ed4eb626dd486f01ad0ced1ea08e16fd);
+        
+    
+        var popup_c77d2f7885208a6fb12a07a58f09f005 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02e983c5b7a807a584c7422c5e225aaa = $(`<div id="html_02e983c5b7a807a584c7422c5e225aaa" style="width: 100.0%; height: 100.0%;">Address: Abdurrahman Nafiz Gürman Mah. Eski Londra Asfaltı Güngören/İstanbul, Cluster: 3</div>`)[0];
+                popup_c77d2f7885208a6fb12a07a58f09f005.setContent(html_02e983c5b7a807a584c7422c5e225aaa);
+            
+        
+
+        marker_dcea5193cd9c119863d9fb77da26ead5.bindPopup(popup_c77d2f7885208a6fb12a07a58f09f005)
+        ;
+
+        
+    
+    
+            var marker_b17c9ebab45d8fa42569658dbd2343f1 = L.marker(
+                [40.92645303, 29.12400612],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_e3946d255db62e3953434eed319206a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b17c9ebab45d8fa42569658dbd2343f1.setIcon(icon_e3946d255db62e3953434eed319206a0);
+        
+    
+        var popup_18c9083bde555458b2b3727b75ad254e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_894e305e3c231fdf561009ccd9ebd65b = $(`<div id="html_894e305e3c231fdf561009ccd9ebd65b" style="width: 100.0%; height: 100.0%;">Address: Yalı Mah. Turgut Özal Bul. Yaylada AVM Maltepe/İstanbul 34893, Cluster: 0</div>`)[0];
+                popup_18c9083bde555458b2b3727b75ad254e.setContent(html_894e305e3c231fdf561009ccd9ebd65b);
+            
+        
+
+        marker_b17c9ebab45d8fa42569658dbd2343f1.bindPopup(popup_18c9083bde555458b2b3727b75ad254e)
+        ;
+
+        
+    
+    
+            var marker_3afe3fdab5f19cf24bacfb19835add97 = L.marker(
+                [40.99280796, 29.127924],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_4e128f3d44bff1806de1b4739d25a1ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3afe3fdab5f19cf24bacfb19835add97.setIcon(icon_4e128f3d44bff1806de1b4739d25a1ab);
+        
+    
+        var popup_dfb8ffd7178ee9ced0a1852516e30c28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_420a53e2505f9fc75e933530db4084f4 = $(`<div id="html_420a53e2505f9fc75e933530db4084f4" style="width: 100.0%; height: 100.0%;">Address: Turgut Özal Bulvarı 42 Ada C Blok Gardenya Çarşısı No:7 Ataşehir/İstanbul, Cluster: 0</div>`)[0];
+                popup_dfb8ffd7178ee9ced0a1852516e30c28.setContent(html_420a53e2505f9fc75e933530db4084f4);
+            
+        
+
+        marker_3afe3fdab5f19cf24bacfb19835add97.bindPopup(popup_dfb8ffd7178ee9ced0a1852516e30c28)
+        ;
+
+        
+    
+    
+            var marker_4ee3362601b3177d261ecc62884857c6 = L.marker(
+                [41.042867, 29.006245],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_b1bd31fa0b5e0bbec40d5b500db1ce69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_4ee3362601b3177d261ecc62884857c6.setIcon(icon_b1bd31fa0b5e0bbec40d5b500db1ce69);
+        
+    
+        var popup_65260edeee81c3a7835449e04ff99fbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8106e967883cef8d04bee8cc02e2ba92 = $(`<div id="html_8106e967883cef8d04bee8cc02e2ba92" style="width: 100.0%; height: 100.0%;">Address: Sinanpaşa Mah. Has Fırın Cad. No:3/I Beşiktaş/İstanbul, Cluster: 6</div>`)[0];
+                popup_65260edeee81c3a7835449e04ff99fbc.setContent(html_8106e967883cef8d04bee8cc02e2ba92);
+            
+        
+
+        marker_4ee3362601b3177d261ecc62884857c6.bindPopup(popup_65260edeee81c3a7835449e04ff99fbc)
+        ;
+
+        
+    
+    
+            var marker_6b4cb1cd787a64466af848b5e2d67d6e = L.marker(
+                [41.02597128684238, 29.016351855859707],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_306e37a951b1e51d6d6156a2e62f2f36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_6b4cb1cd787a64466af848b5e2d67d6e.setIcon(icon_306e37a951b1e51d6d6156a2e62f2f36);
+        
+    
+        var popup_bb9a2aac05e03190975a36af0c7b1344 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b05910cde5b90d006563a8214e490446 = $(`<div id="html_b05910cde5b90d006563a8214e490446" style="width: 100.0%; height: 100.0%;">Address: Selman-i Pak Cad. No:33 Üsküdar/İstanbul 81200, Cluster: 6</div>`)[0];
+                popup_bb9a2aac05e03190975a36af0c7b1344.setContent(html_b05910cde5b90d006563a8214e490446);
+            
+        
+
+        marker_6b4cb1cd787a64466af848b5e2d67d6e.bindPopup(popup_bb9a2aac05e03190975a36af0c7b1344)
+        ;
+
+        
+    
+    
+            var marker_b0e33f04ef159479205761d67d713297 = L.marker(
+                [40.898094, 29.16485],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_7882ee5a041aa9b73308ccca8d2b8686 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_b0e33f04ef159479205761d67d713297.setIcon(icon_7882ee5a041aa9b73308ccca8d2b8686);
+        
+    
+        var popup_362ec4d17d7ac150b298ab6efd286872 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94ccc2fefddc48fed1f86eec4f9eb8ad = $(`<div id="html_94ccc2fefddc48fed1f86eec4f9eb8ad" style="width: 100.0%; height: 100.0%;">Address: Kordonboyu Mah.Turgut Özal Bulvarı No:33/3 Kartal/İstanbul, Cluster: 5</div>`)[0];
+                popup_362ec4d17d7ac150b298ab6efd286872.setContent(html_94ccc2fefddc48fed1f86eec4f9eb8ad);
+            
+        
+
+        marker_b0e33f04ef159479205761d67d713297.bindPopup(popup_362ec4d17d7ac150b298ab6efd286872)
+        ;
+
+        
+    
+    
+            var marker_5a310f3cf8c88f52eff52153c0d0ec85 = L.marker(
+                [41.02707501, 28.81274904],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_e4f67957f81cfe3da6659fe18fb337de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5a310f3cf8c88f52eff52153c0d0ec85.setIcon(icon_e4f67957f81cfe3da6659fe18fb337de);
+        
+    
+        var popup_165806475e898eaefe3b800409eeb1cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6253c77f433c595b120f6a41ff2c62e = $(`<div id="html_d6253c77f433c595b120f6a41ff2c62e" style="width: 100.0%; height: 100.0%;">Address: Evren Mah. Koçman Cad. No:56 Güneşli/İstanbul, Cluster: 3</div>`)[0];
+                popup_165806475e898eaefe3b800409eeb1cf.setContent(html_d6253c77f433c595b120f6a41ff2c62e);
+            
+        
+
+        marker_5a310f3cf8c88f52eff52153c0d0ec85.bindPopup(popup_165806475e898eaefe3b800409eeb1cf)
+        ;
+
+        
+    
+    
+            var marker_8d7a40455cd04a08de3e2ade8f6b4611 = L.marker(
+                [41.034923, 28.980961],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_8bece89cf3e09d4851bf63928eb557da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8d7a40455cd04a08de3e2ade8f6b4611.setIcon(icon_8bece89cf3e09d4851bf63928eb557da);
+        
+    
+        var popup_18ace387734ce604e4254c21b7aeffb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e0c49aae4dbc0075fd5dbed528d90df = $(`<div id="html_5e0c49aae4dbc0075fd5dbed528d90df" style="width: 100.0%; height: 100.0%;">Address: İstiklal Cad. No:93 Beyoğlu/İstanbul, Cluster: 6</div>`)[0];
+                popup_18ace387734ce604e4254c21b7aeffb0.setContent(html_5e0c49aae4dbc0075fd5dbed528d90df);
+            
+        
+
+        marker_8d7a40455cd04a08de3e2ade8f6b4611.bindPopup(popup_18ace387734ce604e4254c21b7aeffb0)
+        ;
+
+        
+    
+    
+            var marker_738267594a3bfd835d2a29b930eb6a6b = L.marker(
+                [40.87689597, 29.23623612],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_0a480487c3810b6f51ac95255cc50f73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_738267594a3bfd835d2a29b930eb6a6b.setIcon(icon_0a480487c3810b6f51ac95255cc50f73);
+        
+    
+        var popup_df7f9fa99437a19f2910f35204a09503 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9483d20d4912216f38c3f576e997132b = $(`<div id="html_9483d20d4912216f38c3f576e997132b" style="width: 100.0%; height: 100.0%;">Address: Doğu Mah. Erol Kaya Cad. No:138/B Pendik/İstanbul, Cluster: 5</div>`)[0];
+                popup_df7f9fa99437a19f2910f35204a09503.setContent(html_9483d20d4912216f38c3f576e997132b);
+            
+        
+
+        marker_738267594a3bfd835d2a29b930eb6a6b.bindPopup(popup_df7f9fa99437a19f2910f35204a09503)
+        ;
+
+        
+    
+    
+            var marker_395654bacf5de873d49f60cf8d04b293 = L.marker(
+                [41.060659, 28.987875],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_28ffcd1b8cdb89088dd52079d85b7ebc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_395654bacf5de873d49f60cf8d04b293.setIcon(icon_28ffcd1b8cdb89088dd52079d85b7ebc);
+        
+    
+        var popup_c4b20287c1aca4a54de735304463e2d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca4bafafd9b1327f3823e052931679a3 = $(`<div id="html_ca4bafafd9b1327f3823e052931679a3" style="width: 100.0%; height: 100.0%;">Address: Halaskargazi Cad. Terminus Palas No:366 Şişli/İstanbul, Cluster: 6</div>`)[0];
+                popup_c4b20287c1aca4a54de735304463e2d5.setContent(html_ca4bafafd9b1327f3823e052931679a3);
+            
+        
+
+        marker_395654bacf5de873d49f60cf8d04b293.bindPopup(popup_c4b20287c1aca4a54de735304463e2d5)
+        ;
+
+        
+    
+    
+            var marker_fecb3d4788e6849b259b3847ab72f757 = L.marker(
+                [41.008107, 28.974072],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_7882d03d8c5744a3d3b5afc02274c71d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_fecb3d4788e6849b259b3847ab72f757.setIcon(icon_7882d03d8c5744a3d3b5afc02274c71d);
+        
+    
+        var popup_6ee5a330eff9cd99bcc9fbfe059465a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89ad6eb83e82272003d4877e91cc1387 = $(`<div id="html_89ad6eb83e82272003d4877e91cc1387" style="width: 100.0%; height: 100.0%;">Address: 1001 Direk Mah. Divanyolu Cad. No:15 Sultanahmet/İstanbul, Cluster: 6</div>`)[0];
+                popup_6ee5a330eff9cd99bcc9fbfe059465a7.setContent(html_89ad6eb83e82272003d4877e91cc1387);
+            
+        
+
+        marker_fecb3d4788e6849b259b3847ab72f757.bindPopup(popup_6ee5a330eff9cd99bcc9fbfe059465a7)
+        ;
+
+        
+    
+    
+            var marker_ab86ff12a6ebd097dadf1bbb89d7b8db = L.marker(
+                [41.02391502, 28.62475812],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_5465384b6bf87df40b4f892d57add43f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ab86ff12a6ebd097dadf1bbb89d7b8db.setIcon(icon_5465384b6bf87df40b4f892d57add43f);
+        
+    
+        var popup_792527d3dba0c6fe00e78e45f2ccadcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d90d304ccbb9f064def115d693efad2 = $(`<div id="html_1d90d304ccbb9f064def115d693efad2" style="width: 100.0%; height: 100.0%;">Address: Gürpınar Kavşağı  Beylikdüzü/B.Çekmece/İstanbul, Cluster: 1</div>`)[0];
+                popup_792527d3dba0c6fe00e78e45f2ccadcc.setContent(html_1d90d304ccbb9f064def115d693efad2);
+            
+        
+
+        marker_ab86ff12a6ebd097dadf1bbb89d7b8db.bindPopup(popup_792527d3dba0c6fe00e78e45f2ccadcc)
+        ;
+
+        
+    
+    
+            var marker_060fe9b4d39afd23c8bbaff15718a9a1 = L.marker(
+                [41.057586, 28.914364],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_e04df615104d7b7e8442dba2a8ecba09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_060fe9b4d39afd23c8bbaff15718a9a1.setIcon(icon_e04df615104d7b7e8442dba2a8ecba09);
+        
+    
+        var popup_96e1950653ab18518d07c0e53abba8f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e278e6dbb4d67e7de60ca4175f973ff1 = $(`<div id="html_e278e6dbb4d67e7de60ca4175f973ff1" style="width: 100.0%; height: 100.0%;">Address: Gaziosmanpaşa Merkez Mah. Cumhuriyet Meydanı 20-12 Gazisomanpaşa/İstanbul, Cluster: 6</div>`)[0];
+                popup_96e1950653ab18518d07c0e53abba8f7.setContent(html_e278e6dbb4d67e7de60ca4175f973ff1);
+            
+        
+
+        marker_060fe9b4d39afd23c8bbaff15718a9a1.bindPopup(popup_96e1950653ab18518d07c0e53abba8f7)
+        ;
+
+        
+    
+    
+            var marker_251ea58029bc398fbf0b78fa899fd07b = L.marker(
+                [41.06293, 28.685874],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_eebb06ca1a3bb48ab6239bfe8e6deb45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_251ea58029bc398fbf0b78fa899fd07b.setIcon(icon_eebb06ca1a3bb48ab6239bfe8e6deb45);
+        
+    
+        var popup_287b27b92e6e6079ae7ce179de320f02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_946d0fc6ffcdcb23c9786dc43da3925d = $(`<div id="html_946d0fc6ffcdcb23c9786dc43da3925d" style="width: 100.0%; height: 100.0%;">Address: Süzer Bulvarı Şehr-i Bazar AVM G-Blok No:9 Bahçeşehir 3. Cadde/İstanbul, Cluster: 1</div>`)[0];
+                popup_287b27b92e6e6079ae7ce179de320f02.setContent(html_946d0fc6ffcdcb23c9786dc43da3925d);
+            
+        
+
+        marker_251ea58029bc398fbf0b78fa899fd07b.bindPopup(popup_287b27b92e6e6079ae7ce179de320f02)
+        ;
+
+        
+    
+    
+            var marker_4e66182dd3e5e279ae4d2099a7da61ae = L.marker(
+                [41.016864, 28.627036],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_00757ab4392d83c16c9ce886f033db40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e66182dd3e5e279ae4d2099a7da61ae.setIcon(icon_00757ab4392d83c16c9ce886f033db40);
+        
+    
+        var popup_72479d322dafe9c2a15c44f95e7431b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c448e67f59ce2314d226427b252a35d7 = $(`<div id="html_c448e67f59ce2314d226427b252a35d7" style="width: 100.0%; height: 100.0%;">Address: Cumhuriyet Mah. Avrupa Cad. Keleş Plaza No:2 Bölüm 12-13  Beylikdüzü/İstanbul, Cluster: 1</div>`)[0];
+                popup_72479d322dafe9c2a15c44f95e7431b6.setContent(html_c448e67f59ce2314d226427b252a35d7);
+            
+        
+
+        marker_4e66182dd3e5e279ae4d2099a7da61ae.bindPopup(popup_72479d322dafe9c2a15c44f95e7431b6)
+        ;
+
+        
+    
+    
+            var marker_005c4e179cb7a7b6f7cfb37c82bf1850 = L.marker(
+                [40.95209, 29.101223],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_9fd6ca807b42b54becfccf371a633fe1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_005c4e179cb7a7b6f7cfb37c82bf1850.setIcon(icon_9fd6ca807b42b54becfccf371a633fe1);
+        
+    
+        var popup_5d8a47e9933320c497c4bc579845dd71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db82d0b198b8f59093972c469eb121cc = $(`<div id="html_db82d0b198b8f59093972c469eb121cc" style="width: 100.0%; height: 100.0%;">Address: Altıntepe Mah. Bağdat Cad.No:52/1  Maltepe/İstanbul, Cluster: 0</div>`)[0];
+                popup_5d8a47e9933320c497c4bc579845dd71.setContent(html_db82d0b198b8f59093972c469eb121cc);
+            
+        
+
+        marker_005c4e179cb7a7b6f7cfb37c82bf1850.bindPopup(popup_5d8a47e9933320c497c4bc579845dd71)
+        ;
+
+        
+    
+    
+            var marker_54808a01bfa18ef89c203dd8fd0d95ca = L.marker(
+                [41.015953, 29.075643],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_b02698c9061fc16d76c524f4e099ee34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_54808a01bfa18ef89c203dd8fd0d95ca.setIcon(icon_b02698c9061fc16d76c524f4e099ee34);
+        
+    
+        var popup_c0863df8f08698073ef103cdffe7fb0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_214010741a1af27507f3939dd962703a = $(`<div id="html_214010741a1af27507f3939dd962703a" style="width: 100.0%; height: 100.0%;">Address: Bulgurlu Mah. Libadiye Cad. Ünlü Sok. No:7 Ümraniye/İstanbul 34760, Cluster: 0</div>`)[0];
+                popup_c0863df8f08698073ef103cdffe7fb0a.setContent(html_214010741a1af27507f3939dd962703a);
+            
+        
+
+        marker_54808a01bfa18ef89c203dd8fd0d95ca.bindPopup(popup_c0863df8f08698073ef103cdffe7fb0a)
+        ;
+
+        
+    
+    
+            var marker_fce8ac2ee737971b217388747a452e49 = L.marker(
+                [41.010588, 28.643724],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_44fee1f11bab5059465c9abb867e807d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fce8ac2ee737971b217388747a452e49.setIcon(icon_44fee1f11bab5059465c9abb867e807d);
+        
+    
+        var popup_b48054bd5bda072e06a39abd2b1e9dbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f81f8ca119775380650efb754f850890 = $(`<div id="html_f81f8ca119775380650efb754f850890" style="width: 100.0%; height: 100.0%;">Address: Cumhuriyet Mah. Sokullu Mehmet Paşa Sok. No:1/1 Blok Beylikdüzü/İstanbul, Cluster: 1</div>`)[0];
+                popup_b48054bd5bda072e06a39abd2b1e9dbe.setContent(html_f81f8ca119775380650efb754f850890);
+            
+        
+
+        marker_fce8ac2ee737971b217388747a452e49.bindPopup(popup_b48054bd5bda072e06a39abd2b1e9dbe)
+        ;
+
+        
+    
+    
+            var marker_5d2c210234facb819423313e88577c8a = L.marker(
+                [40.988758, 29.023041],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_9ead221e94e2db8391fb9d529195fbb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_5d2c210234facb819423313e88577c8a.setIcon(icon_9ead221e94e2db8391fb9d529195fbb0);
+        
+    
+        var popup_0b09488a1735239bd34732975be5e220 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25fd64fb55079f9765afecb065016fc1 = $(`<div id="html_25fd64fb55079f9765afecb065016fc1" style="width: 100.0%; height: 100.0%;">Address: Caferağa Mah. Mühürdar Cad. No:29-31 Kadıköy/İstanbul, Cluster: 6</div>`)[0];
+                popup_0b09488a1735239bd34732975be5e220.setContent(html_25fd64fb55079f9765afecb065016fc1);
+            
+        
+
+        marker_5d2c210234facb819423313e88577c8a.bindPopup(popup_0b09488a1735239bd34732975be5e220)
+        ;
+
+        
+    
+    
+            var marker_fc165954489ee39d55de18fc13d57b63 = L.marker(
+                [41.09499, 29.097466],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_b066256466caeac06ac158a88c875ef7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fc165954489ee39d55de18fc13d57b63.setIcon(icon_b066256466caeac06ac158a88c875ef7);
+        
+    
+        var popup_e844b5def9e1c256851acb63744ee74a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b62e12d2d9c1cb164496cbeba41cb5a = $(`<div id="html_6b62e12d2d9c1cb164496cbeba41cb5a" style="width: 100.0%; height: 100.0%;">Address: Kavacık Rüzgarlıbahçe Mah. Hasoğlu Plaza No:39 Zemin Kat Beykoz/İstanbul, Cluster: 4</div>`)[0];
+                popup_e844b5def9e1c256851acb63744ee74a.setContent(html_6b62e12d2d9c1cb164496cbeba41cb5a);
+            
+        
+
+        marker_fc165954489ee39d55de18fc13d57b63.bindPopup(popup_e844b5def9e1c256851acb63744ee74a)
+        ;
+
+        
+    
+    
+            var marker_88476ed69ffc414b3be4ebb2f5b667b8 = L.marker(
+                [41.015285, 28.932691],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_aab63e9415e4b84d07dc1cd5440f44c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_88476ed69ffc414b3be4ebb2f5b667b8.setIcon(icon_aab63e9415e4b84d07dc1cd5440f44c6);
+        
+    
+        var popup_a99ed9a2b8617e293dea9d089cc7b9ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ee3742083b867c77b15fd5594a7aec6 = $(`<div id="html_7ee3742083b867c77b15fd5594a7aec6" style="width: 100.0%; height: 100.0%;">Address: Deniz Abdal Mah. Millet Cad. No:131/1  Fatih/İstanbul, Cluster: 6</div>`)[0];
+                popup_a99ed9a2b8617e293dea9d089cc7b9ba.setContent(html_7ee3742083b867c77b15fd5594a7aec6);
+            
+        
+
+        marker_88476ed69ffc414b3be4ebb2f5b667b8.bindPopup(popup_a99ed9a2b8617e293dea9d089cc7b9ba)
+        ;
+
+        
+    
+    
+            var marker_959303c716ac84a985610d5b2ba6fa8e = L.marker(
+                [40.90521, 29.319506],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_42db7c240b288cc27e232182d479d942 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_959303c716ac84a985610d5b2ba6fa8e.setIcon(icon_42db7c240b288cc27e232182d479d942);
+        
+    
+        var popup_60a5cb5c94ee32e1647740bd10c773a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f8fc70715d76d7d400d58fd7cfb58df = $(`<div id="html_1f8fc70715d76d7d400d58fd7cfb58df" style="width: 100.0%; height: 100.0%;">Address: İstanbul Sabiha Gökçen Havaalanı İç Hatlar Terminali Yolcu Gidiş Bölümü Pendik/İstanbul, Cluster: 2</div>`)[0];
+                popup_60a5cb5c94ee32e1647740bd10c773a1.setContent(html_1f8fc70715d76d7d400d58fd7cfb58df);
+            
+        
+
+        marker_959303c716ac84a985610d5b2ba6fa8e.bindPopup(popup_60a5cb5c94ee32e1647740bd10c773a1)
+        ;
+
+        
+    
+    
+            var marker_0c014d58adaaaa95af56499b4cef8b5d = L.marker(
+                [40.898398, 29.301825],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_012e870464113c40e9b85c03aeea3950 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0c014d58adaaaa95af56499b4cef8b5d.setIcon(icon_012e870464113c40e9b85c03aeea3950);
+        
+    
+        var popup_2527926c11a240cd29af96961530f134 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1aa4d1954b1638f646e2fbe8df350701 = $(`<div id="html_1aa4d1954b1638f646e2fbe8df350701" style="width: 100.0%; height: 100.0%;">Address: İstanbul Sabiha Gökçen Havaalanı Dış Hatlar Terminali Yolcu Gidiş Bölümü Pendik/İstanbul, Cluster: 2</div>`)[0];
+                popup_2527926c11a240cd29af96961530f134.setContent(html_1aa4d1954b1638f646e2fbe8df350701);
+            
+        
+
+        marker_0c014d58adaaaa95af56499b4cef8b5d.bindPopup(popup_2527926c11a240cd29af96961530f134)
+        ;
+
+        
+    
+    
+            var marker_f83d35018e9fc53650c426bcd657fa83 = L.marker(
+                [40.997444, 29.140189],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_549c38097946a39c37f5428ebb3d8df6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f83d35018e9fc53650c426bcd657fa83.setIcon(icon_549c38097946a39c37f5428ebb3d8df6);
+        
+    
+        var popup_6fb70d4f89a9038a28dd245e31884aab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75c26c26aeda858ce8f5e3dad70dd74e = $(`<div id="html_75c26c26aeda858ce8f5e3dad70dd74e" style="width: 100.0%; height: 100.0%;">Address: Şerifali Mah. Hüsrev Sok. No:5 Ümraniye/İstanbul, Cluster: 0</div>`)[0];
+                popup_6fb70d4f89a9038a28dd245e31884aab.setContent(html_75c26c26aeda858ce8f5e3dad70dd74e);
+            
+        
+
+        marker_f83d35018e9fc53650c426bcd657fa83.bindPopup(popup_6fb70d4f89a9038a28dd245e31884aab)
+        ;
+
+        
+    
+    
+            var marker_83c989116e959935c56d7b33fc474c6d = L.marker(
+                [41.007289, 28.539079],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_a39696251def920646d02080bfed4020 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83c989116e959935c56d7b33fc474c6d.setIcon(icon_a39696251def920646d02080bfed4020);
+        
+    
+        var popup_bdd4cd56041f1e38741e682574c3e68f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7870624c61e1a5b3e71321232a49196f = $(`<div id="html_7870624c61e1a5b3e71321232a49196f" style="width: 100.0%; height: 100.0%;">Address: Mimarsinan Mah. Mustafa Kemal Bulvarı No:16 Büyükçekmece/İstanbul, Cluster: 1</div>`)[0];
+                popup_bdd4cd56041f1e38741e682574c3e68f.setContent(html_7870624c61e1a5b3e71321232a49196f);
+            
+        
+
+        marker_83c989116e959935c56d7b33fc474c6d.bindPopup(popup_bdd4cd56041f1e38741e682574c3e68f)
+        ;
+
+        
+    
+    
+            var marker_304f6aa47a5ca3b7a9de93713e488970 = L.marker(
+                [40.9524997, 29.0909804],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_dbe942d682cc9ce24a512a3191a59fbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_304f6aa47a5ca3b7a9de93713e488970.setIcon(icon_dbe942d682cc9ce24a512a3191a59fbb);
+        
+    
+        var popup_cfd433338840e56d8777d6c04f03abd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91381c35ac43bea8fb8eb82a97bf3c2b = $(`<div id="html_91381c35ac43bea8fb8eb82a97bf3c2b" style="width: 100.0%; height: 100.0%;">Address: Çetin Emeç Cad. Bostancı İdo İskelesi Yanı  Kadıköy/İstanbul, Cluster: 0</div>`)[0];
+                popup_cfd433338840e56d8777d6c04f03abd0.setContent(html_91381c35ac43bea8fb8eb82a97bf3c2b);
+            
+        
+
+        marker_304f6aa47a5ca3b7a9de93713e488970.bindPopup(popup_cfd433338840e56d8777d6c04f03abd0)
+        ;
+
+        
+    
+    
+            var marker_b0892926f302e9c9042d0dddb6d71c98 = L.marker(
+                [41.038218, 28.985804],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_075b38f63ccf2e07ffd040526c5105b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_b0892926f302e9c9042d0dddb6d71c98.setIcon(icon_075b38f63ccf2e07ffd040526c5105b9);
+        
+    
+        var popup_986cef99ccfb5651258e4a4f92e6f9de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68fd07cbbc39bd0590b3abfeaced7d4f = $(`<div id="html_68fd07cbbc39bd0590b3abfeaced7d4f" style="width: 100.0%; height: 100.0%;">Address: Gümüşsuyu Mah. Osmanlı Sokak No:2 Bodrum Kat Beyoğlu/İstanbul, Cluster: 6</div>`)[0];
+                popup_986cef99ccfb5651258e4a4f92e6f9de.setContent(html_68fd07cbbc39bd0590b3abfeaced7d4f);
+            
+        
+
+        marker_b0892926f302e9c9042d0dddb6d71c98.bindPopup(popup_986cef99ccfb5651258e4a4f92e6f9de)
+        ;
+
+        
+    
+    
+            var marker_f7f1046d7ebedaf0026781f847dfa5d4 = L.marker(
+                [41.064571, 28.97139],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_fa2f3cba4a8730b5f28ff0047f038423 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_f7f1046d7ebedaf0026781f847dfa5d4.setIcon(icon_fa2f3cba4a8730b5f28ff0047f038423);
+        
+    
+        var popup_5b33a92b2c9563af9d51daa12d6eb8c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a22a48cf23058a3cb605b8e31d27300 = $(`<div id="html_0a22a48cf23058a3cb605b8e31d27300" style="width: 100.0%; height: 100.0%;">Address: Kaptanpaşa Mah. H.Ziya Türkkan Sok. No:10-12   A-Blok Dükkan No:1 Okmeydanı/Şişli/İstanbul, Cluster: 6</div>`)[0];
+                popup_5b33a92b2c9563af9d51daa12d6eb8c7.setContent(html_0a22a48cf23058a3cb605b8e31d27300);
+            
+        
+
+        marker_f7f1046d7ebedaf0026781f847dfa5d4.bindPopup(popup_5b33a92b2c9563af9d51daa12d6eb8c7)
+        ;
+
+        
+    
+    
+            var marker_7cfc0d7d62ad41392863f95e7bea7053 = L.marker(
+                [41.00282703617721, 28.95701763493267],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_6c7d4f247cab94909b23bc60a501b1a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_7cfc0d7d62ad41392863f95e7bea7053.setIcon(icon_6c7d4f247cab94909b23bc60a501b1a3);
+        
+    
+        var popup_9c309e18d83d8aa7e330c742accfd404 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67f0b9ff01b7e297f00117b6735ad931 = $(`<div id="html_67f0b9ff01b7e297f00117b6735ad931" style="width: 100.0%; height: 100.0%;">Address: Kennedy Cad. Yenikapı Hızlı Feribot İskelesi 34480 Fatih/İstanbul, Cluster: 6</div>`)[0];
+                popup_9c309e18d83d8aa7e330c742accfd404.setContent(html_67f0b9ff01b7e297f00117b6735ad931);
+            
+        
+
+        marker_7cfc0d7d62ad41392863f95e7bea7053.bindPopup(popup_9c309e18d83d8aa7e330c742accfd404)
+        ;
+
+        
+    
+    
+            var marker_ea51992c50d7d7b79db9e3fce67810ba = L.marker(
+                [40.939831, 29.133022],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_fbb40d2c347a4c855e1c8d1e20f304d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea51992c50d7d7b79db9e3fce67810ba.setIcon(icon_fbb40d2c347a4c855e1c8d1e20f304d7);
+        
+    
+        var popup_3c3e19c0ba229b83247104b6857bb3f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb64870cd5e632bc559c4773310c7643 = $(`<div id="html_eb64870cd5e632bc559c4773310c7643" style="width: 100.0%; height: 100.0%;">Address: Altayçeşme Mah. Çam Sk. No:29 Maltepe/İstanbul 34843, Cluster: 0</div>`)[0];
+                popup_3c3e19c0ba229b83247104b6857bb3f0.setContent(html_eb64870cd5e632bc559c4773310c7643);
+            
+        
+
+        marker_ea51992c50d7d7b79db9e3fce67810ba.bindPopup(popup_3c3e19c0ba229b83247104b6857bb3f0)
+        ;
+
+        
+    
+    
+            var marker_324c1043beeec2885a98865825cbf701 = L.marker(
+                [41.033478, 28.855726],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_938910254767354300062cec9c27ac56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_324c1043beeec2885a98865825cbf701.setIcon(icon_938910254767354300062cec9c27ac56);
+        
+    
+        var popup_d36d13f5dec0a0be1d25f25ec3790161 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc0fc76795242d5afb1b0ff3927882ad = $(`<div id="html_bc0fc76795242d5afb1b0ff3927882ad" style="width: 100.0%; height: 100.0%;">Address: Hoca Ahmet Yesevi Cad. Köyiçi Mevkii No:3 Bağımsız Bölüm No:14-15 34200 Bağcılar/İstanbul, Cluster: 3</div>`)[0];
+                popup_d36d13f5dec0a0be1d25f25ec3790161.setContent(html_bc0fc76795242d5afb1b0ff3927882ad);
+            
+        
+
+        marker_324c1043beeec2885a98865825cbf701.bindPopup(popup_d36d13f5dec0a0be1d25f25ec3790161)
+        ;
+
+        
+    
+    
+            var marker_adeea58992ed552d8f045ba484baaa59 = L.marker(
+                [41.086830802538245, 29.00624543403242],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_aa9ff8f6f3a967f3f5792116c3d1d741 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_adeea58992ed552d8f045ba484baaa59.setIcon(icon_aa9ff8f6f3a967f3f5792116c3d1d741);
+        
+    
+        var popup_bcf75cbad9a6362053ba364f7e1df1ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8abad5afec56f5f58c99bfc5634396e8 = $(`<div id="html_8abad5afec56f5f58c99bfc5634396e8" style="width: 100.0%; height: 100.0%;">Address: Emniyetevler Mah. Lala Paşa Cad. No:7/1 Kağıthane/İstanbul 34416, Cluster: 4</div>`)[0];
+                popup_bcf75cbad9a6362053ba364f7e1df1ce.setContent(html_8abad5afec56f5f58c99bfc5634396e8);
+            
+        
+
+        marker_adeea58992ed552d8f045ba484baaa59.bindPopup(popup_bcf75cbad9a6362053ba364f7e1df1ce)
+        ;
+
+        
+    
+    
+            var marker_3f4548b31bb2a03c4ab1a73f3660f1f7 = L.marker(
+                [40.81587, 29.302811],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_9c25f88d17c571a2276b82884012a826 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3f4548b31bb2a03c4ab1a73f3660f1f7.setIcon(icon_9c25f88d17c571a2276b82884012a826);
+        
+    
+        var popup_26532b82c3bb806f7da5a95b5bee57fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de8de5b64b4affd4f190aaa66fe98225 = $(`<div id="html_de8de5b64b4affd4f190aaa66fe98225" style="width: 100.0%; height: 100.0%;">Address: Postahane Mah. Cumhuriyet Cad. No:22  Köyiçi Tuzla/İstanbul  P.K.34940, Cluster: 2</div>`)[0];
+                popup_26532b82c3bb806f7da5a95b5bee57fe.setContent(html_de8de5b64b4affd4f190aaa66fe98225);
+            
+        
+
+        marker_3f4548b31bb2a03c4ab1a73f3660f1f7.bindPopup(popup_26532b82c3bb806f7da5a95b5bee57fe)
+        ;
+
+        
+    
+    
+            var marker_0fe181d063876e6b23e372d8ff62b3f7 = L.marker(
+                [41.024666, 29.225172],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_021b96b6c091a843a2e040c312fa70e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_0fe181d063876e6b23e372d8ff62b3f7.setIcon(icon_021b96b6c091a843a2e040c312fa70e3);
+        
+    
+        var popup_f3dc95f60dd29c200af8273b8b0a8b71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eae8e7c957195769ad313ef0272c9141 = $(`<div id="html_eae8e7c957195769ad313ef0272c9141" style="width: 100.0%; height: 100.0%;">Address: Cumhuriyet Mahallesi A.Menderes Cad.No:18/A Zemin Kat Çekmeköy/İstanbul, Cluster: 5</div>`)[0];
+                popup_f3dc95f60dd29c200af8273b8b0a8b71.setContent(html_eae8e7c957195769ad313ef0272c9141);
+            
+        
+
+        marker_0fe181d063876e6b23e372d8ff62b3f7.bindPopup(popup_f3dc95f60dd29c200af8273b8b0a8b71)
+        ;
+
+        
+    
+    
+            var marker_4db002b8d050fceedae2cd6f68288102 = L.marker(
+                [40.975819, 29.098044],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_81cfd0637786a5bf67adb0eb67ae06ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4db002b8d050fceedae2cd6f68288102.setIcon(icon_81cfd0637786a5bf67adb0eb67ae06ce);
+        
+    
+        var popup_8b875b1e0cbb0f22add5d36e970bf3a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f40d6e63cbb2bb874502171a8e977dc0 = $(`<div id="html_f40d6e63cbb2bb874502171a8e977dc0" style="width: 100.0%; height: 100.0%;">Address: Kozyatağı Mah. Saniye Ermutlu Sok. Çolakoğlu İş Merkezi B Blok No:121/1 Kozyatağı/Kadıköy/İstanbul, Cluster: 0</div>`)[0];
+                popup_8b875b1e0cbb0f22add5d36e970bf3a3.setContent(html_f40d6e63cbb2bb874502171a8e977dc0);
+            
+        
+
+        marker_4db002b8d050fceedae2cd6f68288102.bindPopup(popup_8b875b1e0cbb0f22add5d36e970bf3a3)
+        ;
+
+        
+    
+    
+            var marker_ae8a4c7c9f4f61f9b25c6a58dcb958d9 = L.marker(
+                [40.976274, 29.1517],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_b13b31f94ac925ac2c9f037fed7199d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ae8a4c7c9f4f61f9b25c6a58dcb958d9.setIcon(icon_b13b31f94ac925ac2c9f037fed7199d5);
+        
+    
+        var popup_1a45137fdf7332edcaaa261fb66a880d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5a2d9ff035e9ae0aa493d4e5ccae85d = $(`<div id="html_a5a2d9ff035e9ae0aa493d4e5ccae85d" style="width: 100.0%; height: 100.0%;">Address: Kayışdağı Mah. Kayışdağı Cad. No:215 Ataşehir/İstanbul P.K.34755 , Cluster: 0</div>`)[0];
+                popup_1a45137fdf7332edcaaa261fb66a880d.setContent(html_a5a2d9ff035e9ae0aa493d4e5ccae85d);
+            
+        
+
+        marker_ae8a4c7c9f4f61f9b25c6a58dcb958d9.bindPopup(popup_1a45137fdf7332edcaaa261fb66a880d)
+        ;
+
+        
+    
+    
+            var marker_d4d9639e4e8a33bd4bc7fd4c47c2c034 = L.marker(
+                [40.914874, 29.202201],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_ab998032787dc5e9114bce5ec470abb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_d4d9639e4e8a33bd4bc7fd4c47c2c034.setIcon(icon_ab998032787dc5e9114bce5ec470abb5);
+        
+    
+        var popup_1ad4d1e3a07131ee574b54ceb673377c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b51b8a8c6c8d575e03854690dab2e9f1 = $(`<div id="html_b51b8a8c6c8d575e03854690dab2e9f1" style="width: 100.0%; height: 100.0%;">Address: Soğanlık Mah. Atatürk Cad. Tiryaki Hasan Paşa Sok. No:2/2 Kartal/İstanbul, Cluster: 5</div>`)[0];
+                popup_1ad4d1e3a07131ee574b54ceb673377c.setContent(html_b51b8a8c6c8d575e03854690dab2e9f1);
+            
+        
+
+        marker_d4d9639e4e8a33bd4bc7fd4c47c2c034.bindPopup(popup_1ad4d1e3a07131ee574b54ceb673377c)
+        ;
+
+        
+    
+    
+            var marker_b81fcc27eb954496fb2710b9357b2052 = L.marker(
+                [40.9831189820496, 29.0404811944525],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_0977d8774b8410d88c06e7f60d4d0330 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b81fcc27eb954496fb2710b9357b2052.setIcon(icon_0977d8774b8410d88c06e7f60d4d0330);
+        
+    
+        var popup_c2e50e7e3f7a698b083e331f4c21702e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5634eb79063be1180aa11c37efafb0cc = $(`<div id="html_5634eb79063be1180aa11c37efafb0cc" style="width: 100.0%; height: 100.0%;">Address: Feneryolu Mah. Bağdat Cad. Karel İşhanı No:43 Kadıköy/İstanbul, Cluster: 0</div>`)[0];
+                popup_c2e50e7e3f7a698b083e331f4c21702e.setContent(html_5634eb79063be1180aa11c37efafb0cc);
+            
+        
+
+        marker_b81fcc27eb954496fb2710b9357b2052.bindPopup(popup_c2e50e7e3f7a698b083e331f4c21702e)
+        ;
+
+        
+    
+    
+            var marker_cd6e8f68e29badafdae59e41eafdd9e5 = L.marker(
+                [41.018591, 28.646315],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_d436678d12e63e41d0b17b353756c12f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd6e8f68e29badafdae59e41eafdd9e5.setIcon(icon_d436678d12e63e41d0b17b353756c12f);
+        
+    
+        var popup_5e8afd125f4cf620e2cf30df9b171ce3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79d21a9849a4099a619cd9772b415e01 = $(`<div id="html_79d21a9849a4099a619cd9772b415e01" style="width: 100.0%; height: 100.0%;">Address: Barbaros Hayrettin Paşa Mah. 1988 Sok. No:2G-9 Esenyurt/İstanbul, Cluster: 1</div>`)[0];
+                popup_5e8afd125f4cf620e2cf30df9b171ce3.setContent(html_79d21a9849a4099a619cd9772b415e01);
+            
+        
+
+        marker_cd6e8f68e29badafdae59e41eafdd9e5.bindPopup(popup_5e8afd125f4cf620e2cf30df9b171ce3)
+        ;
+
+        
+    
+    
+            var marker_6ca63aea6df52756f9897c7b75f5d385 = L.marker(
+                [40.991614, 28.903787],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_e3c002a86846c902b1fc3df611bec62b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6ca63aea6df52756f9897c7b75f5d385.setIcon(icon_e3c002a86846c902b1fc3df611bec62b);
+        
+    
+        var popup_d05f16942d03b79c4a36b44d475023b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77c9193623af8f0c7efd99b75530c394 = $(`<div id="html_77c9193623af8f0c7efd99b75530c394" style="width: 100.0%; height: 100.0%;">Address: Gökalp Mah. 58.Bulvar Cad. No:54 P.K.34020   Zeytinburnu/İstanbul, Cluster: 3</div>`)[0];
+                popup_d05f16942d03b79c4a36b44d475023b7.setContent(html_77c9193623af8f0c7efd99b75530c394);
+            
+        
+
+        marker_6ca63aea6df52756f9897c7b75f5d385.bindPopup(popup_d05f16942d03b79c4a36b44d475023b7)
+        ;
+
+        
+    
+    
+            var marker_ad6fc44c3f340712308e4790e4cf9e64 = L.marker(
+                [40.888498, 29.18761],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_63de3991b125d5751e0b41411a712fed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_ad6fc44c3f340712308e4790e4cf9e64.setIcon(icon_63de3991b125d5751e0b41411a712fed);
+        
+    
+        var popup_3ba8536f719392b05bd3684b118d466b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd89cb16cb4e4ba5f8af588e689341fa = $(`<div id="html_bd89cb16cb4e4ba5f8af588e689341fa" style="width: 100.0%; height: 100.0%;">Address: Kordonboyu Mah. Ankara Cad. No:48 Kartal/İstanbul, Cluster: 5</div>`)[0];
+                popup_3ba8536f719392b05bd3684b118d466b.setContent(html_bd89cb16cb4e4ba5f8af588e689341fa);
+            
+        
+
+        marker_ad6fc44c3f340712308e4790e4cf9e64.bindPopup(popup_3ba8536f719392b05bd3684b118d466b)
+        ;
+
+        
+    
+    
+            var marker_161f7af1200cc2000a884ad0d0d25a78 = L.marker(
+                [41.079606, 28.930702],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_51972ae7ba6758596da168fa560e7c91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_161f7af1200cc2000a884ad0d0d25a78.setIcon(icon_51972ae7ba6758596da168fa560e7c91);
+        
+    
+        var popup_4a7d79763037b70ef5f3e209de875289 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2473dd9bca053d136cd6e979cd9770b6 = $(`<div id="html_2473dd9bca053d136cd6e979cd9770b6" style="width: 100.0%; height: 100.0%;">Address: Karadolap Mah. Mustafa Kemal Bulvarı No:15  Eyüp/İstanbul, Cluster: 6</div>`)[0];
+                popup_4a7d79763037b70ef5f3e209de875289.setContent(html_2473dd9bca053d136cd6e979cd9770b6);
+            
+        
+
+        marker_161f7af1200cc2000a884ad0d0d25a78.bindPopup(popup_4a7d79763037b70ef5f3e209de875289)
+        ;
+
+        
+    
+    
+            var marker_ac67520e281ee31a270c2061400b9af2 = L.marker(
+                [41.065033, 28.987189],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_4273d98b3916caa3a258b7a71ff6a6b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_ac67520e281ee31a270c2061400b9af2.setIcon(icon_4273d98b3916caa3a258b7a71ff6a6b2);
+        
+    
+        var popup_9c59f5226bebf6abcee30128444a01cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a12f22b241eabeacd9b99ed97908cd1 = $(`<div id="html_2a12f22b241eabeacd9b99ed97908cd1" style="width: 100.0%; height: 100.0%;">Address: Merkez Mah. Abide-İ Hürriyet Cad. No:211 Blockout   Şişli/İstanbul, Cluster: 6</div>`)[0];
+                popup_9c59f5226bebf6abcee30128444a01cd.setContent(html_2a12f22b241eabeacd9b99ed97908cd1);
+            
+        
+
+        marker_ac67520e281ee31a270c2061400b9af2.bindPopup(popup_9c59f5226bebf6abcee30128444a01cd)
+        ;
+
+        
+    
+    
+            var marker_979c77673d317df0ba430162ba41a2f9 = L.marker(
+                [41.11334347960475, 29.022131630354703],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_201aa9331b7e175b2968351c14071284 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_979c77673d317df0ba430162ba41a2f9.setIcon(icon_201aa9331b7e175b2968351c14071284);
+        
+    
+        var popup_77fab0f3cfddf46bdf0cd499da402c1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed61b2da568f703dc3ad707bfbdeb2bd = $(`<div id="html_ed61b2da568f703dc3ad707bfbdeb2bd" style="width: 100.0%; height: 100.0%;">Address: Maslak Mah. Ahi Evran Cad. Nazmi Akbacı Tic. Merk. A-B Bloklar  No:3/212 Maslak/İstanbul, Cluster: 4</div>`)[0];
+                popup_77fab0f3cfddf46bdf0cd499da402c1c.setContent(html_ed61b2da568f703dc3ad707bfbdeb2bd);
+            
+        
+
+        marker_979c77673d317df0ba430162ba41a2f9.bindPopup(popup_77fab0f3cfddf46bdf0cd499da402c1c)
+        ;
+
+        
+    
+    
+            var marker_7534a4ce6e295ccf3f090d54eebc895e = L.marker(
+                [41.00797271604877, 28.953124780941266],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_95268d073d70732917b8225c2d355a9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_7534a4ce6e295ccf3f090d54eebc895e.setIcon(icon_95268d073d70732917b8225c2d355a9c);
+        
+    
+        var popup_1c3107f72e1e790f6e12d799b38160cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_515ea3301707a1baf8372b3962ebc0a0 = $(`<div id="html_515ea3301707a1baf8372b3962ebc0a0" style="width: 100.0%; height: 100.0%;">Address: Aksaray Mah. Gazi Mustafa Kemalpaşa Cad. No:29/B Fatih/İstanbul, Cluster: 6</div>`)[0];
+                popup_1c3107f72e1e790f6e12d799b38160cd.setContent(html_515ea3301707a1baf8372b3962ebc0a0);
+            
+        
+
+        marker_7534a4ce6e295ccf3f090d54eebc895e.bindPopup(popup_1c3107f72e1e790f6e12d799b38160cd)
+        ;
+
+        
+    
+    
+            var marker_5d715fd581168b488ce9b7eb12a542fa = L.marker(
+                [40.980749, 29.071533],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_f2fd3817bffa310b586d05328f760bde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5d715fd581168b488ce9b7eb12a542fa.setIcon(icon_f2fd3817bffa310b586d05328f760bde);
+        
+    
+        var popup_c606ab31fa03f7fc82e5c3d18bc61d59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e32873ddaf7ba3d6228ec92ee1f13d8 = $(`<div id="html_0e32873ddaf7ba3d6228ec92ee1f13d8" style="width: 100.0%; height: 100.0%;">Address: Göztepe Mah. Fahrettin Kerim Gökay Cad. Sedat Bey Apt. No:242/32 Kadıköy/İstanbul, Cluster: 0</div>`)[0];
+                popup_c606ab31fa03f7fc82e5c3d18bc61d59.setContent(html_0e32873ddaf7ba3d6228ec92ee1f13d8);
+            
+        
+
+        marker_5d715fd581168b488ce9b7eb12a542fa.bindPopup(popup_c606ab31fa03f7fc82e5c3d18bc61d59)
+        ;
+
+        
+    
+    
+            var marker_b7cd2115baf57eac3e32bca84535b8cb = L.marker(
+                [41.11334347960475, 29.022131630354703],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_b1556e1ebf50862ea5f5d8527c6a2376 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b7cd2115baf57eac3e32bca84535b8cb.setIcon(icon_b1556e1ebf50862ea5f5d8527c6a2376);
+        
+    
+        var popup_7ff3b1142844ba0e0da9fa2987e5064f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b195914805c50aec0a5d35955c92ecf = $(`<div id="html_2b195914805c50aec0a5d35955c92ecf" style="width: 100.0%; height: 100.0%;">Address: Sabiha Gökçen Havalimanı İç Hatlar Gelen Yolcu Katı No:AL-400/AL-400A  Pendik/İstanbul, Cluster: 4</div>`)[0];
+                popup_7ff3b1142844ba0e0da9fa2987e5064f.setContent(html_2b195914805c50aec0a5d35955c92ecf);
+            
+        
+
+        marker_b7cd2115baf57eac3e32bca84535b8cb.bindPopup(popup_7ff3b1142844ba0e0da9fa2987e5064f)
+        ;
+
+        
+    
+    
+            var marker_c9c29121092eaf0b03d38532f500735a = L.marker(
+                [40.96393052475922, 29.06558401163116],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_afc688e39bff5464f4d2d2e6bdc935e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c9c29121092eaf0b03d38532f500735a.setIcon(icon_afc688e39bff5464f4d2d2e6bdc935e3);
+        
+    
+        var popup_610cf8fecfc387a4360375f211cf2cfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cbed9101559a961c2fb65146f18bad6 = $(`<div id="html_1cbed9101559a961c2fb65146f18bad6" style="width: 100.0%; height: 100.0%;">Address: Caddebostan Mah. İskele Sok. No:25A Kadıköy/İstanbul, Cluster: 0</div>`)[0];
+                popup_610cf8fecfc387a4360375f211cf2cfc.setContent(html_1cbed9101559a961c2fb65146f18bad6);
+            
+        
+
+        marker_c9c29121092eaf0b03d38532f500735a.bindPopup(popup_610cf8fecfc387a4360375f211cf2cfc)
+        ;
+
+        
+    
+    
+            var marker_776020e62dd952bb210d796a12fe1a91 = L.marker(
+                [40.9839474, 29.0877613],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_17a75c9e7bb40ba36475e4c6ec451202 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_776020e62dd952bb210d796a12fe1a91.setIcon(icon_17a75c9e7bb40ba36475e4c6ec451202);
+        
+    
+        var popup_0fba7dbc4b10eca482097d6893f55454 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88ad8973b7cad8e730e3ed3000b3499a = $(`<div id="html_88ad8973b7cad8e730e3ed3000b3499a" style="width: 100.0%; height: 100.0%;">Address: Sahrayıcedit Mah. Halk Sok. No:39/A  Kadıköy/İstanbul, Cluster: 0</div>`)[0];
+                popup_0fba7dbc4b10eca482097d6893f55454.setContent(html_88ad8973b7cad8e730e3ed3000b3499a);
+            
+        
+
+        marker_776020e62dd952bb210d796a12fe1a91.bindPopup(popup_0fba7dbc4b10eca482097d6893f55454)
+        ;
+
+        
+    
+    
+            var marker_be88c77bfb405b9adafe7c75a10e9943 = L.marker(
+                [40.898398, 29.301825],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_e66cd85d7328f1d21daf02422b928d64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_be88c77bfb405b9adafe7c75a10e9943.setIcon(icon_e66cd85d7328f1d21daf02422b928d64);
+        
+    
+        var popup_c5cc82b9a677d907ba450aa0b2e9d022 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d88756fa962431f537dd22de4468aa7 = $(`<div id="html_2d88756fa962431f537dd22de4468aa7" style="width: 100.0%; height: 100.0%;">Address: Sabiha Gökçen Havalimanı Dış Hatlar Giden Yolcu Tarafı Mahal No:ML508-ML508A  Pendik/İstanbul, Cluster: 2</div>`)[0];
+                popup_c5cc82b9a677d907ba450aa0b2e9d022.setContent(html_2d88756fa962431f537dd22de4468aa7);
+            
+        
+
+        marker_be88c77bfb405b9adafe7c75a10e9943.bindPopup(popup_c5cc82b9a677d907ba450aa0b2e9d022)
+        ;
+
+        
+    
+    
+            var marker_d36504c04e59d6d258b7e010928834e0 = L.marker(
+                [41.051222, 28.9874006],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_fe428193dbac0b2076cba280a571bb4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_d36504c04e59d6d258b7e010928834e0.setIcon(icon_fe428193dbac0b2076cba280a571bb4b);
+        
+    
+        var popup_cab57d49d2924028aef39ac0d264f72a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dba85c934369dca8953a6d5faa636663 = $(`<div id="html_dba85c934369dca8953a6d5faa636663" style="width: 100.0%; height: 100.0%;">Address: Ergenekon Mah. Halaskargazi Cad. No:63/C Şişli/İstanbul, Cluster: 6</div>`)[0];
+                popup_cab57d49d2924028aef39ac0d264f72a.setContent(html_dba85c934369dca8953a6d5faa636663);
+            
+        
+
+        marker_d36504c04e59d6d258b7e010928834e0.bindPopup(popup_cab57d49d2924028aef39ac0d264f72a)
+        ;
+
+        
+    
+    
+            var marker_6403bde734a3724d013dc9dd24bbcc83 = L.marker(
+                [40.9658919, 29.0875981],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_392adfccb91bcec000764b2a9cef01d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6403bde734a3724d013dc9dd24bbcc83.setIcon(icon_392adfccb91bcec000764b2a9cef01d2);
+        
+    
+        var popup_e03688bf17d3c4983d8a7f0003bf0c00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b30bceedc141ef405ffe430f39b92a4 = $(`<div id="html_0b30bceedc141ef405ffe430f39b92a4" style="width: 100.0%; height: 100.0%;">Address: Kozyatağı Mah. Şemsettin Günaltay Cad.. No:108/A  Kadıköy/İstanbul, Cluster: 0</div>`)[0];
+                popup_e03688bf17d3c4983d8a7f0003bf0c00.setContent(html_0b30bceedc141ef405ffe430f39b92a4);
+            
+        
+
+        marker_6403bde734a3724d013dc9dd24bbcc83.bindPopup(popup_e03688bf17d3c4983d8a7f0003bf0c00)
+        ;
+
+        
+    
+    
+            var marker_7a419c939b7c1875e3dbc987b7450838 = L.marker(
+                [41.02407575683421, 28.685477708368534],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_164fb293f23479d4b0c89227108cc525 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7a419c939b7c1875e3dbc987b7450838.setIcon(icon_164fb293f23479d4b0c89227108cc525);
+        
+    
+        var popup_c610edcf87ba0c3999af0c5138308779 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_daa994130e9c3027414e7c3798a48276 = $(`<div id="html_daa994130e9c3027414e7c3798a48276" style="width: 100.0%; height: 100.0%;">Address: Zafer Mah. Doğan Araslı Bulvarı No:93/148  Esenyurt/İstanbul, Cluster: 1</div>`)[0];
+                popup_c610edcf87ba0c3999af0c5138308779.setContent(html_daa994130e9c3027414e7c3798a48276);
+            
+        
+
+        marker_7a419c939b7c1875e3dbc987b7450838.bindPopup(popup_c610edcf87ba0c3999af0c5138308779)
+        ;
+
+        
+    
+    
+            var marker_d3bed08060ceddad1e823569be55a1cb = L.marker(
+                [41.021005, 28.585774],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_0cce1d3dd94395accc5877ea2085de86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d3bed08060ceddad1e823569be55a1cb.setIcon(icon_0cce1d3dd94395accc5877ea2085de86);
+        
+    
+        var popup_3106cc06d95ad3833e0573ca8a8e5b49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_800092e501b9b46353af36ab0f0f7b98 = $(`<div id="html_800092e501b9b46353af36ab0f0f7b98" style="width: 100.0%; height: 100.0%;">Address: Şehit Muhtar Mah. İstiklal Cad. Fitaş Pasajı No:12/1 Beyoğlu/İstanbul, Cluster: 1</div>`)[0];
+                popup_3106cc06d95ad3833e0573ca8a8e5b49.setContent(html_800092e501b9b46353af36ab0f0f7b98);
+            
+        
+
+        marker_d3bed08060ceddad1e823569be55a1cb.bindPopup(popup_3106cc06d95ad3833e0573ca8a8e5b49)
+        ;
+
+        
+    
+    
+            var marker_9f340a26c26e2e1bed25f482abed719f = L.marker(
+                [40.911787838830705, 29.195906497884053],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_ca7e086721bbaaf3c88f9df79b9dccab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_9f340a26c26e2e1bed25f482abed719f.setIcon(icon_ca7e086721bbaaf3c88f9df79b9dccab);
+        
+    
+        var popup_f12b4ef8108b631808d0b3d23e563c43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42a48729349877e19a6d4b88002578a5 = $(`<div id="html_42a48729349877e19a6d4b88002578a5" style="width: 100.0%; height: 100.0%;">Address: Soğanlık Yeni Mah. Pegagaz Sokak No:2 Kartal / İstanbul, Cluster: 5</div>`)[0];
+                popup_f12b4ef8108b631808d0b3d23e563c43.setContent(html_42a48729349877e19a6d4b88002578a5);
+            
+        
+
+        marker_9f340a26c26e2e1bed25f482abed719f.bindPopup(popup_f12b4ef8108b631808d0b3d23e563c43)
+        ;
+
+        
+    
+    
+            var marker_62a954f5c3152273834eafa245c1f84f = L.marker(
+                [41.02308473677343, 29.113586991322123],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_795eb16b1a5d372db73f5a70e2c3359c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_62a954f5c3152273834eafa245c1f84f.setIcon(icon_795eb16b1a5d372db73f5a70e2c3359c);
+        
+    
+        var popup_b22ccc7b5ed6b467a7ee0d47023331c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1accbaf60a9dcc408774181025ed7896 = $(`<div id="html_1accbaf60a9dcc408774181025ed7896" style="width: 100.0%; height: 100.0%;">Address: Yamanevler Mah. Almdağ Cad. Canpark AVM Yanı Ümraniye / İstanbul, Cluster: 0</div>`)[0];
+                popup_b22ccc7b5ed6b467a7ee0d47023331c8.setContent(html_1accbaf60a9dcc408774181025ed7896);
+            
+        
+
+        marker_62a954f5c3152273834eafa245c1f84f.bindPopup(popup_b22ccc7b5ed6b467a7ee0d47023331c8)
+        ;
+
+        
+    
+    
+            var marker_ad0f8d3646245ca568369ee6dddd9fea = L.marker(
+                [40.997472482279385, 28.626427659850627],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_e1a155a498b28c2c185e47e24b6b1f77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ad0f8d3646245ca568369ee6dddd9fea.setIcon(icon_e1a155a498b28c2c185e47e24b6b1f77);
+        
+    
+        var popup_41302f4eaaba2c69e80224b23049fc84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08a3a8d32fd85fa3c327254eaca10cea = $(`<div id="html_08a3a8d32fd85fa3c327254eaca10cea" style="width: 100.0%; height: 100.0%;">Address: Adnan Kahveci Mah. Çamlıktepe Cad. No:1/A Beylikdüzü /İstanbul, Cluster: 1</div>`)[0];
+                popup_41302f4eaaba2c69e80224b23049fc84.setContent(html_08a3a8d32fd85fa3c327254eaca10cea);
+            
+        
+
+        marker_ad0f8d3646245ca568369ee6dddd9fea.bindPopup(popup_41302f4eaaba2c69e80224b23049fc84)
+        ;
+
+        
+    
+    
+            var marker_c9268bfe507dba49c1848a354bdffb05 = L.marker(
+                [41.012739724959715, 28.53763265659221],
+                {}
+            ).addTo(map_d440163d44a66f66141e3f5ec40b206e);
+        
+    
+            var icon_d9e5e23d4ab05714a2db8085ce32e847 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c9268bfe507dba49c1848a354bdffb05.setIcon(icon_d9e5e23d4ab05714a2db8085ce32e847);
+        
+    
+        var popup_837f73922f3543e4b8c28310b18d4416 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_894d88353167c3dc24accfb2b133ae6f = $(`<div id="html_894d88353167c3dc24accfb2b133ae6f" style="width: 100.0%; height: 100.0%;">Address: Murat Çeşme Mah. E5 Londra Asfaltı Cad. Oba Expres AVM No:104 G Büyükçekmece/İstanbul, Cluster: 1</div>`)[0];
+                popup_837f73922f3543e4b8c28310b18d4416.setContent(html_894d88353167c3dc24accfb2b133ae6f);
+            
+        
+
+        marker_c9268bfe507dba49c1848a354bdffb05.bindPopup(popup_837f73922f3543e4b8c28310b18d4416)
+        ;
+
+        
+    
+</script>
+</html>
