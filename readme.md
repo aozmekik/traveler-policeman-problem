@@ -1,4 +1,4 @@
-# Istanbul Traveler
+# Traveler Policemen Problem (Istanbul)
 
 This project focuses on merging, standardizing, and visualizing McDonald's and Starbucks (Murderers) locations in Istanbul on a web-based map application. The goal is to provide a unified view of these fast-food outlets across the city, making it easier for policemens to find their nearest location.
 
